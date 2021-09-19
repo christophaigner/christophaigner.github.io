@@ -4,9 +4,9 @@
 title               : Christoph Aigner
 description         : >-
                       Hi there! 👋🏼<br>
-                      I'm Christoph, an Engineering Leader based in Vienna, Austria 🇦🇹
+                      I'm <b>Christoph</b>, an Engineering Leader based in Vienna, Austria 🇦🇹
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
-repository          : christophaigner/christophaigner.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+repository          : christophaigner/christophaigner.github.io
 remote_theme        : YoussefRaafatNasry/portfolYOU
 
 
