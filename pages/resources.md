@@ -27,10 +27,11 @@ weight: 3
 * [Leading Snowflakes](https://www.goodreads.com/book/show/22920619-leading-snowflakes)
 * [Thanks for the Feedback](https://www.goodreads.com/book/show/18114120-thanks-for-the-feedback)
 * [Surrounded by Idiots](https://www.goodreads.com/book/show/39101777-surrounded-by-idiots)
+* [Radical Candor](https://www.goodreads.com/book/show/29939161-radical-candor)
 
 ## Product
-* [Empowered: Ordinary People, Extraordinary Products](https://www.goodreads.com/book/show/53481975-empowered)
-* [Inspired: How To Create Tech Products Customers Love](https://www.goodreads.com/book/show/35249663-inspired)
+* [Empowered](https://www.goodreads.com/book/show/53481975-empowered)
+* [Inspired](https://www.goodreads.com/book/show/35249663-inspired)
 
 ## Design
 * [Presentation Zen](https://www.goodreads.com/book/show/1908456.Presentation_Zen)

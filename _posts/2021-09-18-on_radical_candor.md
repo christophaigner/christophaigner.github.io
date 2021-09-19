@@ -1,6 +1,6 @@
 ---
 title: On Radical Candor
-tags: [feedback]
+tags: [feedback, book]
 style: fill
 # fill / border
 color: info
