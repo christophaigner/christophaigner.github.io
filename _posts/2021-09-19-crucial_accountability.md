@@ -40,9 +40,10 @@ We make this attribution error because when we look at others, we see their acti
 ---
 
 ### Describe the Gap
-Make it safe by starting with the **facts** and **describing the gap** between what was expected and what was observed. Tentatively share your story only after you've shared your facts. 
+Make it safe by starting with the **facts** and **describing the gap** between what was expected and what was observed. Tentatively share your story only after you've shared your facts.  
+{% include elements/highlight.html text="Contrasting" %} is the *killer* of the fundamental attribution error: First, imagine what others might erroneously conclude. Second, immediately explain that this is what you **don't** mean. Third, as a Contrasting point, explain what you **do** mean.
 
-People feel unsafe when they believe one of two things:
+Generally, people feel unsafe when they believe one of two things:
 
 1. You don't respect them as human beings (you lack **mutual respect**).
 2. You don't care about their goals (you lack **mutual purpose**).
