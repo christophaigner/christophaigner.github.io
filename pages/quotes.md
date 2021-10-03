@@ -16,6 +16,14 @@ weight: 2
 > 
 > *— Marcus Aurelius*
 
+> "Choose not to be harmed and you won't feel harmed. Don't feel harmed and you haven't been."
+> 
+> *- Marcus Aurelius*
+
+> "Everything can be taken from a man but one thing: the last of human freedoms - to choose one's attitude in any given set of circumstances, to choose one's own way."
+> 
+> *- Viktor Frankl*
+
 > "The way someone else perceives what you do is a result of their own experiences (which you can’t control), their own preferences (which you can’t predict), and their own expectations (which you don’t set).
 > If your choices don’t match their expectations that is their concern, not yours."
 > 
@@ -23,6 +31,13 @@ weight: 2
 
 **Remember:** You don't control what's happening to you. The only thing you do control is how you respond.
 
+> "Better to trip with the feet than with the tongue." 
+> 
+> *— Zeno*
+
+You can always get up after you fall, but remember, what has been said can never be unsaid. Especially cruel and hurtful things.
+
+### Self-sufficiency
 > "At a party given by a billionaire on Shelter Island, the late Kurt Vonnegut informs his pal, the author Joseph Heller, that their host, a hedge fund manager, had made more money in a single day than Heller had earned from his wildly popular novel Catch 22 over its whole history.  
 > "Heller responded, 'Yes, but I have something he will never have ... Enough.'"
 > 
@@ -39,20 +54,13 @@ weight: 2
 *[Memento mori](https://dailystoic.com/memento-mori/)* or in other words "You could leave life right now".  
 "Let that determine what you do and say and think", Marcus Aurelius wrote.
 
-> "Better to trip with the feet than with the tongue." 
+## Growth
+> If you feed your mind as often as you feed your stomach, then you’ll never have to worry about feeding your stomach or a roof over your head or clothes on your back.
 > 
-> *— Zeno*
-
-You can always get up after you fall, but remember, what has been said can never be unsaid. Especially cruel and hurtful things.
-
+> *— Albert Einstein*
 
 > "Your actions are a consequence of your thoughts. Your thoughts are a consequence of what you consume.  
 > And in the modern age, what you consume is largely a consequence of how you select and refine your social media feed.
 > Choose better inputs. Get better outputs."
 > 
 > *- James Clear*
-
-## Growth
-> If you feed your mind as often as you feed your stomach, then you’ll never have to worry about feeding your stomach or a roof over your head or clothes on your back.
-> 
-> *— Albert Einstein*
