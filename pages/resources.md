@@ -15,6 +15,7 @@ weight: 3
 * [Loving What Is](https://www.goodreads.com/book/show/9762.Loving_What_Is)
 * [The Power Of Now](https://www.goodreads.com/book/show/6708.The_Power_of_Now)
 * [Switch: How To Change Things When Change Is Hard](https://www.goodreads.com/book/show/6570502-switch)
+* [The Top Five Regrets of the Dying](https://www.goodreads.com/book/show/13059271-the-top-five-regrets-of-the-dying)
 
 ## Leadership
 * [Crucial Accountability](https://cruciallearning.com/crucial-accountability-book/)
