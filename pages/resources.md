@@ -5,12 +5,14 @@ permalink: /resources/
 weight: 3
 ---
 
-# Great Books
+# Great Books 📚
 
-## Life
+## Stoicism
 * [The Daily Stoic](https://store.dailystoic.com/collections/all-books/products/the-daily-stoic-signed-edition)
 * [Meditations](https://www.goodreads.com/book/show/30659.Meditations)
 * [Stillness Is The Key](https://www.goodreads.com/book/show/43582733-stillness-is-the-key)
+
+## Life
 * [Atomic Habits](https://jamesclear.com/atomic-habits)
 * [Loving What Is](https://www.goodreads.com/book/show/9762.Loving_What_Is)
 * [The Power Of Now](https://www.goodreads.com/book/show/6708.The_Power_of_Now)
@@ -19,13 +21,13 @@ weight: 3
 
 ## Leadership
 * [Crucial Accountability](https://cruciallearning.com/crucial-accountability-book/)
+* [The Inspirational Leader](https://www.goodreads.com/book/show/44317898-the-inspirational-leader)
+* [Leading Snowflakes](https://www.goodreads.com/book/show/22920619-leading-snowflakes)
 * [The Art Of Leadership](https://www.goodreads.com/book/show/50083106-the-art-of-leadership)
 * [An Elegant Puzzle](https://www.goodreads.com/book/show/45303387-an-elegant-puzzle)
 * [Managing Humans](https://www.goodreads.com/book/show/1317946.Managing_Humans)
 * [The First 90 Days](https://www.goodreads.com/book/show/15824358-the-first-90-days)
 * [Radical Focus](https://www.goodreads.com/book/show/28951428-radical-focus)
-* [The Inspirational Leader](https://www.goodreads.com/book/show/44317898-the-inspirational-leader)
-* [Leading Snowflakes](https://www.goodreads.com/book/show/22920619-leading-snowflakes)
 * [Thanks for the Feedback](https://www.goodreads.com/book/show/18114120-thanks-for-the-feedback)
 * [Surrounded by Idiots](https://www.goodreads.com/book/show/39101777-surrounded-by-idiots)
 * [Radical Candor](https://www.goodreads.com/book/show/29939161-radical-candor)
@@ -45,3 +47,13 @@ weight: 3
 * [The Pragmatic Programmer](https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer)
 * [The Mythical Man-Month](https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month)
 * [Staff Engineer](https://www.goodreads.com/book/show/56481725-staff-engineer)
+
+# Great Articles 📑
+
+## Self-management
+* [Dealing With Stress](https://dailystoic.com/stress-relief)
+
+## Engineering
+### Seniority
+* [On being a Senior Engineer](https://www.kitchensoap.com/2012/10/25/on-being-a-senior-engineer/)
+* [I’m an Idiot](https://www.raywenderlich.com/498-rwdevcon-2017-inspiration-talk-i-m-an-idiot-by-richard-turton)
