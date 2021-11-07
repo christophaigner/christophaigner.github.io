@@ -50,7 +50,7 @@ weight: 3
 
 # Great Articles 📑
 
-## Self-management
+## Stoicism
 * [Dealing With Stress](https://dailystoic.com/stress-relief)
 
 ## Engineering
