@@ -37,6 +37,7 @@ weight: 2
 #### Marcus Aurelius
 <details><summary>Tap to expand</summary>
 <ol>
+    <li><q>You could leave life right now. Let that determine what you say and think.</q></li>
     <li><q>The best revenge is not to be like that.</q></li>
     <li><q>Waste no more time arguing what a good man should be. Be one.</q></li>
     <li><q>Everything we hear is an opinion, not a fact. Everything we see is a perspective, not the truth.</q></li>
