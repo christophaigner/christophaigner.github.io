@@ -15,7 +15,7 @@ Her patients were those who had gone home to die and she was with them for the l
 
 In this book she describes her experience working with those nearing death. She says people grow a lot when they are faced with their own mortality.
 
-> You could leave life right now. Let that determine what you say and think.
+> "You could leave life right now. Let that determine what you say and think."
 > 
 > *- Marcus Aurelius*
 

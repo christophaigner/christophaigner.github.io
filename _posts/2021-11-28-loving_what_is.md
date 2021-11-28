@@ -10,7 +10,7 @@ description: Overcome stress by dissecting your thoughts with four simple questi
 
 <img src="../assets/blog/books/Loving%20What%20Is/loving_what_is.jpg" width="30%">
 
-> We are disturbed not by what happens to us, but by our thoughts about what happens.
+> "We are disturbed not by what happens to us, but by our thoughts about what happens."
 > 
 > — Epictetus
 

@@ -20,20 +20,20 @@ Even an emperor like Marcus had a part of himself that wanted to be like a teena
 
 For example, at one point he’s talking about what to do if you have trouble getting out of bed in the morning. Then another voice interrupts and whines "But it’s nicer here" and the first voice responds:
 
-> So you were born to feel “nice”? Instead of doing things and experiencing them? Don’t you see the plants, the birds, the ants and spiders and bees going about their individual tasks, putting the world in order, as best they can?
+> "So you were born to feel nice? Instead of doing things and experiencing them? Don’t you see the plants, the birds, the ants and spiders and bees going about their individual tasks, putting the world in order, as best they can?"
 
 This is a pattern that repeats over and over again in the book, with Marcus using rational thinking to resist his base-level impulses.
 
 ## Remember death to stop worrying about what people think
 
-> You could leave life right now. Let that determine what you say and think.
+> "You could leave life right now. Let that determine what you say and think."
 
 Marcus often reminded himself that he would soon be dead and anybody who ever knew him would also be dead. This gave him increased emotional stability and less desire for everybody’s approval.
 
 ## Choose always to interpret what happens to you as beneficial in some way
 
-> Choose not to be harmed—and you won’t feel harmed.  
-> Don’t feel harmed—and you haven’t been.
+> "Choose not to be harmed—and you won’t feel harmed.  
+> Don’t feel harmed—and you haven’t been."
 
 When something happens to you, you always have the power to interpret it as harmful or harmless. 
 
@@ -52,7 +52,7 @@ This way of thinking also helps you accept everything that happens and flow with
 
 People *never* do wrong on purpose, they always believe they are doing right.
 
-> When faced with people’s bad behavior, turn around and ask when you have acted like that. When you saw money as a good, or pleasure, or social position. Your anger will subside as soon as you recognize that they acted under compulsion (what else could they do?).
+> "When faced with people’s bad behavior, turn around and ask when you have acted like that. When you saw money as a good, or pleasure, or social position. Your anger will subside as soon as you recognize that they acted under compulsion (what else could they do?)."
 
 People will always resist being called bad, so you must show them with compassion the error of their ways.
 
@@ -63,9 +63,9 @@ Marcus believed humans do not thrive when life is too easy. He saw that challeng
 He said humans are designed to "turn our obstacles into fuel." Imagine that each new challenge you face is another log you throw on your inner fire, making you burn brighter.  
 Marcus saw that any time he faced some external obstacle that at first looked impossible, he was always able to find some way around it to achieve what he really want to do.
 
-> Because we can accommodate and adapt. The mind adapts and converts to its own purposes the obstacle to our acting. The impediment to action advances action. **What stands in the way becomes the way.**
+> "Because we can accommodate and adapt. The mind adapts and converts to its own purposes the obstacle to our acting. The impediment to action advances action. **What stands in the way becomes the way.**"
 
-> So remember this principle when something threatens to cause you pain: the thing itself was no misfortune at all; to endure it and prevail is great good fortune.
+> "So remember this principle when something threatens to cause you pain: the thing itself was no misfortune at all; to endure it and prevail is great good fortune."
 
 Marcus says if something is endurable, then stop complaining and endure it. If the obstacle is not endurable (think e.g. a terminal illness) well then you don’t have time to worry about it anyway.
 
@@ -73,7 +73,7 @@ Marcus says if something is endurable, then stop complaining and endure it. If t
 
 Marcus Aurelius was constantly surrounded by the excesses of his society. Endless gold, purple robes, generous feasts and puffed up ceremonies. Most people could easily get over-impressed and lost inside this parallel universe. To help himself stay grounded, Marcus love describing things around him in a raw and crude way.
 
-> Like seeing roasted meat and other dishes in front of you and suddenly realizing: This is a dead fish. A dead bird. A dead pig. Or that this noble vintage is grape juice, and the purple robes are sheep wool dyed with shellfish blood. Or making love—something rubbing against your penis, a brief seizure and a little cloudy liquid. Perceptions like that—latching onto things and piercing through them, so we see what they really are. That’s what we need to do all the time [...] to lay them bare and see how pointless they are, to strip away the legend that encrusts them.
+> "Like seeing roasted meat and other dishes in front of you and suddenly realizing: This is a dead fish. A dead bird. A dead pig. Or that this noble vintage is grape juice, and the purple robes are sheep wool dyed with shellfish blood. Or making love—something rubbing against your penis, a brief seizure and a little cloudy liquid. Perceptions like that—latching onto things and piercing through them, so we see what they really are. That’s what we need to do all the time [...] to lay them bare and see how pointless they are, to strip away the legend that encrusts them."
 
 ## Think less about past and future because your life only happens in the present
 
@@ -83,9 +83,9 @@ Plus, when all your energy and attention is being wasted by thinking about the p
 
 And a big part of Stoic philosophy is only focusing on the things we can control, not on things we can’t control.
 
-> Forget everything else. Keep hold of this alone and remember it: Each of us lives only now, this brief instant. The rest has been lived already, or is impossible to see.
+> "Forget everything else. Keep hold of this alone and remember it: Each of us lives only now, this brief instant. The rest has been lived already, or is impossible to see."
 
-> The present is all that they can give up, since that is all you have, and what you do not have, you cannot lose.
+> "The present is all that they can give up, since that is all you have, and what you do not have, you cannot lose."
 
 ## References
 * [Meditations by Marcus Aurelius](https://www.goodreads.com/book/show/30659.Meditations)

@@ -23,12 +23,12 @@ Quotes
 <div class="collapse" id="quotes_1">
    <div class="card card-body">
       <blockquote class="blockquote text-right">
-         <p class="mb-0">One of my problems is that I internalize everything. I can't express anger; I grow a tumor instead.</p>
+         <p class="mb-0">"One of my problems is that I internalize everything. I can't express anger; I grow a tumor instead."</p>
          <footer class="blockquote-footer">Woody Allen</footer>
       </blockquote>
       <br>
       <blockquote class="blockquote text-right">
-         <p class="mb-0">Speak when you are angry and you will make the best speech you will ever regret.</p>
+         <p class="mb-0">"Speak when you are angry and you will make the best speech you will ever regret."</p>
          <footer class="blockquote-footer">Ambrose Bierce</footer>
       </blockquote>
    </div>
@@ -127,7 +127,7 @@ Quotes
 <div class="collapse" id="quotes_2">
    <div class="card card-body">
       <blockquote class="blockquote text-right">
-         <p class="mb-0">I am a man of fixed and unbending principles, the first of which is to be flexible at all times.</p>
+         <p class="mb-0">"I am a man of fixed and unbending principles, the first of which is to be flexible at all times."</p>
          <footer class="blockquote-footer">Senator Everett Dirksen</footer>
       </blockquote>
    </div>
@@ -155,12 +155,12 @@ Quotes
 <div class="collapse" id="quotes_3">
    <div class="card card-body">
       <blockquote class="blockquote text-right">
-         <p class="mb-0">Never grow a wishbone ... where your backbone ought to be.</p>
+         <p class="mb-0">"Never grow a wishbone ... where your backbone ought to be."</p>
          <footer class="blockquote-footer">Clementine Paddleford</footer>
       </blockquote>
       <br>
       <blockquote class="blockquote text-right">
-         <p class="mb-0">There are no exceptions to the rule that everybody likes to be an exception to the rule.</p>
+         <p class="mb-0">"There are no exceptions to the rule that everybody likes to be an exception to the rule."</p>
          <footer class="blockquote-footer">Charles Osgood</footer>
       </blockquote>
    </div>
