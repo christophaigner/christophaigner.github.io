@@ -7,7 +7,7 @@ weight: 2
 
 # Great Quotes
 
-## Stoicism
+## 😌 Stoicism
 <details><summary>Tap to expand</summary>
 <ol>
     <li><q>We must all either wear out or rust out, every one of us. My choice is to wear out. — Theodore Roosevelt</q></li>
@@ -29,6 +29,7 @@ weight: 2
     <li><q>Time and patience are the strongest warriors. — Leo Tolstoy</q></li>
     <li><q>No one saves us but ourselves / No one can and no one may. — Buddha</q></li>
     <li><q>Everything can be taken from a man but one thing: the last of human freedoms - to choose one's attitude in any given set of circumstances, to choose one's own way. - Viktor Frankl</q></li>
+    <li><q>Between stimulus and response, there is a space. In that space is our power to choose our response. - Viktor Frankl</q></li>
 </ol>
 </details>
 
@@ -37,15 +38,19 @@ weight: 2
 #### Marcus Aurelius
 <details><summary>Tap to expand</summary>
 <ol>
-    <li><q>You could leave life right now. Let that determine what you say and think.</q></li>
+    <li><q>You could leave life right now. Let that determine what you say and think.</q> (see <a href="https://dailystoic.com/memento-mori/" target="_blank">Memento Mori</a>)</li>
     <li><q>The best revenge is not to be like that.</q></li>
     <li><q>Waste no more time arguing what a good man should be. Be one.</q></li>
     <li><q>Everything we hear is an opinion, not a fact. Everything we see is a perspective, not the truth.</q></li>
     <li><q>Choose not to be harmed and you won't feel harmed. Don't feel harmed and you haven't been.</q></li>
+    <li><q>You have power over your mind - not outside events. Realize this, and you will find strength.</q></li>
     <li><q>The happiness of your life depends upon the quality of your thoughts.</q></li>
     <li><q>The soul becomes dyed with the colour of its thoughts.</q></li>
-    <li><q>I have often wondered how it is that every man loves himself more than all the rest of men, but yet sets less value on his own opinion of himself than on the opinion of others.</q></li>
     <li><q>If it is not right do not do it; if it is not true do not say it.</q></li>
+    <li><q>What stands in the way becomes the way.</q></li>
+    <li><q>It never ceases to amaze me: we all love ourselves more than other people, but care more about their opinions than our own.</q></li>
+    <li><q>If someone can prove me wrong and show me my mistake in any thought or action, I shall gladly change. I seek the truth, which never harmed anyone: The harm is to persist in one's own self-deception and ignorance.</q></li>
+    <li><q>The opinion of 10,000 men is of no value if none of them know anything about the subject.</q></li>
 </ol>
 </details>
 
@@ -81,15 +86,15 @@ weight: 2
 
 <br>
 
-## Self-sufficiency
+## ☝🏼 Self-sufficiency
 <details><summary>Tap to expand</summary>
 <ol>
     <li><q>The way someone else perceives what you do is a result of their own experiences (which you can’t control), their own preferences (which you can’t predict), and their own expectations (which you don’t set). If your choices don’t match their expectations that is their concern, not yours. - James Clear</q></li>
-    <li><q>At a party given by a billionaire on Shelter Island, the late Kurt Vonnegut informs his pal, the author Joseph Heller, that their host, a hedge fund manager, had made more money in a single day than Heller had earned from his wildly popular novel Catch 22 over its whole history.<br>Heller responded, 'Yes, but I have something he will never have ... <b>Enough.</b>' <br><a href="[url](https://jamesclear.com/great-speeches/enough-by-john-c-bogle)">"Enough" by John C. Bogle</a></q></li>
+    <li><q>At a party given by a billionaire on Shelter Island, the late Kurt Vonnegut informs his pal, the author Joseph Heller, that their host, a hedge fund manager, had made more money in a single day than Heller had earned from his wildly popular novel Catch 22 over its whole history.<br>Heller responded, 'Yes, but I have something he will never have ... <b>Enough.</b>' <br><a href="https://jamesclear.com/great-speeches/enough-by-john-c-bogle" target="_blank">"Enough" by John C. Bogle</a></q></li>
 </ol>
 </details>
 
-## Growth
+## 📚 Growth
 <details><summary>Tap to expand</summary>
 <ol>
     <li><q>If you feed your mind as often as you feed your stomach, then you’ll never have to worry about feeding your stomach or a roof over your head or clothes on your back. - Albert Einstein</q></li>
