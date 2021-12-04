@@ -5,7 +5,7 @@ permalink: /about/
 weight: 4
 ---
 
-# About Me
+# About
 Hi there! 👋🏼<br>
 I'm **Christoph**, an Engineering Leader based in Vienna, Austria 🇦🇹<br>
 
