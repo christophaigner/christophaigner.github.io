@@ -7,7 +7,7 @@ description         : >-
                       I'm <b>Christoph</b>, an Engineering Leader based in Vienna, Austria 🇦🇹
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : christophaigner/christophaigner.github.io
-remote_theme        : YoussefRaafatNasry/portfolYOU
+remote_theme        : christophaigner/blog
 
 
 ### Plugins ###
