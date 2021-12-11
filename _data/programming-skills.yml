@@ -5,7 +5,3 @@
 - name: Objective-C
   percentage: 60
   color: secondary
-
-# - name: Awesome Skill
-#   percentage: 95
-#   color: secondary / success / danger / warning / info / light / dark (default is primary)

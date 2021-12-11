@@ -23,10 +23,12 @@ You can find some of my favorite books & resources [here]({{ site.url }}/resourc
 
 I've collected some of my favorite quotes [here]({{ site.url }}/quotes) and also wrote some [blog posts]({{ site.url }}/blog).
 
-<!-- <div class="row">
+<!-- 
+<div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
 {% include about/skills.html title="Other Skills" source=site.data.other-skills %}
-</div> -->
+</div> 
+-->
 
 ## My journey
 
