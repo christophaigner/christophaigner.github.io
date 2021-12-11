@@ -51,6 +51,8 @@ weight: 2
     <li><q>It never ceases to amaze me: we all love ourselves more than other people, but care more about their opinions than our own.</q></li>
     <li><q>If someone can prove me wrong and show me my mistake in any thought or action, I shall gladly change. I seek the truth, which never harmed anyone: The harm is to persist in one's own self-deception and ignorance.</q></li>
     <li><q>The opinion of 10,000 men is of no value if none of them know anything about the subject.</q></li>
+    <li><q>Don’t set your mind on things you don’t possess, but count the blessings you do possess & think how much you would desire them if they weren’t yours.</q></li>
+    <li><q>Pain is neither unbearable nor unending, as long as you keep in mind its limits and don't magnify them in your imagination.</q></li>
 </ol>
 </details>
 
@@ -67,6 +69,7 @@ weight: 2
     <li><q>If you want to improve, be content to be thought foolish and stupid.</q></li>
     <li><q>It is impossible for a man to learn what he thinks he already knows.</q></li>
     <li><q>Circumstances don't make the man, they only reveal him to himself.</q></li>
+    <li><q>It is impossible that happiness, & yearning for what is not present, should ever be united.</q></li>
 </ol>
 </details>
 
