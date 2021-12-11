@@ -1,10 +1,8 @@
 ---
 title: On managing your energy
 tags: [life, energy]
-style: fill
-# fill / border
-color: warning
-# primary / secondary / success / danger / warning / info / light / dark
+style: border
+color: paleCerulean
 description: Demands in the workplace are rising and managing your energy becomes increasingly important.
 ---
 

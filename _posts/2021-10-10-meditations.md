@@ -2,9 +2,7 @@
 title: Meditations
 tags: [stoicism, book]
 style: border
-# fill / border
-color: danger
-# primary / secondary / success / danger / warning / info / light / dark
+color: sunray
 description: Key insights from Marcus Aurelius' book Meditations
 ---
 

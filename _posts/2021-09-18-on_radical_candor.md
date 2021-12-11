@@ -1,10 +1,8 @@
 ---
 title: On Radical Candor
 tags: [feedback, book]
-style: fill
-# fill / border
-color: info
-# primary / secondary / success / danger / warning / info / light / dark
+style: border
+color: sunray
 description: Some notes on Radical Candor
 ---
 <img src="../assets/blog/feedback/radical_candor.png" width="60%">
