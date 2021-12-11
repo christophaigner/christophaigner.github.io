@@ -31,7 +31,6 @@ I've collected some of my favorite quotes [here]({{ site.url }}/quotes) and also
 -->
 
 ## My journey
-
 <div class="row">
 {% include about/timeline.html %}
 </div>
