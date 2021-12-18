@@ -2,7 +2,7 @@
 title: On Radical Candor
 tags: [feedback, book]
 style: border
-color: sunray
+color: darkOrange
 description: Some notes on Radical Candor
 ---
 <img src="../assets/blog/feedback/radical_candor.png" width="60%">

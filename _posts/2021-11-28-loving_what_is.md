@@ -2,7 +2,7 @@
 title: Loving What Is
 tags: [book, life]
 style: border
-color: sunray
+color: darkOrange
 description: Overcome stress by dissecting your thoughts with four simple questions.
 ---
 

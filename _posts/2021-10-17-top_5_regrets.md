@@ -2,7 +2,7 @@
 title: The Top Five Regrets of the Dying 
 tags: [book, life]
 style: border
-color: sunray
+color: darkOrange
 description: Are you living a life true to yourself?
 ---
 

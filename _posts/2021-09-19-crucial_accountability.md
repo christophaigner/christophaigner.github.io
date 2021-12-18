@@ -2,7 +2,7 @@
 title: Crucial Accountability
 tags: [feedback, accountability, book]
 style: border
-color: sunray
+color: darkOrange
 description: Tools for Resolving Violated Expectations, Broken Commitments, and Bad Behavior
 ---
 <img src="../assets/blog/feedback/Crucial%20Accountability/crucial_accountability.png" width="50%">

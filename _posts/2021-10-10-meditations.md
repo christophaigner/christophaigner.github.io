@@ -2,7 +2,7 @@
 title: Meditations
 tags: [stoicism, book]
 style: border
-color: sunray
+color: darkOrange
 description: Key insights from Marcus Aurelius' book Meditations
 ---
 
