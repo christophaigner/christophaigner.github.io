@@ -35,10 +35,6 @@ author:
   gitlab            : christophaigner
   linkedin          : caigner
   medium            : christophaigner
-# spotify           : your_username
-# stackoverflow     : your_user_id
-# twitter           : your_username
-
 
 ### Posts ###
 permalink: /blog/:title
