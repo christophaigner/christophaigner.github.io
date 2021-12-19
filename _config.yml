@@ -30,25 +30,14 @@ nav_exclude:                                            # The following paths ar
 author:
   name              : Christoph Aigner
   image             : assets/profile.png
-# behance           : your_username
-# dribbble          : your_username
   email             : christoph.aigner.work@gmail.com
-# facebook          : your_username
   github            : christophaigner
   gitlab            : christophaigner
-# instagram         : your_username
-# kaggle            : your_username
   linkedin          : caigner
-# medium            : your_username
-# soundcloud        : your_username
+  medium            : christophaigner
 # spotify           : your_username
 # stackoverflow     : your_user_id
-# tumblr            : your_username.tumblr.com
-# twitch            : your_username
 # twitter           : your_username
-# vimeo             : your_username
-# youtube           : your_channel_name
-# keybase           : your_username
 
 
 ### Posts ###
