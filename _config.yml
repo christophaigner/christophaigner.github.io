@@ -1,4 +1,5 @@
 ### Documentation: https://youssefraafatnasry.github.io/portfolYOU/docs
+#### Debug build: `bundle exec jekyll build --verbose`
 
 ### Site Settings ###
 title               : Christoph Aigner
