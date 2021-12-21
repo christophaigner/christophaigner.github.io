@@ -53,6 +53,7 @@ weight: 2
     <li><q>The opinion of 10,000 men is of no value if none of them know anything about the subject.</q></li>
     <li><q>Don’t set your mind on things you don’t possess, but count the blessings you do possess & think how much you would desire them if they weren’t yours.</q></li>
     <li><q>Pain is neither unbearable nor unending, as long as you keep in mind its limits and don't magnify them in your imagination.</q></li>
+    <li><q>And why should we feel anger at the world? As if the world would notice!</q></li>
 </ol>
 </details>
 
@@ -84,6 +85,7 @@ weight: 2
     <li><q>What you think about yourself is much more important than what others think of you.</q></li>
     <li><q>Difficulties strengthen the mind, as labor does the body.</q></li>
     <li><q>Luck is what happens when preparation meets opportunity.</q></li>
+    <li><q>People are frugal in guarding their personal property; but as soon as it comes to squandering time they are most wasteful of the one thing in which it is right to be stingy.</q></li>
 </ol>
 </details>
 
