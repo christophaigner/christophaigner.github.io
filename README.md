@@ -1,7 +1,9 @@
 # About
 
 Hi there! 👋🏼  
-I'm **Christoph**, an Engineering Leader based in Vienna, Austria 🇦🇹  
+I'm **Christoph**, an Engineering Leader based in Vienna, Austria 🇦🇹
+
+This blog was created using [Jekyll](https://jekyllrb.com) and [Liquid](https://shopify.github.io/liquid/).
 
 ## Build & run
 
