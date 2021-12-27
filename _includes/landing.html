@@ -1,0 +1,35 @@
+<div>
+   {% for index in (1..75) %}
+   <div class="snowflake"></div>
+   {% endfor %}
+   <div>
+   <div class="row justify-content-center align-items-center p-4">
+      <div class="col-lg-4 col-md-6 text-center mt-4">
+         <!-- Fine Circle Responsive Image -->
+         <div id="container" class="my-2">
+            <div id="dummy"></div>
+            <div id="element">
+               <img src="{{ site.author.image }}" alt="{{ site.title }}" class="circle-image">
+            </div>
+         </div>
+         <p>{{ site.description }}</p>
+      </div>
+   </div>
+   <div style="height: 10px"></div>
+   <div style="line-height: 1.2em">
+      <h5 style="text-align: left;">Latest blog posts</h5>
+      <p>
+      {% for post in site.posts limit:5 %}
+      <ul>
+         <li>
+            <a href="{{ post.url | relative_url }}">
+            {{ post.title }}
+            </a>
+         </li>
+      </ul>
+      {% endfor %}
+      </p>
+      <div style="height: 20px"></div>
+   </div>
+   </div>
+</div>

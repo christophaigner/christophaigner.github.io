@@ -1,0 +1,38 @@
+@import "_mixins";
+
+.search-box {
+  box-shadow: none !important;
+}
+
+.post.card {
+  border-radius: $rounded-borders;
+  text-decoration: none !important;
+  padding: 15px;
+  height: 100%;
+
+  .card-footer {
+    font-size: 14px;
+    margin: 0 -15px -15px -15px;
+    padding: 15px 35px;
+  }
+}
+
+.post-metadata {
+  font-size: 14px;
+  margin-top: -6px;
+
+  .tag:hover {
+    background-color: $primary;
+    color: white !important;
+  }
+}
+
+#progress-bar {
+	--scrollAmount: 0%;
+  @include themed(background-image, linear-gradient(to right, #84fab0 0%, #8fd3f4 100%), linear-gradient(to right, #f4b860 0%, #F78166 100%));
+	width: var(--scrollAmount);
+	height: 5px;
+	position: fixed;
+	top: 0;
+  left: 0;
+}

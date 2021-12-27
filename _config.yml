@@ -5,15 +5,17 @@ description         : >-
                       I'm <b>Christoph</b>, an Engineering Leader based in Vienna, Austria 🇦🇹
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : christophaigner/christophaigner.github.io
-remote_theme        : christophaigner/blog
-
 
 ### Plugins ###
 plugins:
+  - jekyll
   - jekyll-default-layout
   - jekyll-gist
   - jekyll-github-metadata
+  - jekyll-include-cache
   - jemoji
+  - kramdown
+  - kramdown-parser-gfm
 
 
 ### Navbar Settings ###

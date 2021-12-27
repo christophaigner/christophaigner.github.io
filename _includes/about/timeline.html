@@ -1,0 +1,39 @@
+<div class="col mt-4">
+  <div class="timeline-body bg-themed">
+    {% for timelineEntry in site.data.timeline %}
+    <div class="timeline-item">
+      <div class="content">
+        <h2>
+          {{ timelineEntry.job }} @
+          <a target="_blank" href="{{ timelineEntry.companyUrl }}"
+            >{{ timelineEntry.companyName }}</a
+          >
+        </h2>
+        {% if timelineEntry.to != null %}
+        <h6 class="date">{{ timelineEntry.from }} — {{ timelineEntry.to }}</h6>
+        {% else %}
+        <h6 class="date">since {{ timelineEntry.from }}</h6>
+        {% endif %}
+        <p>{{ timelineEntry.details }}</p>
+        {% if timelineEntry.appstoreUrl != null %}
+        <a
+          target="_blank"
+          href="{{ timelineEntry.appstoreUrl }}"
+          style="
+            display: inline-block;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+            border-bottom-right-radius: 8px;
+            border-bottom-left-radius: 8px;
+            margin-top: 0px;
+            width: 150px;
+            height: 50px;
+          "
+          ><div class="img appstore-badge"></div
+        ></a>
+        {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

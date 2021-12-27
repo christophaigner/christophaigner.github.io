@@ -1,0 +1,39 @@
+$off-white: #FDFDFD;
+
+html {
+  padding-left: calc(100vw - 100%);
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  background-color: $off-white;
+}
+
+.card {
+  background-color: $off-white;
+}
+
+.badge {
+  font-weight: bold;
+}
+
+u {
+  text-decoration-color: #FAA990; // https://www.pinterest.com/pin/34480753387965200
+}
+
+.bg-light,
+.badge-light {
+  &,
+  * {
+    color: $text-black !important;
+  }
+}
+
+.bg-dark,
+.badge-dark {
+  &,
+  * {
+    color: $text-white !important;
+  }
+}

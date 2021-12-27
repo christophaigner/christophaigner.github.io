@@ -1,0 +1,37 @@
+.snowflake {
+  --size: 1vw;
+  width: var(--size);
+  height: var(--size);
+  background: $off-white;
+  border-radius: 50%;
+  position: absolute;
+  top: -5vh;
+  display: none;
+}
+
+@keyframes snowfall {
+  0% {
+    transform: translate3d(var(--left-ini), 0, 0);
+  }
+  100% {
+    transform: translate3d(var(--left-end), var(--bottom-end), 0);
+  }
+}
+
+@for $i from 1 through 75 {
+  .snowflake:nth-child(#{$i}) {
+    --size: #{random(5) * 0.2}vw;
+    --left-ini: clamp(0vw, #{random(20) - 10}vw, 10vw);
+    --left-end: clamp(0vw, #{random(20) - 10}vw, 10vw);
+    left: clamp(0vw, #{random(100)}vw, 89vw);
+    filter: blur(2px);
+    animation: snowfall #{10 + random(10)}s linear infinite;
+    animation-delay: -#{random(10)}s;
+    opacity: #{random($limit: 99)/100+0.1};
+  }
+}
+
+/* Add blur every 6 snowflakes */
+.snowflake:nth-child(6n) {
+  filter: blur(3px);
+}

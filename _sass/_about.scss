@@ -1,0 +1,14 @@
+@import "_mixins";
+
+div.img.appstore-badge {
+  @include themed(
+    content,
+    url(../images/appstore.svg),
+    url(../images/appstore-dark.svg)
+  );
+  alt: "Download on the App Store";
+  margin-top: 0px;
+  margin-bottom: 10px;
+  width: 150px;
+  height: 50px;
+}
