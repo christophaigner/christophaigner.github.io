@@ -37,6 +37,13 @@ Pass the `--livereload` option to serve to automatically refresh the page with e
 bundle exec jekyll serve --livereload
 ```
 
+### Drafts
+To preview your site with drafts, run `jekyll serve` or `jekyll build` with the `--drafts` switch.
+
+```bash
+bundle exec jekyll serve --drafts
+```
+
 ### Doctor
 
 Outputs any deprecation or configuration issues.
