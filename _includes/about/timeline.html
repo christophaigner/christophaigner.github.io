@@ -31,7 +31,25 @@
           "
           ><div class="img appstore-badge"></div
         ></a>
+        <div style="height: 10px;"></div>
         {% endif %}
+        
+        {% if timelineEntry.responsibilities.size > 0 %}
+        <h4>Responsibilities & achievements</h4>
+        <ul>
+          {% for responsibility in timelineEntry.responsibilities %}
+          <li style="line-height: 1.5em;">{{ responsibility }}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+
+        {% if timelineEntry.techStack.size > 0 %}
+        <h4>Tech Stack</h4>
+        {% for item in timelineEntry.techStack %}
+        <span class="badge-paleCerulean" style="color: white; display: inline-block; margin: 2px;">{{ item }}</span>
+        {% endfor %}
+        {% endif %}
+
       </div>
     </div>
     {% endfor %}
