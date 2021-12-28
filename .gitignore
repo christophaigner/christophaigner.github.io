@@ -5,6 +5,9 @@ _site/
 .jekyll-metadata
 .DS_Store
 
+# Drafts
+_drafts/
+
 # Ruby Gems
 .bundle
 Gemfile.lock
