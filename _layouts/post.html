@@ -30,7 +30,13 @@ layout: page
 
 </p>
 
-{{ content }}
+<a id="speakArticleButton" onclick="speakArticle()">
+  <i class="fas fa-regular fa-play"></i>
+</a>
+
+<div id="blog_post">
+  {{ content }}
+</div>
 
 {% if page.comments %}
 <div class="pt-5">
