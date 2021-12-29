@@ -25,7 +25,7 @@ function speak(message) {
   const voices = window.speechSynthesis.getVoices();
   utterance.voice = voices.find(voice => voice.voiceURI === "com.apple.speech.synthesis.voice.samantha");
   utterance.volume = 1;
-  utterance.rate = 8;
+  utterance.rate = 1;
   utterance.pitch = 0.8;
   utterance.lang = "en-US";
   window.utterance = utterance;
