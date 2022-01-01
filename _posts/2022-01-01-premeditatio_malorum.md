@@ -2,7 +2,7 @@
 title: Premeditatio Malorum
 tags: [life, stoicism]
 style: border
-color: paleCerulean
+color: beige
 description: It's not what happens to you, but how you react to it that matters. - Epictetus
 ---
 
