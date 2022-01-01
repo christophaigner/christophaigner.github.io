@@ -53,3 +53,8 @@ function speak(message) {
 
   speechSynthesis.speak(utterance);
 }
+
+window.onbeforeunload = function() {
+  window.speechSynthesis.cancel();
+  window.utterance = undefined;
+};
