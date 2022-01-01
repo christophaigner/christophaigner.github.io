@@ -49,6 +49,7 @@ function speak(message) {
   utterance.onpause = () => updateIcon(false);
   utterance.onresume = () => updateIcon(true);
   utterance.onstart = () => updateIcon(true);
+  utterance.onend = () => updateIcon(false);
 
   speechSynthesis.speak(utterance);
 }
