@@ -23,7 +23,9 @@ function speak(message) {
 
   const utterance = new SpeechSynthesisUtterance();
   const voices = window.speechSynthesis.getVoices();
-  utterance.voice = voices.find(voice => voice.voiceURI === "com.apple.speech.synthesis.voice.samantha");
+  utterance.voice = voices.find(
+    (voice) => voice.voiceURI === "com.apple.speech.synthesis.voice.samantha"
+  );
   utterance.volume = 1;
   utterance.rate = 1;
   utterance.pitch = 0.8;
@@ -35,7 +37,7 @@ function speak(message) {
   if (message.length >= maxLength) {
     utterance.text = message.substring(0, maxLength);
     utterance.onend = function (_) {
-        speak(message.substring(maxLength, message.length));
+      speak(message.substring(maxLength, message.length));
     };
   } else {
     utterance.text = message;
