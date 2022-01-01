@@ -30,6 +30,7 @@ weight: 2
     <li><q>No one saves us but ourselves / No one can and no one may. — Buddha</q></li>
     <li><q>Everything can be taken from a man but one thing: the last of human freedoms - to choose one's attitude in any given set of circumstances, to choose one's own way. - Viktor Frankl</q></li>
     <li><q>Between stimulus and response, there is a space. In that space is our power to choose our response. - Viktor Frankl</q></li>
+    <li><q>Everyone thinks of changing the world, but no one thinks of changing himself. - Leo Tolstoy</q></li>
 </ol>
 </details>
 
@@ -63,7 +64,7 @@ weight: 2
 #### Epictetus
 <details><summary>Tap to expand</summary>
 <ol>
-    <li><q>It’s not what happens to you, but how you react to it that matters.</q></li>
+    <li><q>It's not what happens to you, but how you react to it that matters.</q></li>
     <li><q>It's not things that upset us but our judgments about things.</q></li>
     <li><q>Wealth consists not in having great possessions, but in having few wants.</q></li>
     <li><q>There is only one way to happiness and that is to cease worrying about things which are beyond the power or our will.</q></li>
@@ -86,6 +87,7 @@ weight: 2
     <li><q>Difficulties strengthen the mind, as labor does the body.</q></li>
     <li><q>Luck is what happens when preparation meets opportunity.</q></li>
     <li><q>People are frugal in guarding their personal property; but as soon as it comes to squandering time they are most wasteful of the one thing in which it is right to be stingy.</q></li>
+    <li><q>Everything hangs on one's thinking ... A man is as unhappy as he has convinced himself he is.</q></li>
 </ol>
 </details>
 
@@ -104,5 +106,7 @@ weight: 2
 <ol>
     <li><q>If you feed your mind as often as you feed your stomach, then you’ll never have to worry about feeding your stomach or a roof over your head or clothes on your back. - Albert Einstein</q></li>
     <li><q>Your actions are a consequence of your thoughts. Your thoughts are a consequence of what you consume.<br>And in the modern age, what you consume is largely a consequence of how you select and refine your social media feed.<br>Choose better inputs. Get better outputs. - James Clear</q></li>
+    <li><q>Your attitude, not aptitude, determines your altitude. - Zig Ziglar</q></li>
+    <li><q>Don't over-improve your weaknesses. If you're not good at something, work on it until it no longer prevents your progress, but the bulk of your time is better spent maximizing your strengths. - James Clear</q></li>
 </ol>
 </details>
