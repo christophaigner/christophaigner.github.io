@@ -22,7 +22,8 @@ In his book **The 7 Habits of Highly Effective People**, Stephen R. Covey talked
 This post will focus on the first habit: **being proactive**.
 
 ## The First Habit: Be Proactive
-Being proactive is about <u>taking responsibility for your life</u>. You can’t keep blaming everything on your parents or grandparents. Proactive people recognize that they are “response-able.” They don’t blame genetics, circumstances, conditions, or conditioning for their behavior. They know they choose their behavior. 
+
+Being proactive is about <u>taking responsibility for your life</u>. You can’t keep blaming everything on your parents or grandparents. Proactive people recognize that they are “response-able.” They don’t blame genetics, circumstances, conditions, or conditioning for their behavior. They know they choose their behavior.
 
 Reactive people, on the other hand, are often affected by their physical environment. They find external sources to blame for their behavior. If the weather is good, they feel good. If it isn’t, it affects their attitude and performance, and they blame the weather.
 
@@ -34,7 +35,7 @@ All of these external forces act as stimuli that we respond to. Between the stim
 One of the most important things you choose is what you say.
 
 > "Everything can be taken from a man but one thing: the last of human freedoms - to choose one's attitude in any given set of circumstances, to choose one's own way."
-> 
+>
 > -- Viktor Frankl
 
 ### The Circle of Influence for Reactive people
@@ -67,25 +68,27 @@ Often, a third circle is added inside of the Circle of Influence: the **Circle o
 ## What you can do about issues in the ...
 
 ### Circle of Concern
+
 **Accept** – these concerns are outside of your control and influence. Try to let these go and focus on what you can influence and control.
 
 ### Circle of Influence
+
 **Influence** – be realistic about the concerns you can influence. Score your influence on a scale of 1-10 and any concern scoring lower than 5, move to ‘Accept’.
 
 ### Circle of Control
+
 **Control** – direct your time and energy towards the elements that you can control. This will minimize feelings of overwhelm and frustration.
 
-> "God grant me the serenity to accept the things I <s>cannot</s> change; <b>courage</b> to change the things I can; and <b>wisdom</b> to know the difference."  
+> "God grant me the serenity to accept the things I <s>cannot</s> change; <b>courage</b> to change the things I can; and <b>wisdom</b> to know the difference."
 >
 > -- Serenity Prayer
 
 So, where are you currently spending the majority of your time? In the circle of concern, influence, or control?
 
 ## References
-* [Habit 1: Be Proactive®](https://www.franklincovey.com/habit-1/)
-* [The Circle of Concern and Influence](https://www.habitsforwellbeing.com/the-circle-of-concern-and-influence/)
-* [Being Proactive vs. Reactive, In Two Simple Diagrams](https://instituteofyou.org/circle-of-influence-circle-of-concern-tips/)
-* [Success you can control](https://www.makingbettermistakes.com/success-you-can-control/)
-* [The Covey Circles of Influence](https://www.thecareerpsychologist.com/resource/the-covey-circles-of-influence/)
 
-<br>
+- [Habit 1: Be Proactive®](https://www.franklincovey.com/habit-1/)
+- [The Circle of Concern and Influence](https://www.habitsforwellbeing.com/the-circle-of-concern-and-influence/)
+- [Being Proactive vs. Reactive, In Two Simple Diagrams](https://instituteofyou.org/circle-of-influence-circle-of-concern-tips/)
+- [Success you can control](https://www.makingbettermistakes.com/success-you-can-control/)
+- [The Covey Circles of Influence](https://www.thecareerpsychologist.com/resource/the-covey-circles-of-influence/)

@@ -8,7 +8,7 @@ description: Key insights from Marcus Aurelius' book Meditations
 
 <img src="../assets/blog/books/Meditations/meditations.jpg" width="30%">
 
-Marcus Aurelius was the most powerful and important man in the world and a great Stoic philosopher. 
+Marcus Aurelius was the most powerful and important man in the world and a great Stoic philosopher.
 
 He was emperor of Rome for almost two decades starting in the year 161 A.D.
 
@@ -33,22 +33,22 @@ Marcus often reminded himself that he would soon be dead and anybody who ever kn
 > "Choose not to be harmed—and you won’t feel harmed.  
 > Don’t feel harmed—and you haven’t been."
 
-When something happens to you, you always have the power to interpret it as harmful or harmless. 
+When something happens to you, you always have the power to interpret it as harmful or harmless.
 
 This is similar to what Viktor Frankl wrote about his experiences in the World War II concentration camps, when he said:
 
 > “Everything can be taken from a man but one thing: the last of the human freedoms—to choose one’s attitude in any given set of circumstances, to choose one’s way.”  
-> *- Viktor Frankl*
+> _- Viktor Frankl_
 
 ## Believe everything happens for a higher reason to withstand life’s catastrophes
 
 Marcus believed in Providence, which means some higher power is always providing us protection and care. He believed there is an intelligent order to the universe called [Logos](https://www.christianity.com/wiki/christian-terms/logos-in-the-bible-definition-and-significance.html) (an individual person’s ability to think logically), so there must be a reason even for bad events. Although we may not see the reason, we should accept what happens just like swallowing bad-tasting medicine from the doctor.
 
-This way of thinking also helps you accept everything that happens and flow with it, rather than resisting. This is a big part of Stoic philosophy. In the introduction of this book, Gregory Hays wrote a great analogy. He said if a dog is attached by a leash to a moving wagon, then it can either choose to run *with* the wagon or to resist it and be painfully dragged behind it. When people resist things that happen to them, they only make life feel worse for themselves.
+This way of thinking also helps you accept everything that happens and flow with it, rather than resisting. This is a big part of Stoic philosophy. In the introduction of this book, Gregory Hays wrote a great analogy. He said if a dog is attached by a leash to a moving wagon, then it can either choose to run _with_ the wagon or to resist it and be painfully dragged behind it. When people resist things that happen to them, they only make life feel worse for themselves.
 
 ## Accept that other people cannot help being imperfect
 
-People *never* do wrong on purpose, they always believe they are doing right.
+People _never_ do wrong on purpose, they always believe they are doing right.
 
 > "When faced with people’s bad behavior, turn around and ask when you have acted like that. When you saw money as a good, or pleasure, or social position. Your anger will subside as soon as you recognize that they acted under compulsion (what else could they do?)."
 
@@ -77,7 +77,7 @@ Marcus Aurelius was constantly surrounded by the excesses of his society. Endles
 
 Marcus recognized that all we have is the **present**. The past already happened, the future has not yet happened. So the past and future only exist inside of our minds. But our whole life is lived in the present, moment-by-moment.
 
-Plus, when all your energy and attention is being wasted by thinking about the past or future, then you have no focus left to put into the present. And your actions can only ever occur in the present moment. You can’t change the past. You can’t do anything about what might or might not happen in the future. Only your actions right now are within your control. 
+Plus, when all your energy and attention is being wasted by thinking about the past or future, then you have no focus left to put into the present. And your actions can only ever occur in the present moment. You can’t change the past. You can’t do anything about what might or might not happen in the future. Only your actions right now are within your control.
 
 And a big part of Stoic philosophy is only focusing on the things we can control, not on things we can’t control.
 
@@ -86,5 +86,6 @@ And a big part of Stoic philosophy is only focusing on the things we can control
 > "The present is all that they can give up, since that is all you have, and what you do not have, you cannot lose."
 
 ## References
-* [Meditations by Marcus Aurelius](https://www.goodreads.com/book/show/30659.Meditations)
-* [Meditations \| Summary](https://growth.me/books/meditations/)
+
+- [Meditations by Marcus Aurelius](https://www.goodreads.com/book/show/30659.Meditations)
+- [Meditations \| Summary](https://growth.me/books/meditations/)

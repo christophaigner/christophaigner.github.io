@@ -1,5 +1,5 @@
 ---
-title: The Top Five Regrets of the Dying 
+title: The Top Five Regrets of the Dying
 tags: [book, life]
 style: border
 color: darkOrange
@@ -14,8 +14,8 @@ Her patients were those who had gone home to die and she was with them for the l
 In this book she describes her experience working with those nearing death. She says people grow a lot when they are faced with their own mortality.
 
 > "You could leave life right now. Let that determine what you say and think."
-> 
-> *- Marcus Aurelius*
+>
+> _- Marcus Aurelius_
 
 When questioned about any regrets they had or anything they would do differently, common themes surfaced again and again. Here are the most common five:
 
@@ -31,9 +31,9 @@ This came from every male patient that she nursed. They missed their children’
 
 By simplifying your lifestyle and making conscious choices along the way, it is possible to not need the income that you think you do. And by creating more space in your life, you become happier and more open to new opportunities, ones more suited to your new lifestyle.
 
-> "The world was not big enough for Alexander the Great, but a coffin was." 
-> 
-> *— Juvenal*
+> "The world was not big enough for Alexander the Great, but a coffin was."
+>
+> _— Juvenal_
 
 ## 3) I wish I’d had the courage to express my feelings.
 
@@ -56,7 +56,6 @@ When you are on your deathbed, what others think of you is a long way from your 
 Life is a choice. It is YOUR life. Choose consciously, choose wisely, choose honestly. Choose happiness.
 
 ## References
-* [The Top Five Regrets of the Dying](https://www.goodreads.com/book/show/13059271-the-top-five-regrets-of-the-dying)
-* [Summary \| Regrets of the Dying](https://bronnieware.com/blog/regrets-of-the-dying/)
 
-<br>
+- [The Top Five Regrets of the Dying](https://www.goodreads.com/book/show/13059271-the-top-five-regrets-of-the-dying)
+- [Summary \| Regrets of the Dying](https://bronnieware.com/blog/regrets-of-the-dying/)
