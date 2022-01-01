@@ -36,6 +36,9 @@ author:
   linkedin          : caigner
   medium            : christophaigner
 
+### Timezone ###
+timezone: "Europe/Vienna"
+
 ### Posts ###
 permalink: /blog/:title
 
