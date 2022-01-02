@@ -1,0 +1,26 @@
+{% assign books_count = page.books.size %}
+
+<h2 style="padding-bottom: 20px;">What I've read in {{ page.books_year }}</h2>
+
+<p>📚 In {{ page.books_year }}, I've read a total of {{ books_count }} books:</p>
+
+<!-- Collect categories from all books -->
+{%- assign categories = blank -%}
+{% assign sorted_books = page.books | sort: "name" %}
+{%- for book in sorted_books -%}
+  {%- assign category = book.category | append:'|' -%}
+  {%- assign categories = categories | append:category -%}
+{%- endfor -%}
+{%- assign categories = categories | split:'|' | uniq | sort -%}
+
+<!-- List categories & related books -->
+{% for category in categories %}
+<h4 id="{{ category | slugify }}">{{ category }}</h4>
+  <ul>
+  {% for book in sorted_books %}
+    {%- if book.category contains category -%}
+      <li><a href="{{ book.url }}">{{ book.name }}</a></li>
+    {%- endif -%}
+  {% endfor %}
+  </ul>
+{% endfor %}

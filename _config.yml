@@ -39,9 +39,6 @@ author:
 ### Timezone ###
 timezone: "Europe/Vienna"
 
-### Posts ###
-permalink: /blog/:title
-
 ### Disqus ###
 disqus:
   shortname: your-short-name-disqus
@@ -64,14 +61,22 @@ analytics:
   google:
     tracking_id: your-google-tracking-id
 
-
 ### Defaults for collections ###
 defaults:
   - scope:
       path: ""
-      type: "posts"
     values:
       comments: false
+      layout: "default"
+
+### Collections ###
+collections:
+  reading:
+    output: true
+    permalink: /reading/:title
+  blog:
+    output: true
+    permalink: /blog/:title
   
 ### Exclude from processing ###
 exclude:

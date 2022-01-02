@@ -1,0 +1,23 @@
+---
+layout: page
+title: Reading
+permalink: /reading/
+weight: 4
+---
+
+<h1>📚 Reading Overview</h1>
+
+You can find my favourite resources <a href="{{ site.url }}/resources">here</a>.
+
+<h2>Reading history</h2>
+
+{% for reading in site.reading %}
+{% assign books_count = reading.books.size %}
+<ul>
+    <li>
+        <a href="{{ reading.url }}">
+            Here you can see the {{ books_count }} books I've read in {{ reading.books_year }}.
+        </a>
+    </li>
+</ul>
+{% endfor %}
