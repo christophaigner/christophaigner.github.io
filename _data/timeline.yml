@@ -17,7 +17,7 @@
     computer science, biotechnology and data analytics and
     enables you to gain deep health insights in just a few minutes.<br>
   techStack: [
-    Swift, UIKit, SwiftUI, Combine,
+    Swift, UIKit, SwiftUI, Combine, Kotlin Multiplatform Mobile,
     MVVM-C,
     Firebase, GitLab CI, Fastlane, SwiftLint, SwiftFormat, Periphery, Danger,
     NoSQL DB,
