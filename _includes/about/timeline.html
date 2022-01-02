@@ -2,7 +2,7 @@
   <div class="timeline-body bg-themed">
     {% for timelineEntry in site.data.timeline %}
     <div class="timeline-item">
-      <div class="content">
+      <div class="content" {% if timelineEntry.hideBorder == true %} style="border-bottom: 0px; padding-bottom: 0px;"{% endif %}>
         <h2>
           {{ timelineEntry.job }} @
           <a target="_blank" href="{{ timelineEntry.companyUrl }}"
