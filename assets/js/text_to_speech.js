@@ -54,7 +54,12 @@ function speak(message) {
   speechSynthesis.speak(utterance);
 }
 
-window.addEventListener('locationchange', function() {
+function cancelSpeech() {
   window.speechSynthesis.cancel();
   window.utterance = undefined;
-});
+}
+
+// Browser
+window.addEventListener('locationchange', cancelSpeech);
+// Mobile Devices
+window.addEventListener('pagehide', cancelSpeech);
