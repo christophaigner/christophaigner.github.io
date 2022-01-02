@@ -54,7 +54,7 @@ function speak(message) {
   speechSynthesis.speak(utterance);
 }
 
-window.onbeforeunload = function() {
+window.addEventListener('locationchange', function() {
   window.speechSynthesis.cancel();
   window.utterance = undefined;
-};
+});
