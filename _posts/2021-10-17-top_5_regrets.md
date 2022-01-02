@@ -6,7 +6,7 @@ color: darkOrange
 description: Are you living a life true to yourself?
 ---
 
-<img src="../assets/blog/books/The%20Top%20Five%20Regrets%20of%20the%20Dying/top_5_regrets.jpg" width="40%">
+<img src="/assets/blog/books/The%20Top%20Five%20Regrets%20of%20the%20Dying/top_5_regrets.jpg" width="40%">
 
 The author Bronnie Ware worked in palliative care for many years.  
 Her patients were those who had gone home to die and she was with them for the last three to twelve weeks of their lives.

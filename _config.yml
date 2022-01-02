@@ -65,9 +65,9 @@ analytics:
 defaults:
   - scope:
       path: ""
+      type: "posts"
     values:
       comments: false
-      layout: "default"
 
 ### Collections ###
 collections:

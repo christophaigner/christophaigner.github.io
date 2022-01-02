@@ -6,7 +6,7 @@ color: darkOrange
 description: Some notes on Radical Candor
 ---
 
-<img src="../assets/blog/feedback/Radical%20Candor/radical_candor.png" width="60%">
+<img src="/assets/blog/feedback/Radical%20Candor/radical_candor.png" width="60%">
 
 ## Radical Candor
 
@@ -27,7 +27,7 @@ Manipulative Insincerity — backstabbing, political or passive-aggressive behav
 
 ## Summary
 
-<img src="../assets/blog/feedback/Radical%20Candor/radical_candor_details.jpeg">
+<img src="/assets/blog/feedback/Radical%20Candor/radical_candor_details.jpeg">
 
 ## Kim Scott on Radical Candor
 

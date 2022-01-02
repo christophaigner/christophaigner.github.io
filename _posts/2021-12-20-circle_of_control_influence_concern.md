@@ -17,7 +17,7 @@ One of the fundamental **Stoic principles** for achieving “tranquillity” is 
 
 In his book **The 7 Habits of Highly Effective People**, Stephen R. Covey talked about the concept of {% include elements/highlight.html text="Circle of Concern and Circle of Influence" %}.
 
-<img src="../assets/blog/books/The%207%20Habits%20of%20Highly%20Effective%20People/7_habits_of_highly_effective_people.jpg" width="30%">
+<img src="/assets/blog/books/The%207%20Habits%20of%20Highly%20Effective%20People/7_habits_of_highly_effective_people.jpg" width="30%">
 
 This post will focus on the first habit: **being proactive**.
 
@@ -44,7 +44,7 @@ Reactive people focus their efforts in the Circle of Concern – things over whi
 
 They neglect areas where they could do something about. As a result, they end up having very little control over most aspects of their life.
 
-<img src="../assets/blog/life/Circle%20of%20control,%20influence%20and%20concern/small_circle_of_incluence.png" width="80%">
+<img src="/assets/blog/life/Circle%20of%20control,%20influence%20and%20concern/small_circle_of_incluence.png" width="80%">
 
 ### The Circle of Influence for Proactive people
 
@@ -57,13 +57,13 @@ A reactive person uses reactive language – I can’t, I have to, if only.
 
 With their efforts to take on responsibility for what happens in their life, proactive people build a positive mindset. They see outcomes to the things they initiate. They cultivate change and growth. As a result, their **Circle of Influence grows** and their Circle of Concern shrinks.
 
-<img src="../assets/blog/life/Circle%20of%20control,%20influence%20and%20concern/large_circle_of_influence.png" width="80%">
+<img src="/assets/blog/life/Circle%20of%20control,%20influence%20and%20concern/large_circle_of_influence.png" width="80%">
 
 ## The Circle of Control
 
 Often, a third circle is added inside of the Circle of Influence: the **Circle of Control**, which describes the things we can directly influence, whereas the circle of influence contains things over which we have some, but not complete control.
 
-<img src="../assets/blog/life/Circle%20of%20control,%20influence%20and%20concern/circles.png" width="50%">
+<img src="/assets/blog/life/Circle%20of%20control,%20influence%20and%20concern/circles.png" width="50%">
 
 ## What you can do about issues in the ...
 

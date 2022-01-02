@@ -6,7 +6,7 @@ color: beige
 description: Key insights from Marcus Aurelius' book Meditations
 ---
 
-<img src="../assets/blog/books/Meditations/meditations.jpg" width="30%">
+<img src="/assets/blog/books/Meditations/meditations.jpg" width="30%">
 
 Marcus Aurelius was the most powerful and important man in the world and a great Stoic philosopher.
 

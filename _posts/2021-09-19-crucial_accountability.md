@@ -6,7 +6,7 @@ color: darkOrange
 description: Tools for Resolving Violated Expectations, Broken Commitments, and Bad Behavior
 ---
 
-<img src="../assets/blog/feedback/Crucial%20Accountability/crucial_accountability.png" width="50%">
+<img src="/assets/blog/feedback/Crucial%20Accountability/crucial_accountability.png" width="50%">
 
 ## Crucial Accountability
 
