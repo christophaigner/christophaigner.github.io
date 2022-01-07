@@ -28,11 +28,15 @@
 }
 
 #progress-bar {
-	--scrollAmount: 0%;
-  @include themed(background-image, linear-gradient(to right, #84fab0 0%, #8fd3f4 100%), linear-gradient(to right, #f4b860 0%, #F78166 100%));
-	width: var(--scrollAmount);
-	height: 5px;
-	position: fixed;
-	top: 0;
+  --scrollAmount: 0%;
+  @include themed(
+    background-image,
+    linear-gradient(to right, #84fab0 0%, #8fd3f4 100%),
+    linear-gradient(to right, #f4b860 0%, #f78166 100%)
+  );
+  width: var(--scrollAmount);
+  height: 5px;
+  position: fixed;
+  top: 0;
   left: 0;
 }

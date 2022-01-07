@@ -16,15 +16,30 @@
     Bloom Diagnostics’ innovative platform combines state-of-the-art medical knowledge,
     computer science, biotechnology and data analytics and
     enables you to gain deep health insights in just a few minutes.<br>
-  techStack: [
-    Swift, UIKit, SwiftUI, Combine, Kotlin Multiplatform Mobile,
-    MVVM-C,
-    Firebase, GitLab CI, Fastlane, SwiftLint, SwiftFormat, Periphery, Danger,
-    NoSQL DB,
-    CryptoKit (AES GCM),
-    CoreBluetooth, CoreNFC,
-    Unit Tests, Integration Tests, UI Tests, Snapshot Tests,
-    REST API with Clojure Backend
+  techStack:
+    [
+      Swift,
+      UIKit,
+      SwiftUI,
+      Combine,
+      Kotlin Multiplatform Mobile,
+      MVVM-C,
+      Firebase,
+      GitLab CI,
+      Fastlane,
+      SwiftLint,
+      SwiftFormat,
+      Periphery,
+      Danger,
+      NoSQL DB,
+      CryptoKit (AES GCM),
+      CoreBluetooth,
+      CoreNFC,
+      Unit Tests,
+      Integration Tests,
+      UI Tests,
+      Snapshot Tests,
+      REST API with Clojure Backend,
     ]
 
 - job: Team Lead iOS
@@ -45,11 +60,26 @@
     brings millions of private buyers and sellers as well as
     local businesses together.<br>
   techStack: [
-    Swift, Objective-C, UIKit, OpenCombine
-    MVVM-C,
-    Firebase, Google Analytics, FB SDK, Google SDK,
-    PayPal, Adyen, Google Mobile Ads, Google DFP,
-    Jenkins, Fastlane, REST API, SwiftLint,
-    Unit Tests, UI Tests, Quick, Nimble
+      Swift,
+      Objective-C,
+      UIKit,
+      OpenCombine
+      MVVM-C,
+      Firebase,
+      Google Analytics,
+      FB SDK,
+      Google SDK,
+      PayPal,
+      Adyen,
+      Google Mobile Ads,
+      Google DFP,
+      Jenkins,
+      Fastlane,
+      REST API,
+      SwiftLint,
+      Unit Tests,
+      UI Tests,
+      Quick,
+      Nimble,
     ]
   hideBorder: true

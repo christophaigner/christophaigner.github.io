@@ -60,7 +60,7 @@ function showSnowflakesIfNecessary(newTheme) {
   const snowflakes = document.getElementsByClassName("snowflake");
   for (let snowflake of snowflakes) {
     snowflake.style.display = "inline";
-    snowflake.style.setProperty("--bottom-end", bottomEnd + 'vh');
+    snowflake.style.setProperty("--bottom-end", bottomEnd + "vh");
   }
 }
 

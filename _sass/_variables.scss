@@ -12,9 +12,9 @@ $dark: #343a40;
 $theme-colors: (
   "paleCerulean": #98c1d9,
   "sunray": #f4b860,
-  "darkOrange": #F78166,
-  "beige": #E0C097,
-  "lightYellow": #FFDD93
+  "darkOrange": #f78166,
+  "beige": #e0c097,
+  "lightYellow": #ffdd93,
 );
 
 $text-black: #343a40;
@@ -28,7 +28,7 @@ $rounded-borders: 15px;
     border-color: $value !important;
   }
   .badge-#{$color} {
-    @include themed(background-color, $value, rgba($value, .5));
+    @include themed(background-color, $value, rgba($value, 0.5));
     font-size: small;
     border-radius: 12px;
     padding-left: 8px;

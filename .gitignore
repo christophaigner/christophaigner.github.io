@@ -20,3 +20,6 @@ Gemfile.lock
 
 # macOS
 .DS_Store
+
+# Settings
+.vscode/settings.json

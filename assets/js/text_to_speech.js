@@ -60,6 +60,6 @@ function cancelSpeech() {
 }
 
 // Browser
-window.addEventListener('locationchange', cancelSpeech);
+window.addEventListener("locationchange", cancelSpeech);
 // Mobile Devices
-window.addEventListener('pagehide', cancelSpeech);
+window.addEventListener("pagehide", cancelSpeech);

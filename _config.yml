@@ -1,10 +1,10 @@
 ### Site Settings ###
-title               : Christoph Aigner
-description         : >-
-                      Hi there! 👋🏼<br>
-                      I'm <b>Christoph</b>, an Engineering Leader based in Vienna, Austria 🇦🇹
-baseurl             : ""
-repository          : christophaigner/christophaigner.github.io
+title: Christoph Aigner
+description: >-
+  Hi there! 👋🏼<br>
+  I'm <b>Christoph</b>, an Engineering Leader based in Vienna, Austria 🇦🇹
+baseurl: ""
+repository: christophaigner/christophaigner.github.io
 
 ### Plugins ###
 plugins:
@@ -17,7 +17,6 @@ plugins:
   - kramdown
   - kramdown-parser-gfm
 
-
 ### Navbar Settings ###
 nav_exclude:
   - pages/tags.html
@@ -25,16 +24,15 @@ nav_exclude:
   - pages/index.md
   - post_templates/*
 
-
 ### Author Info ###
 author:
-  name              : Christoph Aigner
-  image             : assets/profile.png
-  email             : christoph.aigner.work@gmail.com
-  github            : christophaigner
-  gitlab            : christophaigner
-  linkedin          : caigner
-  medium            : christophaigner
+  name: Christoph Aigner
+  image: assets/profile.png
+  email: christoph.aigner.work@gmail.com
+  github: christophaigner
+  gitlab: christophaigner
+  linkedin: caigner
+  medium: christophaigner
 
 ### Timezone ###
 timezone: "Europe/Vienna"
@@ -48,7 +46,7 @@ open_url: true
 # Reload a page automatically on the browser when its content is edited.
 livereload: true
 # Cause a build to fail if there is a YAML syntax error in a page's front matter.
-strict_front_matter: true 
+strict_front_matter: true
 
 ### Configure Liquid ###
 liquid:
@@ -77,7 +75,7 @@ collections:
   blog:
     output: true
     permalink: /blog/:title
-  
+
 ### Exclude from processing ###
 exclude:
   - README.md

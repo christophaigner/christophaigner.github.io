@@ -27,7 +27,7 @@
     filter: blur(2px);
     animation: snowfall #{10 + random(10)}s linear infinite;
     animation-delay: -#{random(10)}s;
-    opacity: #{random($limit: 99)/100+0.1};
+    opacity: #{random($limit: 99) / 100+0.1};
   }
 }
 
