@@ -5,19 +5,57 @@ permalink: /reading/
 weight: 4
 ---
 
-<h1>📚 Reading Overview</h1>
+{% assign currentYear = 'now' | date: "%Y" | times: 1 %}
 
+<h1>📚 Reading Overview</h1>
 You can find my favourite resources <a href="{{ site.url }}/resources">here</a>.
+
+<h2>Current</h2>
+{% for reading in site.reading %}
+    {% if reading.books_year != currentYear %}
+        {% continue %}
+    {% endif %}
+
+    {% assign finishedBooks = reading.books | where: "finished", "true" %}
+    {% assign unfinishedBooks = reading.books | where: "finished", "false" %}
+
+    <h4>Next</h4>
+    {% for book in unfinishedBooks %}
+        <ul style="line-height: 1.2em">
+            <li>
+                <a href="{{ book.url }}">
+                    {{ book.name }}
+                </a>
+            </li>
+        </ul>
+    {% endfor %}
+
+    <h4>Finished</h4>
+    {% for book in finishedBooks %}
+        <ul style="line-height: 1.2em">
+            <li>
+                <a href="{{ book.url }}">
+                    {{ book.name }}
+                </a>
+            </li>
+        </ul>
+    {% endfor %}
+
+{% endfor %}
 
 <h2>Reading history</h2>
 
 {% for reading in site.reading %}
-{% assign books_count = reading.books.size %}
-<ul>
-    <li>
-        <a href="{{ reading.url }}">
-            Here you can see the {{ books_count }} books I've read in {{ reading.books_year }}.
-        </a>
-    </li>
-</ul>
+    {% if reading.books_year >= currentYear %}
+        {% continue %}
+    {% endif %}
+
+    {% assign books_count = reading.books.size %}
+    <ul style="line-height: 1.2em">
+        <li>
+            <a href="{{ reading.url }}">
+                Here you can see the {{ books_count }} books I've read in {{ reading.books_year }}.
+            </a>
+        </li>
+    </ul>
 {% endfor %}
