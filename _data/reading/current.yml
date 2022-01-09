@@ -9,4 +9,24 @@
 - name: "The Almanack of Naval Ravikant: A Guide to Wealth and Happiness"
   url: "https://www.goodreads.com/book/show/54898389-the-almanack-of-naval-ravikant"
   category: Philosophy
+  finished: true
+- name: "Skin in the Game: The Hidden Asymmetries in Daily Life"
+  url: "https://www.goodreads.com/book/show/36064445-skin-in-the-game"
+  category: Philosophy
+  finished: false
+- name: "The Rational Optimist: How Prosperity Evolves"
+  url: "https://www.goodreads.com/book/show/7776209-the-rational-optimist"
+  category: Economics
+  finished: false
+- name: "The Bed of Procrustes: Philosophical and Practical Aphorisms"
+  url: "https://www.goodreads.com/book/show/9402297-the-bed-of-procrustes"
+  category: Philosophy
+  finished: false
+- name: "The Choice: Embrace the Possible"
+  url: "https://www.goodreads.com/book/show/30753738-the-choice"
+  category: History
+  finished: false
+- name: "How to Begin: Start Doing Something That Matters"
+  url: "https://www.goodreads.com/book/show/57693695-how-to-start"
+  category: Philosophy
   finished: false

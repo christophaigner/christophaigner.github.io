@@ -37,13 +37,10 @@ You can find my favourite resources <a href="{{ site.url }}/resources">here</a>.
 
 <h2>Reading history</h2>
 
-<ul style="line-height: 1.2em">
-{% for reading in site.data.reading.history %}
-    {% assign books_count = reading.books.size %}
-    <li>
-        <a href="{{ page.url | append:"history/" }}">
-            Here you can see the {{ books_count }} books I've read in {{ reading.year }}.
-        </a>
-    </li>
+{% assign history = site.data.reading.history %}
+{% assign books_read = 0 %}
+{% for entry in history %}
+  {% assign books_read = books_read | plus:entry.books.size %}
 {% endfor %}
-</ul>
+
+You can find the {{ books_read }} books I've read in previous years <a href="{{ page.url | append:"history/" }}">here</a>.

@@ -1,27 +1,57 @@
-{% assign history = site.data.reading.history.first %}
-{% assign books_count = history.books.size %}
+{% assign history = site.data.reading.history %}
 
-<h2 style="padding-bottom: 20px;">What I've read in {{ history.year }}</h2>
+<h1>📚 Reading history</h1>
+<div style="height: 15px;"></div>
 
-<p>📚 In {{ history.year }}, I've read a total of {{ books_count }} books:</p>
+<div class="accordion" id="reading_history">
+  {% for entry in history %}
+    {% assign books_count = entry.books.size %}
+    <!-- Collect categories from all books -->
+    {%- assign categories = blank -%}
+    {% assign sorted_books = entry.books | sort: "name" %}
+    {%- for book in sorted_books -%}
+      {%- assign category = book.category | append:'|' -%}
+      {%- assign categories = categories | append:category -%}
+    {%- endfor -%}
+    {%- assign categories = categories | split:'|' | uniq | sort -%}
+  
+    <div class="card">
+      <div class="card-header" id="{{ entry.year }}">
+        <h5 class="mb-0">
+          <button
+            class="btn btn-link"
+            type="button"
+            data-toggle="collapse"
+            data-target="#collapse_{{ entry.year }}"
+            aria-expanded="false"
+            aria-controls="collapse_{{ entry.year }}"
+          >
+          {{ entry.year }} ({{ books_count }} books)
+          </button>
+        </h5>
+      </div>
 
-<!-- Collect categories from all books -->
-{%- assign categories = blank -%}
-{% assign sorted_books = history.books | sort: "name" %}
-{%- for book in sorted_books -%}
-  {%- assign category = book.category | append:'|' -%}
-  {%- assign categories = categories | append:category -%}
-{%- endfor -%}
-{%- assign categories = categories | split:'|' | uniq | sort -%}
+      <div
+        id="collapse_{{ entry.year }}"
+        class="collapse hide"
+        aria-labelledby="{{ entry.year }}"
+        data-parent="#reading_history"
+      >
+        <div class="card-body">
 
-<!-- List categories & related books -->
-{% for category in categories %}
-<h4 id="{{ category | slugify }}">{{ category }}</h4>
-  <ul>
-  {% for book in sorted_books %}
-    {%- if book.category contains category -%}
-      <li><a href="{{ book.url }}" target="_blank">{{ book.name }}</a></li>
-    {%- endif -%}
+          <!-- List categories & related books -->
+          {% for category in categories %}
+          <h4 id="{{ category | slugify }}">{{ category }}</h4>
+            <ul>
+            {% for book in sorted_books %}
+              {%- if book.category contains category -%}
+                <li><a href="{{ book.url }}" target="_blank">{{ book.name }}</a></li>
+              {%- endif -%}
+            {% endfor %}
+            </ul>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
   {% endfor %}
-  </ul>
-{% endfor %}
+</div>
