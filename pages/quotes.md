@@ -7,6 +7,15 @@ weight: 2
 
 # Great Quotes
 
+## 🧘🏼‍♀️ Philosophy
+<details><summary>Tap to expand</summary>
+<ol>
+    <li><q>The real voyage of discovery consists not in seeking new landscapes but in having new eyes. — Marcel Proust</q></li>
+</ol>
+</details>
+
+<br>
+
 ## 😌 Stoicism
 <details><summary>Tap to expand</summary>
 <ol>
@@ -108,5 +117,6 @@ weight: 2
     <li><q>Your actions are a consequence of your thoughts. Your thoughts are a consequence of what you consume.<br>And in the modern age, what you consume is largely a consequence of how you select and refine your social media feed.<br>Choose better inputs. Get better outputs. - James Clear</q></li>
     <li><q>Your attitude, not aptitude, determines your altitude. - Zig Ziglar</q></li>
     <li><q>Don't over-improve your weaknesses. If you're not good at something, work on it until it no longer prevents your progress, but the bulk of your time is better spent maximizing your strengths. - James Clear</q></li>
+    <li><q>Short-term results come from intensity. Long-term results come from consistency. - Shane Parrish</q></li>
 </ol>
 </details>
