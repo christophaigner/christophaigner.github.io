@@ -21,12 +21,40 @@
 - name: "The Bed of Procrustes: Philosophical and Practical Aphorisms"
   url: "https://www.goodreads.com/book/show/9402297-the-bed-of-procrustes"
   category: Philosophy
-  finished: false
+  finished: true
 - name: "The Choice: Embrace the Possible"
   url: "https://www.goodreads.com/book/show/30753738-the-choice"
   category: History
   finished: false
 - name: "How to Begin: Start Doing Something That Matters"
   url: "https://www.goodreads.com/book/show/57693695-how-to-start"
+  category: Philosophy
+  finished: false
+- name: "Enchiridion"
+  url: "https://www.goodreads.com/book/show/24615.Enchiridion"
+  category: Stoicism
+  finished: true
+- name: "The Alchemist"
+  url: "https://www.goodreads.com/book/show/18144590-the-alchemist"
+  category: Fiction
+  finished: true
+- name: "Four Thousand Weeks: Time Management for Mortals"
+  url: "https://www.goodreads.com/book/show/54785515-four-thousand-weeks"
+  category: Nonfiction
+  finished: false
+- name: "Turning Pro"
+  url: "https://www.goodreads.com/book/show/14912777-turning-pro"
+  category: Nonfiction
+  finished: false
+- name: "Predictably Irrational: The Hidden Forces That Shape Our Decisions"
+  url: "https://www.goodreads.com/book/show/1713426.Predictably_Irrational"
+  category: Psychology
+  finished: false
+- name: "Leadership: In Turbulent Times"
+  url: "https://www.goodreads.com/book/show/38657386-leadership"
+  category: Leadership
+  finished: false
+- name: "A Calendar of Wisdom: Daily Thoughts to Nourish the Soul"
+  url: "https://www.goodreads.com/book/show/12419.A_Calendar_of_Wisdom"
   category: Philosophy
   finished: false
