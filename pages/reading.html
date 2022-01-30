@@ -12,7 +12,7 @@ weight: 4
 <h1>📚 Reading Overview</h1>
 You can find my favourite resources <a href="{{ site.url }}/resources">here</a>.
 
-<h2>Current</h2>
+<h2>2022</h2>
 <h4>Next</h4>
 <ul style="line-height: 1.5em;">
     {% for book in unfinishedBooks %}
@@ -20,19 +20,19 @@ You can find my favourite resources <a href="{{ site.url }}/resources">here</a>.
             <a href="{{ book.url }}" target="_blank">
                 {{ book.name }}
             </a>
-            ({{ book.category }})
+            <i>({{ book.category }})</i>
         </li>
     {% endfor %}
 </ul>
 
-<h4>Finished</h4>
+<h4>Finished ({{ finishedBooks.size }} books)</h4>
 <ul style="line-height: 1.5em;">
     {% for book in finishedBooks %}
         <li>
             <a href="{{ book.url }}" target="_blank">
                 {{ book.name }}
             </a>
-            ({{ book.category }})
+            <i>({{ book.category }})</i>
         </li>
     {% endfor %}
 </ul>
