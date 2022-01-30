@@ -25,7 +25,7 @@
 - name: "The Choice: Embrace the Possible"
   url: "https://www.goodreads.com/book/show/30753738-the-choice"
   category: History
-  finished: false
+  finished: true
 - name: "How to Begin: Start Doing Something That Matters"
   url: "https://www.goodreads.com/book/show/57693695-how-to-start"
   category: Philosophy
@@ -57,4 +57,8 @@
 - name: "A Calendar of Wisdom: Daily Thoughts to Nourish the Soul"
   url: "https://www.goodreads.com/book/show/12419.A_Calendar_of_Wisdom"
   category: Philosophy
+  finished: false
+- name: "Thinking in Bets: Making Smarter Decisions When You Don't Have All the Facts"
+  url: "https://www.goodreads.com/book/show/35957157-thinking-in-bets"
+  category: Business
   finished: false
