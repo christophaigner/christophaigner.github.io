@@ -11,6 +11,10 @@ weight: 2
 <details><summary>Tap to expand</summary>
 <ol>
     <li><q>The real voyage of discovery consists not in seeking new landscapes but in having new eyes. — Marcel Proust</q></li>
+    <li><q>A great man is hard on himself; a small man is hard on others. — Confucius</q></li>
+    <li><q>The man who moves a mountain begins by carrying away small stones. — Confucius</q></li>
+    <li><q>If what one has to say is not better than silence, then one should keep silent. — Confucius</q></li>
+    <li><q>Don't be a football of other people's opinions. — unknown</q></li>
 </ol>
 </details>
 
@@ -118,5 +122,6 @@ weight: 2
     <li><q>Your attitude, not aptitude, determines your altitude. - Zig Ziglar</q></li>
     <li><q>Don't over-improve your weaknesses. If you're not good at something, work on it until it no longer prevents your progress, but the bulk of your time is better spent maximizing your strengths. - James Clear</q></li>
     <li><q>Short-term results come from intensity. Long-term results come from consistency. - Shane Parrish</q></li>
+    <li><q>It does not matter how slowly you go as long as you do not stop. — Confucius</q></li>
 </ol>
 </details>
