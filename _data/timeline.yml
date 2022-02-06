@@ -15,7 +15,20 @@
   details:
     Bloom Diagnostics’ innovative platform combines state-of-the-art medical knowledge,
     computer science, biotechnology and data analytics and
-    enables you to gain deep health insights in just a few minutes.<br>
+    enables you to gain deep health insights in just a few minutes.
+  responsibilities:
+    - Led a team of 2 iOS engineers and 1 QA engineer (overall company size ~40 people)
+    - Career Development, Coaching and Mentoring of team members
+    - Redefined & optimized their recruitment process
+    - Recruitment for various roles (iOS, Android, Backend, QA, Head of Software, Product Owner, etc.)
+    - Defined the scope of the MVP of Bloom Diagnostic's mobile application
+    - Rewrote & re-architected 2/3 of the existing application in ~7 months
+    - Established coding and code quality guidelines and setup various static code analysis tools
+    - Drastically improved the overall performance of Bloom Diagnostics' iOS application (memory consumption, leaks, crashes, app size, etc.)
+    - Set up CI/CD, Analytics and Crash Reporting
+    - Set up a solid suite of automated tests (code coverage > 80%)
+    - Launched their iOS application in Apple's App Store in December 2020
+    - Conducted internal and external trainings about Bloom Diagnostics' Software and Applications
   techStack:
     [
       Swift,
@@ -58,7 +71,20 @@
   details: Shpock is a mobile marketplace with over 10 million active users
     and 2 billion screen views per month in total and
     brings millions of private buyers and sellers as well as
-    local businesses together.<br>
+    local businesses together.
+  responsibilities:
+    - Led a team of up to 7 iOS engineers & I was a tech lead in a cross-functional team
+    - Introduced MVVM+C architecture
+    - Re-structured and re-architected large legacy project (6+ years old)
+    - Reduced Obj-C code to < 25% together with my team
+    - Percentage of crash-free users > 99.9%
+    - Set up CI/CD system from scratch using Jenkins & Fastlane
+    - Optimized memory consumption
+    - Defined guidelines and standards, e.g. for commit messages, Pull Requests, dependencies, etc.
+    - Career Development, Coaching and Mentoring of team members
+    - Redefined & optimized their recruitment process
+    - 10 million+ active users and 2 billion+ screen views per month
+    - 50+ million store downloads, 250k+ 5-star ratings
   techStack: [
       Swift,
       Objective-C,

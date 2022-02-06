@@ -20,7 +20,7 @@ I've worked in several different industries including
 
 and for companies with less than 30 employees up to more than 8,000 employees.
 
-Starting from 2019, I've been leading both smaller and bigger engineering teams and coached engineers in their personal & professional development.
+Starting from 2019, I've been leading both smaller and larger engineering teams and coached engineers in their personal & professional development.
 
 ##### What I'm passionate about?
 I ♥️ helping people unleash their potential and seeing how fast and how much they can grow with the right kind of mentorship and coaching.
