@@ -6,6 +6,10 @@
   url: "https://www.goodreads.com/book/show/45767533-resilient-management"
   category: Leadership
   finished: true
+- name: "Radical Focus"
+  url: "https://www.goodreads.com/book/show/28951428-radical-focus"
+  category: Business
+  finished: true
 - name: "The Almanack of Naval Ravikant: A Guide to Wealth and Happiness"
   url: "https://www.goodreads.com/book/show/54898389-the-almanack-of-naval-ravikant"
   category: Philosophy
@@ -41,7 +45,7 @@
 - name: "Four Thousand Weeks: Time Management for Mortals"
   url: "https://www.goodreads.com/book/show/54785515-four-thousand-weeks"
   category: Nonfiction
-  finished: false
+  finished: true
 - name: "Turning Pro"
   url: "https://www.goodreads.com/book/show/14912777-turning-pro"
   category: Nonfiction
@@ -61,4 +65,24 @@
 - name: "Thinking in Bets: Making Smarter Decisions When You Don't Have All the Facts"
   url: "https://www.goodreads.com/book/show/35957157-thinking-in-bets"
   category: Business
+  finished: false
+- name: "The Tao of Seneca"
+  url: "https://www.goodreads.com/book/show/28676323-the-tao-of-seneca"
+  category: Philosophy
+  finished: false
+- name: "On The Shortness of Life"
+  url: "https://www.goodreads.com/book/show/97412.On_the_Shortness_of_Life"
+  category: Philosophy
+  finished: false
+- name: "The Hard Thing About Hard Things"
+  url: "https://www.goodreads.com/book/show/18176747-the-hard-thing-about-hard-things"
+  category: Business
+  finished: false
+- name: "12 Rules for Life"
+  url: "https://www.goodreads.com/book/show/30257963-12-rules-for-life"
+  category: Psychology
+  finished: false
+- name: "Taming the Tiger Within: Meditations on Transforming Difficult Emotions"
+  url: "https://www.goodreads.com/book/show/263291.Taming_the_Tiger_Within"
+  category: Philosophy
   finished: false
