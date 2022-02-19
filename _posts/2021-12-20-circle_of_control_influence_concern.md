@@ -85,6 +85,8 @@ Often, a third circle is added inside of the Circle of Influence: the **Circle o
 
 So, where are you currently spending the majority of your time? In the circle of concern, influence, or control?
 
+<u>Let's get to work on what we can control, which is how we respond to those things we cannot.</u>
+
 ## References
 
 - [Habit 1: Be Proactive®](https://www.franklincovey.com/habit-1/)
