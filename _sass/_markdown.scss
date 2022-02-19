@@ -1,3 +1,5 @@
+@import "_mixins";
+
 .markdown-body {
   h1,
   h2 {
@@ -57,7 +59,11 @@
   .mark,
   mark {
     padding: 0.1em;
-    background-color: #fff2de; // more colors: https://www.eggradients.com/shades-of-yellow
+    @include themed(
+    background-color,
+    rgba(#e4d96f, 0.7),
+    rgba(#e4d96f, 0.8)
+  );
   }
 
   pre {
