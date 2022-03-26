@@ -10,9 +10,10 @@
           >
         </h2>
         {% if timelineEntry.to != null %}
-        <h6 class="date">{{ timelineEntry.from }} — {{ timelineEntry.to }}</h6>
+        
+        <h6 class="date"><i class="fas fa-calendar"></i> {{ timelineEntry.from }} — {{ timelineEntry.to }}</h6>
         {% else %}
-        <h6 class="date">since {{ timelineEntry.from }}</h6>
+        <h6 class="date"><i class="fas fa-calendar"></i> since {{ timelineEntry.from }}</h6>
         {% endif %}
         <p>{{ timelineEntry.details }}</p>
         {% if timelineEntry.appstoreUrl != null %}
