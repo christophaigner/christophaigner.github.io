@@ -86,3 +86,11 @@
   url: "https://www.goodreads.com/book/show/263291.Taming_the_Tiger_Within"
   category: Philosophy
   finished: false
+- name: "The Coaching Habit"
+  url: "https://www.goodreads.com/book/show/29342515-the-coaching-habit"
+  category: Leadership
+  finished: true
+- name: "Good Authority"
+  url: "https://www.goodreads.com/book/show/30032468-good-authority"
+  category: Leadership
+  finished: true

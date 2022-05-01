@@ -34,6 +34,7 @@ weight: 3
 * [Radical Candor](https://www.goodreads.com/book/show/29939161-radical-candor)
 * [The Score Takes Care of Itself](https://www.goodreads.com/book/show/6342995-the-score-takes-care-of-itself)
 * [The Coaching Habit](https://www.goodreads.com/book/show/29342515-the-coaching-habit)
+* [Good Authority](https://www.goodreads.com/book/show/30032468-good-authority)
 
 ## Product
 * [Empowered](https://www.goodreads.com/book/show/53481975-empowered)
