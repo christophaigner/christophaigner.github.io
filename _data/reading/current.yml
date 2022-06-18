@@ -94,3 +94,15 @@
   url: "https://www.goodreads.com/book/show/30032468-good-authority"
   category: Leadership
   finished: true
+- name: "Communication Mastery"
+  url: "https://www.udemy.com/course/communication-mastery-how-to-have-deeper-conversations/"
+  category: Leadership
+  finished: true
+- name: "Big Feelings"
+  url: "https://www.goodreads.com/book/show/58678540-big-feelings"
+  category: Psychology
+  finished: true
+- name: "The Stoic Challenge"
+  url: "https://www.goodreads.com/book/show/43726564-the-stoic-challenge"
+  category: Philosophy
+  finished: true
