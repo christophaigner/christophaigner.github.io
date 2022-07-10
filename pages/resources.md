@@ -57,6 +57,7 @@ weight: 3
 
 ## Stoicism
 * [Dealing With Stress](https://dailystoic.com/stress-relief)
+* [Why You Should Stop Caring What Other People Think](https://waitbutwhy.com/2014/06/taming-mammoth-let-peoples-opinions-run-life.html)
 
 ## Motivation
 * [Autonomy, Mastery and Purpose](https://www.mindtools.com/pages/article/autonomy-mastery-purpose.htm)
