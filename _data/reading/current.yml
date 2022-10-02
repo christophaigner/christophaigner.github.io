@@ -110,3 +110,15 @@
   url: "https://www.goodreads.com/book/show/60222414-i-may-be-wrong"
   category: Philosophy
   finished: true
+- name: "Start With Why"
+  url: "https://www.goodreads.com/book/show/7108725-start-with-why"
+  category: Leadership
+  finished: true
+- name: "Think Like a Monk"
+  url: "https://www.goodreads.com/book/show/51942513-think-like-a-monk"
+  category: Philosophy
+  finished: true
+- name: "Discipline Is Destiny"
+  url: "https://www.goodreads.com/book/show/60018575-discipline-is-destiny"
+  category: Philosophy
+  finished: false
