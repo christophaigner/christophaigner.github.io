@@ -85,7 +85,7 @@
 - name: "Taming the Tiger Within: Meditations on Transforming Difficult Emotions"
   url: "https://www.goodreads.com/book/show/263291.Taming_the_Tiger_Within"
   category: Philosophy
-  finished: false
+  finished: true
 - name: "The Coaching Habit"
   url: "https://www.goodreads.com/book/show/29342515-the-coaching-habit"
   category: Leadership
@@ -121,4 +121,8 @@
 - name: "Discipline Is Destiny"
   url: "https://www.goodreads.com/book/show/60018575-discipline-is-destiny"
   category: Philosophy
+  finished: true
+- name: "Commence, Connect, Coach & Cultivate"
+  url: "https://eisabai.gumroad.com/l/emhowto2"
+  category: Leadership
   finished: true
