@@ -130,3 +130,7 @@
   url: "https://www.goodreads.com/book/show/41588322-confidence"
   category: Leadership
   finished: true
+- name: "Grokking Algorithms"
+  url: "https://www.goodreads.com/book/show/22847284-grokking-algorithms-an-illustrated-guide-for-programmers-and-other-curio"
+  category: Tech
+  finished: true
