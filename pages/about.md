@@ -43,3 +43,7 @@ I've collected some of my favorite quotes [here]({{ site.url }}/quotes) and also
 <div class="row">
 {% include about/timeline.html %}
 </div>
+
+<br>
+##### **Note:** Further Employment History available upon request
+<br>
