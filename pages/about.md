@@ -39,7 +39,7 @@ I've collected some of my favorite quotes [here]({{ site.url }}/quotes) and also
 </div> 
 -->
 
-## My journey
+# Professional journey
 <div class="row">
 {% include about/timeline.html %}
 </div>

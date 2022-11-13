@@ -1,20 +1,28 @@
-- job: Engineering Manager
+- job: Senior Engineering Manager
   companyUrl: https://www.bitmovin.com
   companyName: Bitmovin
   appstoreUrl: https://apps.apple.com/gb/app/bitmovin-player/id1245174386?itsct=apps_box_link&itscg=30200
-  from: 08/21
+  from: 09/22
   details: Bitmovin's vision is to shape the future of video.
     We support this with our mission which is to enable to play, encode
     and analyze video content simply, efficiently and with the highest quality imaginable.
   responsibilities:
-    - Leading a team of one manager and 10+ Mobile Software Engineers through all stages from forming to performing
-    - Career Development, Coaching and Mentoring of team members
-    - Conducting regular 1:1s with team members
+    - Led a team of 10+ Mobile Software Engineers and Managers building Bitmovin’s Video Player SDKs
+    - Worked with individuals on their career development through a mix of mentoring, sponsoring and coaching
+    - Held biweekly 1:1 meetings with every team member, providing regular feedback and conducting biannual performance reviews
     - Improved their existing career development framework
     - Defined CI/CD strategy with the teams
     - Redefined & optimized their recruitment process
-    - Recruitment for ICs and Managers
-    - Created various templates (30/60/90-Day onboarding plan, promotion roadmap, career development coaching, exit interviews, etc.)
+    - Conducted 100+ interviews for various roles (both engineers and managers)
+    - Introduced various management templates & processes for onboarding/offboarding, promotion roadmap, career development & progression, OKRs, etc.
+
+- job: Engineering Manager
+  companyUrl: https://www.bitmovin.com
+  companyName: Bitmovin
+  from: 08/21
+  to: 09/22
+  responsibilities:
+    - <i>see industry/company details & responsibilities above</i>
 
 - job: Lead Mobile Engineer & Team Lead iOS
   companyUrl: https://www.bloomdiagnostics.com/en_AT
@@ -27,18 +35,17 @@
     computer science, biotechnology and data analytics and
     enables you to gain deep health insights in just a few minutes.
   responsibilities:
-    - Led a team of 2 iOS engineers and 1 QA engineer (overall company size ~40 people)
-    - Career Development, Coaching and Mentoring of team members
-    - Redefined & optimized their recruitment process
-    - Recruitment for various roles (iOS, Android, Backend, QA, Head of Software, Product Owner, etc.)
-    - Defined the scope of the MVP of Bloom Diagnostic's mobile application
-    - Rewrote & re-architected 2/3 of the existing application in ~7 months
+    - Led a team of 3+ Mobile/QA engineers building Bloom Diagnostics’ mobile applications
+    - Drove career development for direct reports through mentoring, sponsoring and coaching
+    - Optimised their recruitment process to increase hiring confidence while decreasing time from first conversation to offer to less than 2 weeks and conducted 100+ interviews for various roles (iOS, Android, QA, Backend, UI/UX, Product Owners, Data Scientists, Regulatory Managers, Head of Engineering, etc.)
+    - Defined the scope of the MVP through conversing with relevant stakeholders, rewrote 2/3 of their iOS application within 7 months and eventually launched it in Apple’s App Store in December 2020
     - Established coding and code quality guidelines and setup various static code analysis tools
-    - Drastically improved the overall performance of Bloom Diagnostics' iOS application (memory consumption, leaks, crashes, app size, etc.)
-    - Set up CI/CD, Analytics and Crash Reporting
-    - Set up a solid suite of automated tests (code coverage > 80%)
-    - Launched their iOS application in Apple's App Store in December 2020
-    - Conducted internal and external trainings about Bloom Diagnostics' Software and Applications
+    - Drastically reduced application size by a factor of 7x and memory consumption by a factor of 10x and resolving crashes and memory leaks
+    - Set up their CI/CD infrastructure, Analytics and Crash Reporting from scratch and ensuring a crash-free application (>99.9% crash-free sessions) by introducing a solid suite of automated tests (code coverage > 80%)
+    - Built an application allowing to distribute beta builds and release production builds through the click of a single button
+    - Created documentation and automated their documentation process ensuring compliance with regulatory requirements
+    - Held weekly 1:1 meetings with every team member, providing regular feedback and conducting biannual performance reviews
+    - Conducted internal and external trainings about Bloom Diagnostics’ Software and Applications
   techStack:
     [
       Swift,
@@ -70,31 +77,39 @@
   companyName: Shpock
   from: 01/19
   to: 03/20
-  hideBorder: true
-
-- job: iOS Engineer
-  companyUrl: https://www.shpock.com/en-gb
-  companyName: Shpock
-  appstoreUrl: https://apps.apple.com/gb/app/shpock-buy-sell-marketplace/id557153158?itsct=apps_box_link&itscg=30200
-  from: 02/17
-  to: 12/18
   details: Shpock is a mobile marketplace with over 10 million active users
     and 2 billion screen views per month in total and
     brings millions of private buyers and sellers as well as
     local businesses together.
-  responsibilities:
-    - Led a team of up to 7 iOS engineers & I was a tech lead in a cross-functional team
-    - Introduced MVVM+C architecture
-    - Re-structured and re-architected large legacy project (6+ years old)
-    - Reduced Obj-C code to < 25% together with my team
-    - Percentage of crash-free users > 99.9%
+  appstoreUrl: https://apps.apple.com/gb/app/shpock-buy-sell-marketplace/id557153158?itsct=apps_box_link&itscg=30200
+  hideBorder: true
+  responsibilities: 
+    - Led a team of 7+ iOS Software Engineers and worked as tech lead in a cross-functional team on a product with 50+ million store downloads and 250k+ 5-star ratings
+    - Conducted 150+ interviews for various roles in the product & tech team
+    - Created individual development plans for team members enabling them to progress in their careers
+    - Held biweekly 1:1 meetings with each team member
+    - Re-architected large legacy project (6+ years old) to use MVVM-C enabling the possibility of writing automated tests
+    - Defined guidelines for Code Style, Commit Messages, Pull Requests, Dependencies, etc.
+    - Worked with the team to reduce the percentage of Objective-C code from > 90% to < 30% in two years
+    - Improved the overall performance of Shpock’s iOS application (memory consumption, network traffic, leaks, crashes, app size, etc.)
+    - Conducted testing workshops with the team stressing the importance of creating automated tests
     - Set up CI/CD system from scratch using Jenkins & Fastlane
-    - Optimized memory consumption
-    - Defined guidelines and standards, e.g. for commit messages, Pull Requests, dependencies, etc.
-    - Career Development, Coaching and Mentoring of team members
-    - Redefined & optimized their recruitment process
-    - 10 million+ active users and 2 billion+ screen views per month
-    - 50+ million store downloads, 250k+ 5-star ratings
+    - Collaborated with various stakeholders to refine ideas and map them into acceptance criteria
+    - Planned and implemented first modularisation steps aiming to break the monolith into separate modules
+    - Ensured percentage of crash-free users at/above > 99.9% at roughly 10+ million single active users/month and 2 billion+ screen views/month
+
+- job: iOS Engineer
+  companyUrl: https://www.shpock.com/en-gb
+  companyName: Shpock
+  from: 02/17
+  to: 12/18
+  responsibilities:
+    - Restructured their iOS project, introduced MVVM-C architecture and wrote their first automated tests
+    - Developed new features using the MVC and MVVM-C architecture whilst being part of an Agile Team
+    - Reviewed code from other engineers and provided feedback
+    - Refactored large chunks of Objective-C code to Swift and broke up god classes with 2k+ lines of code into separate classes
+    - Integrated Google DFP for Advertising into the project and refactored ad-related logic making it simple to introduce ads in different places
+    - Conducted 50+ interviews for software engineers and product team members
   techStack: [
       Swift,
       Objective-C,
@@ -118,4 +133,4 @@
       Quick,
       Nimble,
     ]
-  hideBorder: true
+  hideBorder: true 
