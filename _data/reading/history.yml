@@ -1,3 +1,105 @@
+- year: 2022
+  books:
+    - name: "The Great Mental Models: General Thinking Concepts"
+      url: "https://www.goodreads.com/book/show/44245196-the-great-mental-models"
+      category: Psychology
+      finished: true
+    - name: "Resilient Management"
+      url: "https://www.goodreads.com/book/show/45767533-resilient-management"
+      category: Leadership
+      finished: true
+    - name: "Radical Focus"
+      url: "https://www.goodreads.com/book/show/28951428-radical-focus"
+      category: Business
+      finished: true
+    - name: "The Almanack of Naval Ravikant: A Guide to Wealth and Happiness"
+      url: "https://www.goodreads.com/book/show/54898389-the-almanack-of-naval-ravikant"
+      category: Philosophy
+      finished: true
+    - name: "The Bed of Procrustes: Philosophical and Practical Aphorisms"
+      url: "https://www.goodreads.com/book/show/9402297-the-bed-of-procrustes"
+      category: Philosophy
+      finished: true
+    - name: "The Choice: Embrace the Possible"
+      url: "https://www.goodreads.com/book/show/30753738-the-choice"
+      category: History
+      finished: true
+    - name: "Enchiridion"
+      url: "https://www.goodreads.com/book/show/24615.Enchiridion"
+      category: Stoicism
+      finished: true
+    - name: "The Alchemist"
+      url: "https://www.goodreads.com/book/show/18144590-the-alchemist"
+      category: Fiction
+      finished: true
+    - name: "Four Thousand Weeks: Time Management for Mortals"
+      url: "https://www.goodreads.com/book/show/54785515-four-thousand-weeks"
+      category: Nonfiction
+      finished: true
+    - name: "Taming the Tiger Within: Meditations on Transforming Difficult Emotions"
+      url: "https://www.goodreads.com/book/show/263291.Taming_the_Tiger_Within"
+      category: Philosophy
+      finished: true
+    - name: "The Coaching Habit"
+      url: "https://www.goodreads.com/book/show/29342515-the-coaching-habit"
+      category: Leadership
+      finished: true
+    - name: "Good Authority"
+      url: "https://www.goodreads.com/book/show/30032468-good-authority"
+      category: Leadership
+      finished: true
+    - name: "Communication Mastery"
+      url: "https://www.udemy.com/course/communication-mastery-how-to-have-deeper-conversations/"
+      category: Leadership
+      finished: true
+    - name: "Big Feelings"
+      url: "https://www.goodreads.com/book/show/58678540-big-feelings"
+      category: Psychology
+      finished: true
+    - name: "The Stoic Challenge"
+      url: "https://www.goodreads.com/book/show/43726564-the-stoic-challenge"
+      category: Philosophy
+      finished: true
+    - name: "I May Be Wrong"
+      url: "https://www.goodreads.com/book/show/60222414-i-may-be-wrong"
+      category: Philosophy
+      finished: true
+    - name: "Start With Why"
+      url: "https://www.goodreads.com/book/show/7108725-start-with-why"
+      category: Leadership
+      finished: true
+    - name: "Think Like a Monk"
+      url: "https://www.goodreads.com/book/show/51942513-think-like-a-monk"
+      category: Philosophy
+      finished: true
+    - name: "Discipline Is Destiny"
+      url: "https://www.goodreads.com/book/show/60018575-discipline-is-destiny"
+      category: Philosophy
+      finished: true
+    - name: "Commence, Connect, Coach & Cultivate"
+      url: "https://eisabai.gumroad.com/l/emhowto2"
+      category: Leadership
+      finished: true
+    - name: "Confidence (HBR Emotional Intelligence Series)"
+      url: "https://www.goodreads.com/book/show/41588322-confidence"
+      category: Leadership
+      finished: true
+    - name: "Grokking Algorithms"
+      url: "https://www.goodreads.com/book/show/22847284-grokking-algorithms-an-illustrated-guide-for-programmers-and-other-curio"
+      category: Tech
+      finished: true
+    - name: "Ego is the enemy"
+      url: "https://www.goodreads.com/book/show/27036528-ego-is-the-enemy"
+      category: Stoicism
+      finished: true
+    - name: "The Obstacle is the Way"
+      url: "https://www.goodreads.com/book/show/18668059-the-obstacle-is-the-way"
+      category: Stoicism
+      finished: true
+    - name: "The Courage to Be Disliked"
+      url: "https://www.goodreads.com/book/show/43306206-the-courage-to-be-disliked"
+      category: Psychology
+      finished: true
 - year: 2021
   books:
     - name: "Man's Search for Meaning"
@@ -77,7 +179,7 @@
       category: Biography
     - name: "The Top Five Regrets of the Dying: A Life Transformed by the Dearly Departing"
       url: "https://www.goodreads.com/book/show/13059271-the-top-five-regrets-of-the-dying"
-      category: Psychology 
+      category: Psychology
     - name: "Death by Meeting: A Leadership Fable... about Solving the Most Painful Problem in Business"
       url: "https://www.goodreads.com/book/show/49040.Death_by_Meeting"
       category: Business
@@ -92,4 +194,4 @@
       category: Stoicism
     - name: "Ikigai: The Japanese Secret to a Long and Happy Life"
       url: "https://www.goodreads.com/book/show/58342375-ikigai"
-      category: Philosophy 
+      category: Philosophy

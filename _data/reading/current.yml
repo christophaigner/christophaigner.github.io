@@ -14,14 +14,6 @@
   url: "https://www.goodreads.com/book/show/54898389-the-almanack-of-naval-ravikant"
   category: Philosophy
   finished: true
-- name: "Skin in the Game: The Hidden Asymmetries in Daily Life"
-  url: "https://www.goodreads.com/book/show/36064445-skin-in-the-game"
-  category: Philosophy
-  finished: false
-- name: "The Rational Optimist: How Prosperity Evolves"
-  url: "https://www.goodreads.com/book/show/7776209-the-rational-optimist"
-  category: Economics
-  finished: false
 - name: "The Bed of Procrustes: Philosophical and Practical Aphorisms"
   url: "https://www.goodreads.com/book/show/9402297-the-bed-of-procrustes"
   category: Philosophy
@@ -30,10 +22,6 @@
   url: "https://www.goodreads.com/book/show/30753738-the-choice"
   category: History
   finished: true
-- name: "How to Begin: Start Doing Something That Matters"
-  url: "https://www.goodreads.com/book/show/57693695-how-to-start"
-  category: Philosophy
-  finished: false
 - name: "Enchiridion"
   url: "https://www.goodreads.com/book/show/24615.Enchiridion"
   category: Stoicism
@@ -46,42 +34,6 @@
   url: "https://www.goodreads.com/book/show/54785515-four-thousand-weeks"
   category: Nonfiction
   finished: true
-- name: "Turning Pro"
-  url: "https://www.goodreads.com/book/show/14912777-turning-pro"
-  category: Nonfiction
-  finished: false
-- name: "Predictably Irrational: The Hidden Forces That Shape Our Decisions"
-  url: "https://www.goodreads.com/book/show/1713426.Predictably_Irrational"
-  category: Psychology
-  finished: false
-- name: "Leadership: In Turbulent Times"
-  url: "https://www.goodreads.com/book/show/38657386-leadership"
-  category: Leadership
-  finished: false
-- name: "A Calendar of Wisdom: Daily Thoughts to Nourish the Soul"
-  url: "https://www.goodreads.com/book/show/12419.A_Calendar_of_Wisdom"
-  category: Philosophy
-  finished: false
-- name: "Thinking in Bets: Making Smarter Decisions When You Don't Have All the Facts"
-  url: "https://www.goodreads.com/book/show/35957157-thinking-in-bets"
-  category: Business
-  finished: false
-- name: "The Tao of Seneca"
-  url: "https://www.goodreads.com/book/show/28676323-the-tao-of-seneca"
-  category: Philosophy
-  finished: false
-- name: "On The Shortness of Life"
-  url: "https://www.goodreads.com/book/show/97412.On_the_Shortness_of_Life"
-  category: Philosophy
-  finished: false
-- name: "The Hard Thing About Hard Things"
-  url: "https://www.goodreads.com/book/show/18176747-the-hard-thing-about-hard-things"
-  category: Business
-  finished: false
-- name: "12 Rules for Life"
-  url: "https://www.goodreads.com/book/show/30257963-12-rules-for-life"
-  category: Psychology
-  finished: false
 - name: "Taming the Tiger Within: Meditations on Transforming Difficult Emotions"
   url: "https://www.goodreads.com/book/show/263291.Taming_the_Tiger_Within"
   category: Philosophy
@@ -133,4 +85,16 @@
 - name: "Grokking Algorithms"
   url: "https://www.goodreads.com/book/show/22847284-grokking-algorithms-an-illustrated-guide-for-programmers-and-other-curio"
   category: Tech
+  finished: true
+- name: "Ego is the enemy"
+  url: "https://www.goodreads.com/book/show/27036528-ego-is-the-enemy"
+  category: Stoicism
+  finished: true
+- name: "The Obstacle is the Way"
+  url: "https://www.goodreads.com/book/show/18668059-the-obstacle-is-the-way"
+  category: Stoicism
+  finished: true
+- name: "The Courage to Be Disliked"
+  url: "https://www.goodreads.com/book/show/43306206-the-courage-to-be-disliked"
+  category: Psychology
   finished: true
