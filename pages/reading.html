@@ -5,44 +5,61 @@ permalink: /reading/
 weight: 4
 ---
 
+{% include scripts.html %}
 {% assign currentYear = 'now' | date: "%Y" | times: 1 %}
 {% assign finishedBooks = site.data.reading.current | where: "finished", "true" %}
-{% assign unfinishedBooks = site.data.reading.current | where: "finished", "false" %}
+{% assign allBooks = site.data.reading.current | map: "category" | split: "" %}
 
 <h1>📚 Reading Overview</h1>
 You can find my favourite resources <a href="{{ site.url }}/resources">here</a>.
 
-<h2>2022</h2>
-<h4>Next</h4>
+<h2>2022 ({{ finishedBooks.size }} books)</h2>
 <ul style="line-height: 1.5em;">
-    {% for book in unfinishedBooks %}
-        <li>
-            <a href="{{ book.url }}" target="_blank">
-                {{ book.name }}
-            </a>
-            <i>({{ book.category }})</i>
-        </li>
-    {% endfor %}
+  {% for book in finishedBooks %}
+  <li>
+    <a href="{{ book.url }}" target="_blank">
+      {{ book.name }}
+    </a>
+    <i>({{ book.category }})</i>
+  </li>
+  {% endfor %}
 </ul>
 
-<h4>Finished ({{ finishedBooks.size }} books)</h4>
-<ul style="line-height: 1.5em;">
-    {% for book in finishedBooks %}
-        <li>
-            <a href="{{ book.url }}" target="_blank">
-                {{ book.name }}
-            </a>
-            <i>({{ book.category }})</i>
-        </li>
-    {% endfor %}
-</ul>
+<div style="height: 15px;"></div>
+<h4>Category breakdown</h4>
+<div>
+  <canvas id="reading_history_breakdown_chart"></canvas>
+</div>
 
+<script>
+  const ctx = document.getElementById('reading_history_breakdown_chart');
+  const mappedBooks = {{ allBooks }}.reduce(function (acc, curr) {
+    return acc[curr] ? ++acc[curr] : acc[curr] = 1, acc
+  }, {});
+  const sortedBooks = Object.keys(mappedBooks).map(k => ([k, mappedBooks[k]])).sort((a, b) => (b[1] - a[1]));
+  const result = Object.fromEntries(sortedBooks.map(x => [x[0], x[1]]));
+
+  new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: Object.keys(result),
+      datasets: [{
+        label: "# of books",
+        data: Object.values(result),
+        backgroundColor: ["#e27c7c", "#a86464", "#6d4b4b", "#503f3f", "#333333", "#3c4e4b", "#466964", "#599e94", "#6cd4c5", "#75DFBA", "#8BE9AA", "#AAF196", "#D0F682", "#F9F871"],
+        borderWidth: 1,
+        indexAxis: "y"
+      }],
+    }
+  });
+</script>
+<div style="height: 15px;"></div>
 <h2>Reading history</h2>
 
 {% assign history = site.data.reading.history %}
 {% assign books_read = 0 %}
 {% for entry in history %}
-  {% assign books_read = books_read | plus:entry.books.size %}
+{% assign books_read = books_read | plus:entry.books.size %}
 {% endfor %}
 
 You can find the {{ books_read }} books I've read in previous years <a href="{{ page.url | append:"history/" }}">here</a>.

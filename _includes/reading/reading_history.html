@@ -1,57 +1,82 @@
+{% include scripts.html %}
+
 {% assign history = site.data.reading.history %}
+{% assign allBooks = site.data.reading.history | map: "books" | map: "category" | split: "" %}
 
 <h1>📚 Reading history</h1>
 <div style="height: 15px;"></div>
 
+<h4>Category breakdown</h4>
+
+<div>
+  <canvas id="reading_history_overall_breakdown_chart"></canvas>
+</div>
+
+<script>
+  const ctx = document.getElementById('reading_history_overall_breakdown_chart');
+  const mappedBooks = {{ allBooks }}.reduce(function (acc, curr) {
+    return acc[curr] ? ++acc[curr] : acc[curr] = 1, acc
+  }, {});
+  const sortedBooks = Object.keys(mappedBooks).map(k => ([k, mappedBooks[k]])).sort((a, b) => (b[1] - a[1]));
+  const result = Object.fromEntries(sortedBooks.map(x => [x[0], x[1]]));
+
+  new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: Object.keys(result),
+      datasets: [{
+        label: "# of books",
+        data: Object.values(result),
+        backgroundColor: ["#e27c7c", "#a86464", "#6d4b4b", "#503f3f", "#333333", "#3c4e4b", "#466964", "#599e94", "#6cd4c5", "#75DFBA", "#8BE9AA", "#AAF196", "#D0F682", "#F9F871"],
+        borderWidth: 1,
+        indexAxis: "y"
+      }],
+    }
+  });
+</script>
+
+<div style="height: 15px;"></div>
+<h4>History</h4>
+
 <div class="accordion" id="reading_history">
   {% for entry in history %}
-    {% assign books_count = entry.books.size %}
-    <!-- Collect categories from all books -->
-    {%- assign categories = blank -%}
-    {% assign sorted_books = entry.books | sort: "name" %}
-    {%- for book in sorted_books -%}
-      {%- assign category = book.category | append:'|' -%}
-      {%- assign categories = categories | append:category -%}
-    {%- endfor -%}
-    {%- assign categories = categories | split:'|' | uniq | sort -%}
-  
-    <div class="card">
-      <div class="card-header" id="{{ entry.year }}">
-        <h5 class="mb-0">
-          <button
-            class="btn btn-link"
-            type="button"
-            data-toggle="collapse"
-            data-target="#collapse_{{ entry.year }}"
-            aria-expanded="false"
-            aria-controls="collapse_{{ entry.year }}"
-          >
+  {% assign books_count = entry.books.size %}
+  <!-- Collect categories from all books -->
+  {%- assign categories = blank -%}
+  {% assign sorted_books = entry.books | sort: "name" %}
+  {%- for book in sorted_books -%}
+  {%- assign category = book.category | append:'|' -%}
+  {%- assign categories = categories | append:category -%}
+  {%- endfor -%}
+  {%- assign categories = categories | split:'|' | uniq | sort -%}
+
+  <div class="card">
+    <div class="card-header" id="heading_{{ entry.year }}">
+      <h5 class="mb-0">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse_{{ entry.year }}"
+          aria-expanded="false" aria-controls="collapse_{{ entry.year }}">
           {{ entry.year }} ({{ books_count }} books)
-          </button>
-        </h5>
-      </div>
+        </button>
+      </h5>
+    </div>
 
-      <div
-        id="collapse_{{ entry.year }}"
-        class="collapse hide"
-        aria-labelledby="{{ entry.year }}"
-        data-parent="#reading_history"
-      >
-        <div class="card-body">
+    <div id="collapse_{{ entry.year }}" class="collapse" aria-labelledby="heading_{{ entry.year }}"
+      data-parent="#reading_history">
+      <div class="card-body">
 
-          <!-- List categories & related books -->
-          {% for category in categories %}
-          <h4 id="{{ category | slugify }}">{{ category }}</h4>
-            <ul>
-            {% for book in sorted_books %}
-              {%- if book.category contains category -%}
-                <li><a href="{{ book.url }}" target="_blank">{{ book.name }}</a></li>
-              {%- endif -%}
-            {% endfor %}
-            </ul>
+        <!-- List categories & related books -->
+        {% for category in categories %}
+        <h4 id="{{ category | slugify }}">{{ category }}</h4>
+        <ul>
+          {% for book in sorted_books %}
+          {%- if book.category contains category -%}
+          <li><a href="{{ book.url }}" target="_blank">{{ book.name }}</a></li>
+          {%- endif -%}
           {% endfor %}
-        </div>
+        </ul>
+        {% endfor %}
       </div>
     </div>
+  </div>
   {% endfor %}
 </div>
