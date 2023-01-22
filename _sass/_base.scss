@@ -22,6 +22,10 @@ u {
   text-decoration-color: #faa990; // https://www.pinterest.com/pin/34480753387965200
 }
 
+a {
+  text-decoration: none !important;
+}
+
 .bg-light,
 .badge-light {
   &,
