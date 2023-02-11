@@ -17,7 +17,7 @@ weight: 3
 * [Atomic Habits](https://jamesclear.com/atomic-habits)
 * [Loving What Is](https://www.goodreads.com/book/show/9762.Loving_What_Is)
 * [The Power Of Now](https://www.goodreads.com/book/show/6708.The_Power_of_Now)
-* [Switch: How To Change Things When Change Is Hard](https://www.goodreads.com/book/show/6570502-switch)
+* [How Will You Measure Your Life?](https://www.goodreads.com/book/show/13425570-how-will-you-measure-your-life)
 * [The Top Five Regrets of the Dying](https://www.goodreads.com/book/show/13059271-the-top-five-regrets-of-the-dying)
 
 ## Leadership

@@ -10,3 +10,15 @@
   url: "https://www.goodreads.com/book/show/97412.On_the_Shortness_of_Life"
   category: Philosophy
   finished: true
+- name: "Courage Under Fire"
+  url: "https://www.goodreads.com/book/show/196158.Courage_Under_Fire"
+  category: Philosophy
+  finished: true
+- name: "Death Be Not Proud"
+  url: "https://www.goodreads.com/book/show/486298.Death_Be_Not_Proud"
+  category: Biography
+  finished: true
+- name: "Legacy"
+  url: "https://www.goodreads.com/book/show/18890191-legacy"
+  category: Leadership
+  finished: true
