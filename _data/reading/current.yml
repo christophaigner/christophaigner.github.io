@@ -22,3 +22,11 @@
   url: "https://www.goodreads.com/book/show/18890191-legacy"
   category: Leadership
   finished: true
+- name: "How to Sit"
+  url: "https://www.goodreads.com/book/show/18342486-how-to-sit"
+  category: Nonfiction
+  finished: true
+- name: "The Advice Trap"
+  url: "https://www.goodreads.com/book/show/53127025-the-advice-trap"
+  category: Leadership
+  finished: true
