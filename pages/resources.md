@@ -19,6 +19,8 @@ weight: 3
 * [The Power Of Now](https://www.goodreads.com/book/show/6708.The_Power_of_Now)
 * [How Will You Measure Your Life?](https://www.goodreads.com/book/show/13425570-how-will-you-measure-your-life)
 * [The Top Five Regrets of the Dying](https://www.goodreads.com/book/show/13059271-the-top-five-regrets-of-the-dying)
+* [Can't Hurt Me](https://www.goodreads.com/book/show/41721428-can-t-hurt-me)
+* [The Courage to Be Disliked](https://www.goodreads.com/book/show/43306206-the-courage-to-be-disliked)
 
 ## Leadership
 * [Crucial Accountability](https://cruciallearning.com/crucial-accountability-book/)
@@ -35,6 +37,7 @@ weight: 3
 * [The Score Takes Care of Itself](https://www.goodreads.com/book/show/6342995-the-score-takes-care-of-itself)
 * [The Coaching Habit](https://www.goodreads.com/book/show/29342515-the-coaching-habit)
 * [Good Authority](https://www.goodreads.com/book/show/30032468-good-authority)
+* [Legacy](https://www.goodreads.com/book/show/18890191-legacy)
 
 ## Product
 * [Empowered](https://www.goodreads.com/book/show/53481975-empowered)
