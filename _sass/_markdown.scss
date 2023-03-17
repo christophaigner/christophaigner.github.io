@@ -1,7 +1,11 @@
 @import "_mixins";
 
 .markdown-body {
-  h1,
+  h1 {
+    font-weight: bold;
+    margin-top: 32px;
+  }
+  
   h2 {
     margin-top: 32px;
   }
