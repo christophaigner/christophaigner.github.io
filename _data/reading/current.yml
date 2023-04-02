@@ -38,3 +38,11 @@
   url: "https://www.goodreads.com/book/show/41721428-can-t-hurt-me"
   category: Biography
   finished: true
+- name: "Drive: The Surprising Truth About What Motivates Us"
+  url: "https://www.goodreads.com/book/show/6452796-drive"
+  category: Psychology
+  finished: true
+- name: "HBR's 10 Must Reads on Managing Yourself"
+  url: "https://www.goodreads.com/book/show/8308501-hbr-s-10-must-reads-on-managing-yourself"
+  category: Leadership
+  finished: true
