@@ -50,3 +50,7 @@
   url: "https://www.goodreads.com/en/book/show/926206"
   category: Psychology
   finished: true
+- name: "The Alter Ego Effect"
+  url: "https://www.goodreads.com/book/show/40139225-the-alter-ego-effect"
+  category: Psychology
+  finished: true
