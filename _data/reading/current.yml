@@ -58,3 +58,11 @@
   url: "https://www.goodreads.com/book/show/25644973-talking-to-crazy"
   category: Psychology
   finished: true
+- name: "The Simple Path to Wealth"
+  url: "https://www.goodreads.com/book/show/30646587-the-simple-path-to-wealth"
+  category: Personal Finance
+  finished: true
+- name: "Man Alone with Himself"
+  url: "https://www.goodreads.com/book/show/5956506-man-alone-with-himself"
+  category: Philosophy
+  finished: true
