@@ -66,3 +66,11 @@
   url: "https://www.goodreads.com/book/show/5956506-man-alone-with-himself"
   category: Philosophy
   finished: true
+- name: "Ohne Aktien Wird Schwer"
+  url: "https://www.goodreads.com/book/show/125083263-ohne-aktien-wird-schwer"
+  category: Personal Finance
+  finished: true
+- name: "The Psychology of Money"
+  url: "https://www.goodreads.com/book/show/41881472-the-psychology-of-money"
+  category: Personal Finance
+  finished: true
