@@ -74,3 +74,23 @@
   url: "https://www.goodreads.com/book/show/41881472-the-psychology-of-money"
   category: Personal Finance
   finished: true
+- name: "The Art of Thinking Clearly"
+  url: "https://www.goodreads.com/book/show/16248196-the-art-of-thinking-clearly"
+  category: Psychology
+  finished: true
+- name: "30 Lessons for Living"
+  url: "https://www.goodreads.com/book/show/11376196-30-lessons-for-living"
+  category: Philosophy
+  finished: true
+- name: "The Stoic Mind"
+  url: "https://stoic.im/"
+  category: Philosophy
+  finished: true
+- name: "The Book of Charlie"
+  url: "https://www.goodreads.com/book/show/62918681-the-book-of-charlie"
+  category: Biography
+  finished: true
+- name: "The 48 Laws of Power"
+  url: "https://www.goodreads.com/book/show/1303.The_48_Laws_of_Power"
+  category: Psychology
+  finished: false
