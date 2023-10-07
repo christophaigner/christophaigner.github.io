@@ -90,6 +90,10 @@
   url: "https://www.goodreads.com/book/show/62918681-the-book-of-charlie"
   category: Biography
   finished: true
+- name: "Clear Thinking"
+  url: "https://www.goodreads.com/en/book/show/75665850"
+  category: Psychology
+  finished: true
 - name: "The 48 Laws of Power"
   url: "https://www.goodreads.com/book/show/1303.The_48_Laws_of_Power"
   category: Psychology

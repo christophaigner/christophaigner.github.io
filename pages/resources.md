@@ -15,6 +15,7 @@ weight: 3
 
 ## Life
 * [Atomic Habits](https://jamesclear.com/atomic-habits)
+* [Clear Thinking](https://www.goodreads.com/en/book/show/75665850)
 * [Loving What Is](https://www.goodreads.com/book/show/9762.Loving_What_Is)
 * [The Power Of Now](https://www.goodreads.com/book/show/6708.The_Power_of_Now)
 * [How Will You Measure Your Life?](https://www.goodreads.com/book/show/13425570-how-will-you-measure-your-life)
