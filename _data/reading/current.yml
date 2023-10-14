@@ -94,6 +94,18 @@
   url: "https://www.goodreads.com/en/book/show/75665850"
   category: Psychology
   finished: true
+- name: "On Confidence"
+  url: "https://www.goodreads.com/book/show/35890182-on-confidence"
+  category: Psychology
+  finished: true
+- name: "What They Forgot To Teach You At School"
+  url: "https://www.goodreads.com/book/show/57447235-what-they-forgot-to-teach-you-at-school"
+  category: Nonfiction
+  finished: true
+- name: "Engineering Management for the Rest of Us"
+  url: "https://www.goodreads.com/book/show/58502800-engineering-management-for-the-rest-of-us"
+  category: Management
+  finished: true
 - name: "The 48 Laws of Power"
   url: "https://www.goodreads.com/book/show/1303.The_48_Laws_of_Power"
   category: Psychology
