@@ -106,6 +106,22 @@
   url: "https://www.goodreads.com/book/show/58502800-engineering-management-for-the-rest-of-us"
   category: Management
   finished: true
+- name: "Outliers"
+  url: "https://www.goodreads.com/book/show/3228917-outliers"
+  category: Sociology
+  finished: true
+- name: "Be Useful: Seven Tools for Life"
+  url: "https://www.goodreads.com/book/show/125063314-be-useful"
+  category: Biography
+  finished: true
+- name: "Who Moved My Cheese?"
+  url: "https://www.goodreads.com/book/show/4894.Who_Moved_My_Cheese_"
+  category: Psychology
+  finished: true
+- name: "Out of the Maze"
+  url: "https://www.goodreads.com/book/show/39025791-out-of-the-maze"
+  category: Psychology
+  finished: true
 - name: "The 48 Laws of Power"
   url: "https://www.goodreads.com/book/show/1303.The_48_Laws_of_Power"
   category: Psychology
