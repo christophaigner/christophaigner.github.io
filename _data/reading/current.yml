@@ -122,6 +122,18 @@
   url: "https://www.goodreads.com/book/show/39025791-out-of-the-maze"
   category: Psychology
   finished: true
+- name: "Don't Sweat the Small Stuff ... and It's All Small Stuff"
+  url: "https://www.goodreads.com/book/show/170548.Don_t_Sweat_the_Small_Stuff_and_It_s_All_Small_Stuff"
+  category: Psychology
+  finished: true
+- name: "Reboot: Leadership and the Art of Growing Up"
+  url: "https://www.goodreads.com/book/show/41806857-reboot"
+  category: Leadership
+  finished: true
+- name: "The No Asshole Rule: Building a Civilized Workplace and Surviving One That Isn't"
+  url: "https://www.goodreads.com/book/show/97905.The_No_Asshole_Rule"
+  category: Business
+  finished: true
 - name: "The 48 Laws of Power"
   url: "https://www.goodreads.com/book/show/1303.The_48_Laws_of_Power"
   category: Psychology
