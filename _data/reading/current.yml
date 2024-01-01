@@ -134,7 +134,23 @@
   url: "https://www.goodreads.com/book/show/97905.The_No_Asshole_Rule"
   category: Business
   finished: true
-- name: "The 48 Laws of Power"
-  url: "https://www.goodreads.com/book/show/1303.The_48_Laws_of_Power"
+- name: "The Happiest Man on Earth"
+  url: "https://www.goodreads.com/book/show/53239311-the-happiest-man-on-earth"
+  category: Biography
+  finished: true
+- name: "Same as Ever"
+  url: "https://www.goodreads.com/book/show/125116554-same-as-ever"
   category: Psychology
-  finished: false
+  finished: true
+- name: "The Culture Code"
+  url: "https://www.goodreads.com/book/show/33517721-the-culture-code"
+  category: Business
+  finished: true
+- name: "Wooden"
+  url: "https://www.goodreads.com/book/show/43536.Wooden"
+  category: Biography
+  finished: true
+- name: "The Manual: A Philosopher's Guide to Life"
+  url: "https://www.goodreads.com/book/show/34946912-the-manual"
+  category: Philosophy
+  finished: true
