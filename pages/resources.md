@@ -22,6 +22,9 @@ weight: 3
 * [The Top Five Regrets of the Dying](https://www.goodreads.com/book/show/13059271-the-top-five-regrets-of-the-dying)
 * [Can't Hurt Me](https://www.goodreads.com/book/show/41721428-can-t-hurt-me)
 * [The Courage to Be Disliked](https://www.goodreads.com/book/show/43306206-the-courage-to-be-disliked)
+* [Don't Sweat the Small Stuff ... and It's All Small Stuff](https://www.goodreads.com/book/show/170548.Don_t_Sweat_the_Small_Stuff_and_It_s_All_Small_Stuff)
+* [Clear Thinking](https://www.goodreads.com/en/book/show/75665850)
+* [30 Lessons for Living](https://www.goodreads.com/book/show/11376196-30-lessons-for-living)
 
 ## Leadership
 * [Crucial Accountability](https://cruciallearning.com/crucial-accountability-book/)
@@ -37,8 +40,12 @@ weight: 3
 * [Radical Candor](https://www.goodreads.com/book/show/29939161-radical-candor)
 * [The Score Takes Care of Itself](https://www.goodreads.com/book/show/6342995-the-score-takes-care-of-itself)
 * [The Coaching Habit](https://www.goodreads.com/book/show/29342515-the-coaching-habit)
+* [The Advice Trap](https://www.goodreads.com/book/show/53127025-the-advice-trap)
 * [Good Authority](https://www.goodreads.com/book/show/30032468-good-authority)
 * [Legacy](https://www.goodreads.com/book/show/18890191-legacy)
+
+## Personal Finance
+* [The Psychology of Money](https://www.goodreads.com/book/show/41881472-the-psychology-of-money)
 
 ## Product
 * [Empowered](https://www.goodreads.com/book/show/53481975-empowered)
