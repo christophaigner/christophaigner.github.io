@@ -1,3 +1,122 @@
+- year: 2023
+  books:
+    - name: "How Will You Measure Your Life?"
+      url: "https://www.goodreads.com/book/show/13425570-how-will-you-measure-your-life"
+      category: Business
+    - name: "Maybe You Should Talk To Someone"
+      url: "https://www.goodreads.com/book/show/37570546-maybe-you-should-talk-to-someone"
+      category: Psychology
+    - name: "On the Shortness of Life"
+      url: "https://www.goodreads.com/book/show/97412.On_the_Shortness_of_Life"
+      category: Philosophy
+    - name: "Courage Under Fire"
+      url: "https://www.goodreads.com/book/show/196158.Courage_Under_Fire"
+      category: Philosophy
+    - name: "Death Be Not Proud"
+      url: "https://www.goodreads.com/book/show/486298.Death_Be_Not_Proud"
+      category: Biography
+    - name: "Legacy"
+      url: "https://www.goodreads.com/book/show/18890191-legacy"
+      category: Leadership
+    - name: "How to Sit"
+      url: "https://www.goodreads.com/book/show/18342486-how-to-sit"
+      category: Nonfiction
+    - name: "The Advice Trap"
+      url: "https://www.goodreads.com/book/show/53127025-the-advice-trap"
+      category: Leadership
+    - name: "Get Out of My Head"
+      url: "https://www.goodreads.com/book/show/52885573-get-out-of-my-head"
+      category: Nonfiction
+    - name: "Can't Hurt Me"
+      url: "https://www.goodreads.com/book/show/41721428-can-t-hurt-me"
+      category: Biography
+    - name: "Drive: The Surprising Truth About What Motivates Us"
+      url: "https://www.goodreads.com/book/show/6452796-drive"
+      category: Psychology
+    - name: "HBR's 10 Must Reads on Managing Yourself"
+      url: "https://www.goodreads.com/book/show/8308501-hbr-s-10-must-reads-on-managing-yourself"
+      category: Leadership
+    - name: "10 Secrets for Success and Inner Peace"
+      url: "https://www.goodreads.com/en/book/show/926206"
+      category: Psychology
+    - name: "The Alter Ego Effect"
+      url: "https://www.goodreads.com/book/show/40139225-the-alter-ego-effect"
+      category: Psychology
+    - name: "Talking To Crazy"
+      url: "https://www.goodreads.com/book/show/25644973-talking-to-crazy"
+      category: Psychology
+    - name: "The Simple Path to Wealth"
+      url: "https://www.goodreads.com/book/show/30646587-the-simple-path-to-wealth"
+      category: Personal Finance
+    - name: "Man Alone with Himself"
+      url: "https://www.goodreads.com/book/show/5956506-man-alone-with-himself"
+      category: Philosophy
+    - name: "Ohne Aktien Wird Schwer"
+      url: "https://www.goodreads.com/book/show/125083263-ohne-aktien-wird-schwer"
+      category: Personal Finance
+    - name: "The Psychology of Money"
+      url: "https://www.goodreads.com/book/show/41881472-the-psychology-of-money"
+      category: Personal Finance
+    - name: "The Art of Thinking Clearly"
+      url: "https://www.goodreads.com/book/show/16248196-the-art-of-thinking-clearly"
+      category: Psychology
+    - name: "30 Lessons for Living"
+      url: "https://www.goodreads.com/book/show/11376196-30-lessons-for-living"
+      category: Philosophy
+    - name: "The Stoic Mind"
+      url: "https://stoic.im/"
+      category: Philosophy
+    - name: "The Book of Charlie"
+      url: "https://www.goodreads.com/book/show/62918681-the-book-of-charlie"
+      category: Biography
+    - name: "Clear Thinking"
+      url: "https://www.goodreads.com/en/book/show/75665850"
+      category: Psychology
+    - name: "On Confidence"
+      url: "https://www.goodreads.com/book/show/35890182-on-confidence"
+      category: Psychology
+    - name: "What They Forgot To Teach You At School"
+      url: "https://www.goodreads.com/book/show/57447235-what-they-forgot-to-teach-you-at-school"
+      category: Nonfiction
+    - name: "Engineering Management for the Rest of Us"
+      url: "https://www.goodreads.com/book/show/58502800-engineering-management-for-the-rest-of-us"
+      category: Management
+    - name: "Outliers"
+      url: "https://www.goodreads.com/book/show/3228917-outliers"
+      category: Sociology
+    - name: "Be Useful: Seven Tools for Life"
+      url: "https://www.goodreads.com/book/show/125063314-be-useful"
+      category: Biography
+    - name: "Who Moved My Cheese?"
+      url: "https://www.goodreads.com/book/show/4894.Who_Moved_My_Cheese_"
+      category: Psychology
+    - name: "Out of the Maze"
+      url: "https://www.goodreads.com/book/show/39025791-out-of-the-maze"
+      category: Psychology
+    - name: "Don't Sweat the Small Stuff ... and It's All Small Stuff"
+      url: "https://www.goodreads.com/book/show/170548.Don_t_Sweat_the_Small_Stuff_and_It_s_All_Small_Stuff"
+      category: Psychology
+    - name: "Reboot: Leadership and the Art of Growing Up"
+      url: "https://www.goodreads.com/book/show/41806857-reboot"
+      category: Leadership
+    - name: "The No Asshole Rule: Building a Civilized Workplace and Surviving One That Isn't"
+      url: "https://www.goodreads.com/book/show/97905.The_No_Asshole_Rule"
+      category: Business
+    - name: "The Happiest Man on Earth"
+      url: "https://www.goodreads.com/book/show/53239311-the-happiest-man-on-earth"
+      category: Biography
+    - name: "Same as Ever"
+      url: "https://www.goodreads.com/book/show/125116554-same-as-ever"
+      category: Psychology
+    - name: "The Culture Code"
+      url: "https://www.goodreads.com/book/show/33517721-the-culture-code"
+      category: Business
+    - name: "Wooden"
+      url: "https://www.goodreads.com/book/show/43536.Wooden"
+      category: Biography
+    - name: "The Manual: A Philosopher's Guide to Life"
+      url: "https://www.goodreads.com/book/show/34946912-the-manual"
+      category: Philosophy
 - year: 2022
   books:
     - name: "The Great Mental Models: General Thinking Concepts"
