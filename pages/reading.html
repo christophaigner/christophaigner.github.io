@@ -7,15 +7,15 @@ weight: 4
 
 {% include scripts.html %}
 {% assign currentYear = 'now' | date: "%Y" | times: 1 %}
-{% assign finishedBooks = site.data.reading.current | where: "finished", "true" %}
-{% assign allBooks = site.data.reading.current | map: "category" | split: "" %}
+{% assign allBooks = site.data.reading.current %}
+{% assign booksByCategory = site.data.reading.current | map: "category" | split: "" %}
 
 <h1>📚 Reading Overview</h1>
 You can find my favourite resources <a href="{{ site.url }}/resources">here</a>.
 
-<h2><b>2024</b> | {{ finishedBooks.size }} book(s)</h2>
+<h2><b>2025</b> | {{ allBooks.size }} book(s)</h2>
 <ul style="line-height: 1.5em;">
-  {% for book in finishedBooks %}
+  {% for book in allBooks %}
   <li>
     <a href="{{ book.url }}" target="_blank">
       {{ book.name }}
@@ -33,7 +33,7 @@ You can find my favourite resources <a href="{{ site.url }}/resources">here</a>.
 
 <script>
   const ctx = document.getElementById('reading_history_breakdown_chart');
-  const mappedBooks = {{ allBooks }}.reduce(function (acc, curr) {
+  const mappedBooks = {{ booksByCategory }}.reduce(function (acc, curr) {
     return acc[curr] ? ++acc[curr] : acc[curr] = 1, acc
   }, {});
   const sortedBooks = Object.keys(mappedBooks).map(k => ([k, mappedBooks[k]])).sort((a, b) => (b[1] - a[1]));
@@ -69,4 +69,4 @@ You can find my favourite resources <a href="{{ site.url }}/resources">here</a>.
 {% assign books_read = books_read | plus:entry.books.size %}
 {% endfor %}
 
-You can find the {{ books_read }} books I've read in previous years <a href="{{ page.url | append:"history/" }}">here</a>.
+<a href="{{ page.url | append:"history/" }}">Here</a> are the {{ books_read }} books I've read in previous years.
