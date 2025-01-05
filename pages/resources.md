@@ -12,6 +12,7 @@ weight: 3
 * [Meditations](https://www.goodreads.com/book/show/30659.Meditations)
 * [Stillness Is The Key](https://www.goodreads.com/book/show/43582733-stillness-is-the-key)
 * [The Obstacle Is the Way](https://www.goodreads.com/book/show/18668059-the-obstacle-is-the-way)
+* [Right Thing, Right Now](https://www.goodreads.com/book/show/199334305-right-thing-right-now)
 
 ## Life
 * [Atomic Habits](https://jamesclear.com/atomic-habits)
@@ -25,6 +26,15 @@ weight: 3
 * [Don't Sweat the Small Stuff ... and It's All Small Stuff](https://www.goodreads.com/book/show/170548.Don_t_Sweat_the_Small_Stuff_and_It_s_All_Small_Stuff)
 * [Clear Thinking](https://www.goodreads.com/en/book/show/75665850)
 * [30 Lessons for Living](https://www.goodreads.com/book/show/11376196-30-lessons-for-living)
+* [Predictably Irrational](https://www.goodreads.com/book/show/1713426.Predictably_Irrational)
+* [Stolen Focus](https://www.goodreads.com/book/show/57933306-stolen-focus)
+* [Slow Productivity](https://www.goodreads.com/book/show/197773418-slow-productivity)
+
+## Health
+* [Why we sleep](https://www.goodreads.com/book/show/34466963-why-we-sleep)
+* [Immune](https://www.goodreads.com/book/show/57423646-immune)
+* [Outlive](https://www.goodreads.com/book/show/61153739-outlive)
+* [How Not to Die](https://www.goodreads.com/book/show/25663961-how-not-to-die)
 
 ## Leadership
 * [Crucial Accountability](https://cruciallearning.com/crucial-accountability-book/)
@@ -46,6 +56,7 @@ weight: 3
 
 ## Personal Finance
 * [The Psychology of Money](https://www.goodreads.com/book/show/41881472-the-psychology-of-money)
+* [Das einzige Buch, das Du über Finanzen lesen solltest](https://www.goodreads.com/book/show/59229395-das-einzige-buch-das-du-ber-finanzen-lesen-solltest)
 
 ## Product
 * [Empowered](https://www.goodreads.com/book/show/53481975-empowered)
