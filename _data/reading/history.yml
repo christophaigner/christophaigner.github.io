@@ -1,3 +1,92 @@
+- year: 2024
+  books: 
+    - name: "Chatter"
+      url: "https://www.goodreads.com/book/show/53330118-chatter"
+      category: Psychology
+    - name: "Explain the Cloud Like I'm 10"
+      url: "https://www.goodreads.com/book/show/38598010-explain-the-cloud-like-i-m-10"
+      category: Tech
+    - name: "The Rudest Book Ever"
+      url: "https://www.goodreads.com/book/show/49057616-the-rudest-book-ever"
+      category: Psychology
+    - name: "Tidy First?"
+      url: "https://www.goodreads.com/book/show/171691901-tidy-first"
+      category: Tech
+    - name: "The last lecture"
+      url: "https://www.goodreads.com/book/show/40611510-the-last-lecture"
+      category: Biography
+    - name: "Managing Oneself"
+      url: "https://www.goodreads.com/book/show/2477223.Managing_Oneself"
+      category: Management
+    - name: "Stolen Focus"
+      url: "https://www.goodreads.com/book/show/57933306-stolen-focus"
+      category: Psychology
+    - name: "Maktub"
+      url: "https://www.goodreads.com/book/show/53809.Maktub"
+      category: Philosophy
+    - name: "Stillness is the key"
+      url: "https://www.goodreads.com/book/show/43582733-stillness-is-the-key"
+      category: Philosophy
+    - name: "Make your bed"
+      url: "https://www.goodreads.com/book/show/31423133-make-your-bed"
+      category: Nonfiction
+    - name: "Slow Productivity"
+      url: "https://www.goodreads.com/book/show/197773418-slow-productivity"
+      category: Nonfiction
+    - name: "Predictably Irrational"
+      url: "https://www.goodreads.com/book/show/1713426.Predictably_Irrational"
+      category: Psychology
+    - name: "Der Ernährungskompass"
+      url: "https://www.goodreads.com/book/show/38944698-der-ern-hrungskompass"
+      category: Health
+    - name: "Food Rules: An Eater's Manual"
+      url: "https://www.goodreads.com/book/show/7015635-food-rules"
+      category: Health
+    - name: "Das einzige Buch, das Du über Finanzen lesen solltest"
+      url: "https://www.goodreads.com/book/show/59229395-das-einzige-buch-das-du-ber-finanzen-lesen-solltest"
+      category: Personal Finance
+    - name: "80/20 Running"
+      url: "https://www.goodreads.com/book/show/20821042-80-20-running"
+      category: Sports
+    - name: "The Stoic Path to Wealth"
+      url: "https://www.goodreads.com/book/show/165938242-the-stoic-path-to-wealth"
+      category: Philosophy
+    - name: "PSS OWD"
+      url: "https://www.pssworldwide.org/en/recreational.htm"
+      category: Sports
+    - name: "Wim Hof Method"
+      url: "https://www.goodreads.com/book/show/50403522-the-wim-hof-method"
+      category: Nonfiction
+    - name: "Finding Ultra"
+      url: "https://www.goodreads.com/book/show/39665673-finding-ultra"
+      category: Health
+    - name: "Born to Run"
+      url: "https://www.goodreads.com/book/show/6289283-born-to-run"
+      category: Sports
+    - name: "Immune"
+      url: "https://www.goodreads.com/book/show/57423646-immune"
+      category: Health
+    - name: "As a Man Thinketh"
+      url: "https://www.goodreads.com/book/show/81959.As_a_Man_Thinketh"
+      category: Philosophy
+    - name: "Serve to Win"
+      url: "https://www.goodreads.com/book/show/17910549-serve-to-win"
+      category: Biography
+    - name: "Right Thing, Right Now"
+      url: "https://www.goodreads.com/book/show/199334305-right-thing-right-now"
+      category: Philosophy
+    - name: "The Talent Code"
+      url: "https://www.goodreads.com/book/show/5771014-the-talent-code"
+      category: Psychology
+    - name: "Generation Z Unfiltered"
+      url: "https://www.goodreads.com/book/show/52645890-generation-z-unfiltered"
+      category: Education
+    - name: "Narren des Zufalls"
+      url: "https://www.goodreads.com/book/show/19073044-narren-des-zufalls"
+      category: Psychology
+    - name: "Why we sleep"
+      url: "https://www.goodreads.com/book/show/34466963-why-we-sleep"
+      category: Health
 - year: 2023
   books:
     - name: "How Will You Measure Your Life?"

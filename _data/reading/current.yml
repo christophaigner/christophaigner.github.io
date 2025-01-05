@@ -1,36 +1,3 @@
-- name: "Chatter"
-  url: "https://www.goodreads.com/book/show/53330118-chatter"
-  category: Psychology
-  finished: true
-- name: "Explain the Cloud Like I'm 10"
-  url: "https://www.goodreads.com/book/show/38598010-explain-the-cloud-like-i-m-10"
-  category: Tech
-  finished: true
-- name: "The Rudest Book Ever"
-  url: "https://www.goodreads.com/book/show/49057616-the-rudest-book-ever"
-  category: Psychology
-  finished: true
-- name: "Tidy First?"
-  url: "https://www.goodreads.com/book/show/171691901-tidy-first"
-  category: Tech
-  finished: true
-- name: "The last lecture"
-  url: "https://www.goodreads.com/book/show/40611510-the-last-lecture"
-  category: Biography
-  finished: true
-- name: "Managing Oneself"
-  url: "https://www.goodreads.com/book/show/2477223.Managing_Oneself"
-  category: Management
-  finished: true
-- name: "Stolen Focus"
-  url: "https://www.goodreads.com/book/show/57933306-stolen-focus"
-  category: Psychology
-  finished: true
-- name: "Maktub"
-  url: "https://www.goodreads.com/book/show/53809.Maktub"
-  category: Philosophy
-  finished: true
-- name: "Stillness is the key"
-  url: "https://www.goodreads.com/book/show/43582733-stillness-is-the-key"
-  category: Philosophy
-  finished: true
+- name: "Lauftraining: Die Anatomie verstehen"
+  url: "https://www.goodreads.com/book/show/98687738-lauftraining"
+  category: Health
