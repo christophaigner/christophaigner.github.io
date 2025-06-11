@@ -77,6 +77,9 @@ weight: 3
 
 # Great Articles 📑
 
+## Life
+* [The Tail End](https://waitbutwhy.com/2015/12/the-tail-end.html)
+
 ## Stoicism
 * [Dealing With Stress](https://dailystoic.com/stress-relief)
 * [Why You Should Stop Caring What Other People Think](https://waitbutwhy.com/2014/06/taming-mammoth-let-peoples-opinions-run-life.html)
