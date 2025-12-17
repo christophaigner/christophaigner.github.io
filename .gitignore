@@ -10,7 +10,8 @@ _drafts/
 
 # Ruby Gems
 .bundle
-Gemfile.lock
+vendor/
+.home/
 
 # Log Files
 *.log

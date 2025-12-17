@@ -3,95 +3,95 @@
 
 behance:
   url: https://www.behance.net/
-  icon: fab fa-behance
+  icon: fa-brands fa-behance
   color: 1769ff
 
 dribbble:
   url: https://dribbble.com/
-  icon: fab fa-dribbble
+  icon: fa-brands fa-dribbble
   color: 444444
 
 email:
   url: "mailto:"
-  icon: fas fa-envelope
+  icon: fa-solid fa-envelope
   color: db4437
 
 facebook:
   url: https://www.facebook.com/
-  icon: fab fa-facebook
+  icon: fa-brands fa-facebook
   color: 3b5998
 
 github:
   url: https://www.github.com/
-  icon: fab fa-github
+  icon: fa-brands fa-github
   color: 333333
 
 gitlab:
   url: https://www.gitlab.com/
-  icon: fab fa-gitlab
+  icon: fa-brands fa-gitlab
   color: fca326
 
 instagram:
   url: https://www.instagram.com/
-  icon: fab fa-instagram
+  icon: fa-brands fa-instagram
   color: 405de6
 
 kaggle:
   url: https://www.kaggle.com/
-  icon: fab fa-kaggle
+  icon: fa-brands fa-kaggle
   color: 20beff
 
 linkedin:
   url: https://www.linkedin.com/in/
-  icon: fab fa-linkedin-in
+  icon: fa-brands fa-linkedin-in
   color: 007bb5
 
 medium:
   url: https://medium.com/@
-  icon: fab fa-medium
+  icon: fa-brands fa-medium
   color: 00ab6c
 
 soundcloud:
   url: https://www.soundcloud.com/
-  icon: fab fa-soundcloud
+  icon: fa-brands fa-soundcloud
   color: ff8800
 
 spotify:
   url: https://open.spotify.com/user/
-  icon: fab fa-spotify
+  icon: fa-brands fa-spotify
   color: 1db954
 
 stackoverflow:
   url: https://stackoverflow.com/u/
-  icon: fab fa-stack-overflow
+  icon: fa-brands fa-stack-overflow
   color: f48024
 
 tumblr:
   url: https://
-  icon: fab fa-tumblr
+  icon: fa-brands fa-tumblr
   color: 35465c
 
 twitch:
   url: https://www.twitch.tv/
-  icon: fab fa-twitch
+  icon: fa-brands fa-twitch
   color: 6441a5
 
 twitter:
   url: https://www.twitter.com/
-  icon: fab fa-twitter
+  icon: fa-brands fa-twitter
   color: 1da1f2
 
 vimeo:
   url: https://www.vimeo.com/
-  icon: fab fa-vimeo-v
+  icon: fa-brands fa-vimeo-v
   color: 162221
 
 youtube:
   url: https://www.youtube.com/
-  icon: fab fa-youtube
+  icon: fa-brands fa-youtube
   color: ff0000
 
 keybase:
   url: https://www.keybase.io/
-  icon: fab fa-keybase
+  icon: fa-brands fa-keybase
   color: 66ccff

@@ -10,6 +10,13 @@
     margin-top: 32px;
   }
 
+  // Bootstrap 5 accordion headers use <h2 class="accordion-header">.
+  // Our generic markdown h2 spacing makes accordions look like they have huge gaps.
+  h2.accordion-header {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
   hr {
     background: $secondary;
   }

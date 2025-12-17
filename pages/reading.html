@@ -5,7 +5,6 @@ permalink: /reading/
 weight: 4
 ---
 
-{% include scripts.html %}
 {% assign currentYear = 'now' | date: "%Y" | times: 1 %}
 {% assign allBooks = site.data.reading.current %}
 {% assign booksByCategory = site.data.reading.current | map: "category" | split: "" %}
@@ -27,37 +26,86 @@ You can find my favourite resources <a href="{{ site.url }}/resources">here</a>.
 
 <div style="height: 15px;"></div>
 <h4>Category breakdown</h4>
-<div>
+<div class="chart-container">
   <canvas id="reading_history_breakdown_chart"></canvas>
 </div>
 
 <script>
-  const ctx = document.getElementById('reading_history_breakdown_chart');
-  const mappedBooks = {{ booksByCategory }}.reduce(function (acc, curr) {
-    return acc[curr] ? ++acc[curr] : acc[curr] = 1, acc
-  }, {});
-  const sortedBooks = Object.keys(mappedBooks).map(k => ([k, mappedBooks[k]])).sort((a, b) => (b[1] - a[1]));
-  const result = Object.fromEntries(sortedBooks.map(x => [x[0], x[1]]));
+  document.addEventListener("DOMContentLoaded", () => {
+    if (typeof Chart === "undefined") return;
 
-  new Chart(ctx, {
-    type: 'bar',
-    data: {
-      labels: Object.keys(result),
-      datasets: [{
-        label: "# of books",
-        data: Object.values(result),
-        backgroundColor: ["#e27c7c", "#a86464", "#6d4b4b", "#503f3f", "#333333", "#3c4e4b", "#466964", "#599e94", "#6cd4c5", "#75DFBA", "#8BE9AA", "#AAF196", "#D0F682", "#F9F871"],
-        borderWidth: 1,
-        indexAxis: "y"
-      }],
-    },
-    options: {
-      scale: {
-        ticks: {
-          precision: 0
+    let chart;
+
+    const isDark = () => document.documentElement.getAttribute("data-theme") === "dark";
+
+    const render = () => {
+      if (chart) chart.destroy();
+
+      const tickColor = isDark() ? "rgba(255,255,255,0.82)" : "rgba(0,0,0,0.65)";
+      const gridColor = isDark() ? "rgba(255,255,255,0.12)" : "rgba(0,0,0,0.10)";
+      const axisLabelColor = isDark() ? "rgba(255,255,255,0.92)" : "rgba(0,0,0,0.82)";
+      const fill = isDark() ? "rgba(88, 166, 255, 0.75)" : "rgba(0, 123, 255, 0.65)";
+      const border = isDark() ? "rgba(88, 166, 255, 1)" : "rgba(0, 123, 255, 0.95)";
+
+      const mappedBooks = {{ booksByCategory }}.reduce(function (acc, curr) {
+        return acc[curr] ? ++acc[curr] : acc[curr] = 1, acc
+      }, {});
+      const sortedBooks = Object.keys(mappedBooks).map(k => ([k, mappedBooks[k]])).sort((a, b) => (b[1] - a[1]));
+      const result = Object.fromEntries(sortedBooks.map(x => [x[0], x[1]]));
+      const entries = Object.entries(result);
+      const topN = 10;
+      const top = entries.slice(0, topN);
+      const rest = entries.slice(topN);
+      const otherCount = rest.reduce((acc, [, v]) => acc + v, 0);
+      const labels = top.map(([k]) => k).concat(otherCount > 0 ? ["Other"] : []);
+      const data = top.map(([, v]) => v).concat(otherCount > 0 ? [otherCount] : []);
+
+      chart = new Chart(document.getElementById('reading_history_breakdown_chart'), {
+        type: 'bar',
+        data: {
+          labels,
+          datasets: [{
+            label: "# of books",
+            data,
+            backgroundColor: fill,
+            borderColor: border,
+            borderWidth: 1,
+            borderSkipped: false
+          }],
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          indexAxis: "y",
+          scales: {
+            x: {
+              ticks: {
+                precision: 0,
+                color: tickColor
+              },
+              grid: {
+                color: gridColor
+              },
+              title: {
+                display: true,
+                text: "# of books",
+                color: axisLabelColor
+              }
+            },
+            y: {
+              ticks: { color: tickColor },
+              grid: { color: gridColor }
+            }
+          },
+          plugins: {
+            legend: { display: false }
+          }
         }
-      }
-    }
+      });
+    };
+
+    render();
+    window.addEventListener("themechange", render);
   });
 </script>
 <div style="height: 15px;"></div>

@@ -5,128 +5,270 @@ permalink: /quotes/
 weight: 2
 ---
 
-<h1>Great Quotes</h1>
+{% assign quotes = site.data.quotes %}
 
-<h2>🧘🏼‍♀️ Philosophy</h2>
-<details><summary>Tap to expand</summary>
-<ol>
-    <li><q>The real voyage of discovery consists not in seeking new landscapes but in having new eyes. — Marcel Proust</q></li>
-    <li><q>A great man is hard on himself; a small man is hard on others. — Confucius</q></li>
-    <li><q>The man who moves a mountain begins by carrying away small stones. — Confucius</q></li>
-    <li><q>If what one has to say is not better than silence, then one should keep silent. — Confucius</q></li>
-    <li><q>Don't be a football of other people's opinions. — unknown</q></li>
-    <li><q>Wherever you are, be there totally. If you find your here and now intolerable and it makes you unhappy, you have three options: remove yourself from the situation, change it, or accept it totally. — Eckhart Tolle</q></li>
-    <li><q>The world will ask you who you are, and if you don't know, the world will tell you. — Carl Jung</q></li>
-    <li><q>We tend to take every precaution to safeguard our material possessions because we know what they cost. But at the same time we neglect things which are much more precious because they don’t come with price tags attached: The real value of things like our eyesight or relationships or freedom can be hidden to us, because money is not changing hands. — Peter D. Kaufman</q></li>
-</ol>
-</details>
+<div class="quotes-option-b">
+  <header class="quotes-header">
+    <h1>Collected Wisdom</h1>
+    <p class="subtitle">Words that shaped my thinking</p>
+  </header>
 
-<br>
+  <!-- Featured Quote with Auto-shuffle -->
+  <div class="featured-quote-hero">
+    <div class="featured-content">
+      <blockquote id="featured-quote-text">Loading wisdom...</blockquote>
+      <cite id="featured-quote-author"></cite>
+    </div>
+    <div class="featured-controls">
+      <div class="progress-ring" id="progressRing">
+        <svg viewBox="0 0 36 36">
+          <circle class="progress-bg" cx="18" cy="18" r="16"/>
+          <circle class="progress-bar" cx="18" cy="18" r="16" id="progressCircle"/>
+        </svg>
+      </div>
+      <button class="shuffle-btn" id="shuffleBtn" title="New quote">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M16 3h5v5"/>
+          <path d="M4 20L21 3"/>
+          <path d="M21 16v5h-5"/>
+          <path d="M15 15l6 6"/>
+          <path d="M4 4l5 5"/>
+        </svg>
+      </button>
+    </div>
+  </div>
 
-<h2>😌 Stoicism</h2>
-<details><summary>Tap to expand</summary>
-<ol>
-    <li><q>We must all either wear out or rust out, every one of us. My choice is to wear out. — Theodore Roosevelt</q></li>
-    <li><q>There is good in everything, if only we look for it. — Laura Ingalls Wilder</q></li>
-    <li><q>Character is fate. — Heraclitus</q></li>
-    <li><q>If you see fraud and do not say fraud, you are a fraud. — Nicholas Nassim Taleb</q></li>
-    <li><q>Every man I meet is my master in some point, and in that I learn of him. — Ralph Waldo Emerson</q></li>
-    <li><q>This is not your responsibility but it is your problem. — Cheryl Strayed</q></li>
-    <li><q>You are only entitled to the action, never to its fruits. — Bhagavad Gita</q></li>
-    <li><q>Self-sufficiency is the greatest of all wealth. — Epicurus</q></li>
-    <li><q>Tell me to what you pay attention and I will tell you who you are. — Jose Ortega y Gasset</q></li>
-    <li><q>Better to trip with the feet than with the tongue. — Zeno</q></li>
-    <li><q>Space I can recover. Time, never. — Napoleon Bonaparte</q></li>
-    <li><q>You never know who’s swimming naked until the tide goes out. — Warren Buffett</q></li>
-    <li><q>Search others for their virtues, thyself for thy vices. — Benjamin Franklin</q></li>
-    <li><q>The world was not big enough for Alexander the Great, but a coffin was. — Juvenal</q></li>
-    <li><q>To improve is to change, so to be perfect is to have changed often. — Winston Churchill</q></li>
-    <li><q>Judge not, lest you be judged. — Jesus</q></li>
-    <li><q>Time and patience are the strongest warriors. — Leo Tolstoy</q></li>
-    <li><q>No one saves us but ourselves / No one can and no one may. — Buddha</q></li>
-    <li><q>Everything can be taken from a man but one thing: the last of human freedoms - to choose one's attitude in any given set of circumstances, to choose one's own way. - Viktor Frankl</q></li>
-    <li><q>Between stimulus and response, there is a space. In that space is our power to choose our response. - Viktor Frankl</q></li>
-    <li><q>When a man can't find a deep sense of meaning, they distract themselves with pleasure. — Viktor Frankl</q></li>
-    <li><q>Everyone thinks of changing the world, but no one thinks of changing himself. - Leo Tolstoy</q></li>
-</ol>
-</details>
+  <div class="filter-section">
+    <div class="filter-tabs">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="philosophy">Philosophy</button>
+      <button class="filter-btn" data-filter="stoicism">Stoicism</button>
+      <button class="filter-btn" data-filter="growth">Growth</button>
+    </div>
+  </div>
 
-<br>
+  <div class="masonry-grid">
+    {% for q in quotes %}
+    <article class="masonry-card" data-category="{{ q.category }}">
+      <div class="card-content">
+        <blockquote>{{ q.text }}</blockquote>
+        <footer>
+          <cite>{{ q.author }}</cite>
+          <span class="tag">{{ q.category | capitalize }}</span>
+        </footer>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</div>
 
-<h4>Marcus Aurelius</h4>
-<details><summary>Tap to expand</summary>
-<ol>
-    <li><q>You could leave life right now. Let that determine what you say and think.</q> (see <a href="https://dailystoic.com/memento-mori/" target="_blank">Memento Mori</a>)</li>
-    <li><q>The best revenge is not to be like that.</q></li>
-    <li><q>Waste no more time arguing what a good man should be. Be one.</q></li>
-    <li><q>Everything we hear is an opinion, not a fact. Everything we see is a perspective, not the truth.</q></li>
-    <li><q>Choose not to be harmed and you won't feel harmed. Don't feel harmed and you haven't been.</q></li>
-    <li><q>You have power over your mind - not outside events. Realize this, and you will find strength.</q></li>
-    <li><q>The happiness of your life depends upon the quality of your thoughts.</q></li>
-    <li><q>The soul becomes dyed with the colour of its thoughts.</q></li>
-    <li><q>If it is not right do not do it; if it is not true do not say it.</q></li>
-    <li><q>What stands in the way becomes the way.</q></li>
-    <li><q>It never ceases to amaze me: we all love ourselves more than other people, but care more about their opinions than our own.</q></li>
-    <li><q>If someone can prove me wrong and show me my mistake in any thought or action, I shall gladly change. I seek the truth, which never harmed anyone: The harm is to persist in one's own self-deception and ignorance.</q></li>
-    <li><q>The opinion of 10,000 men is of no value if none of them know anything about the subject.</q></li>
-    <li><q>Don’t set your mind on things you don’t possess, but count the blessings you do possess & think how much you would desire them if they weren’t yours.</q></li>
-    <li><q>Pain is neither unbearable nor unending, as long as you keep in mind its limits and don't magnify them in your imagination.</q></li>
-    <li><q>And why should we feel anger at the world? As if the world would notice!</q></li>
-</ol>
-</details>
+<script type="application/json" id="quotes-data">
+{{ quotes | jsonify }}
+</script>
 
-<br>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Quotes from the single source of truth (Jekyll data)
+  const quotesDataEl = document.getElementById('quotes-data');
+  const allQuotes = quotesDataEl ? JSON.parse(quotesDataEl.textContent || '[]') : [];
+  // Use all quotes for featured rotation
+  const featuredQuotes = allQuotes;
 
+  const quoteText = document.getElementById('featured-quote-text');
+  const quoteAuthor = document.getElementById('featured-quote-author');
+  const shuffleBtn = document.getElementById('shuffleBtn');
+  const progressCircle = document.getElementById('progressCircle');
 
-<h4>Epictetus</h4>
-<details><summary>Tap to expand</summary>
-<ol>
-    <li><q>It's not what happens to you, but how you react to it that matters.</q></li>
-    <li><q>It's not things that upset us but our judgments about things.</q></li>
-    <li><q>Wealth consists not in having great possessions, but in having few wants.</q></li>
-    <li><q>There is only one way to happiness and that is to cease worrying about things which are beyond the power or our will.</q></li>
-    <li><q>If you want to improve, be content to be thought foolish and stupid.</q></li>
-    <li><q>It is impossible for a man to learn what he thinks he already knows.</q></li>
-    <li><q>Circumstances don't make the man, they only reveal him to himself.</q></li>
-    <li><q>It is impossible that happiness, & yearning for what is not present, should ever be united.</q></li>
-    <li><q>If you are ever tempted to look for outside approval, realize that you have compromised your integrity. If you need a witness, be your own.</q></li>
-</ol>
-</details>
+  let currentIndex = -1;
+  const SHUFFLE_DELAY = 8000; // 8 seconds
+  let timerId = null;
+  let remainingMs = SHUFFLE_DELAY;
+  let startedAt = null;
+  let isPaused = false;
 
-<br>
+  function getRandomQuote() {
+    let newIndex;
+    do {
+      newIndex = Math.floor(Math.random() * featuredQuotes.length);
+    } while (newIndex === currentIndex && featuredQuotes.length > 1);
+    currentIndex = newIndex;
+    return featuredQuotes[currentIndex];
+  }
 
-<h4>Seneca</h4>
-<details><summary>Tap to expand</summary>
-<ol>
-    <li><q>Being poor is not having too little, it is wanting more.</q></li>
-    <li><q>The whole future lies in uncertainty: live immediately.</q></li>
-    <li><q>True happiness is… to enjoy the present, without anxious dependence upon the future.</q></li>
-    <li><q>What you think about yourself is much more important than what others think of you.</q></li>
-    <li><q>Difficulties strengthen the mind, as labor does the body.</q></li>
-    <li><q>Luck is what happens when preparation meets opportunity.</q></li>
-    <li><q>People are frugal in guarding their personal property; but as soon as it comes to squandering time they are most wasteful of the one thing in which it is right to be stingy.</q></li>
-    <li><q>Everything hangs on one's thinking ... A man is as unhappy as he has convinced himself he is.</q></li>
-</ol>
-</details>
+  function updateQuote(animate = true) {
+    const quote = getRandomQuote();
 
-<br>
+    if (animate) {
+      quoteText.style.opacity = 0;
+      quoteAuthor.style.opacity = 0;
 
-<h2>☝🏼 Self-sufficiency</h2>
-<details><summary>Tap to expand</summary>
-<ol>
-    <li><q>The way someone else perceives what you do is a result of their own experiences (which you can’t control), their own preferences (which you can’t predict), and their own expectations (which you don’t set). If your choices don’t match their expectations that is their concern, not yours. - James Clear</q></li>
-    <li><q>At a party given by a billionaire on Shelter Island, the late Kurt Vonnegut informs his pal, the author Joseph Heller, that their host, a hedge fund manager, had made more money in a single day than Heller had earned from his wildly popular novel Catch 22 over its whole history.<br>Heller responded, 'Yes, but I have something he will never have ... <b>Enough.</b>' <br><a href="https://jamesclear.com/great-speeches/enough-by-john-c-bogle" target="_blank">"Enough" by John C. Bogle</a></q></li>
-</ol>
-</details>
+      setTimeout(() => {
+        quoteText.textContent = quote.text;
+        quoteAuthor.textContent = '— ' + quote.author;
+        quoteText.style.opacity = 1;
+        quoteAuthor.style.opacity = 1;
+      }, 300);
+    } else {
+      quoteText.textContent = quote.text;
+      quoteAuthor.textContent = '— ' + quote.author;
+    }
 
-<h2>📚 Growth</h2>
-<details><summary>Tap to expand</summary>
-<ol>
-    <li><q>If you feed your mind as often as you feed your stomach, then you’ll never have to worry about feeding your stomach or a roof over your head or clothes on your back. - Albert Einstein</q></li>
-    <li><q>Your actions are a consequence of your thoughts. Your thoughts are a consequence of what you consume.<br>And in the modern age, what you consume is largely a consequence of how you select and refine your social media feed.<br>Choose better inputs. Get better outputs. - James Clear</q></li>
-    <li><q>Your attitude, not aptitude, determines your altitude. - Zig Ziglar</q></li>
-    <li><q>Don't over-improve your weaknesses. If you're not good at something, work on it until it no longer prevents your progress, but the bulk of your time is better spent maximizing your strengths. - James Clear</q></li>
-    <li><q>Short-term results come from intensity. Long-term results come from consistency. - Shane Parrish</q></li>
-    <li><q>It does not matter how slowly you go as long as you do not stop. — Confucius</q></li>
-</ol>
-</details>
+    // Reset timer + progress
+    remainingMs = SHUFFLE_DELAY;
+    restartProgressAnimation();
+    startTimer();
+  }
+
+  function clearTimer() {
+    if (timerId) {
+      clearTimeout(timerId);
+      timerId = null;
+    }
+  }
+
+  function startTimer() {
+    clearTimer();
+    startedAt = performance.now();
+    isPaused = false;
+    timerId = setTimeout(() => {
+      // Ensure the ring is fully finished before we swap
+      finishProgressAnimation();
+      // Next quote
+      updateQuote(true);
+    }, remainingMs);
+  }
+
+  function restartProgressAnimation() {
+    if (!progressCircle) return;
+    progressCircle.style.setProperty('--progress-duration', `${remainingMs}ms`);
+    progressCircle.style.setProperty('--progress-state', 'running');
+    progressCircle.classList.remove('is-running');
+    // force reflow to restart animation
+    void progressCircle.getBoundingClientRect();
+    progressCircle.classList.add('is-running');
+  }
+
+  function finishProgressAnimation() {
+    if (!progressCircle) return;
+    progressCircle.style.setProperty('--progress-state', 'paused');
+    progressCircle.style.strokeDashoffset = '0';
+  }
+
+  function pauseProgressAnimation() {
+    if (!progressCircle) return;
+    progressCircle.style.setProperty('--progress-state', 'paused');
+  }
+
+  function resumeProgressAnimation() {
+    if (!progressCircle) return;
+    progressCircle.style.setProperty('--progress-state', 'running');
+  }
+
+  // Manual shuffle
+  shuffleBtn.addEventListener('click', () => {
+    updateQuote(true);
+  });
+
+  // Pause on hover
+  const featuredHero = document.querySelector('.featured-quote-hero');
+  featuredHero.addEventListener('mouseenter', () => {
+    if (isPaused) return;
+    isPaused = true;
+    const now = performance.now();
+    if (startedAt) {
+      remainingMs = Math.max(0, remainingMs - (now - startedAt));
+    }
+    clearTimer();
+    pauseProgressAnimation();
+  });
+
+  featuredHero.addEventListener('mouseleave', () => {
+    if (!isPaused) return;
+    isPaused = false;
+    startedAt = performance.now();
+    resumeProgressAnimation();
+    startTimer();
+  });
+
+  // Initialize
+  // first quote
+  const first = getRandomQuote();
+  quoteText.textContent = first.text;
+  quoteAuthor.textContent = '— ' + first.author;
+  remainingMs = SHUFFLE_DELAY;
+  restartProgressAnimation();
+  startTimer();
+
+  // Filter functionality
+  const filterBtns = document.querySelectorAll('.filter-btn');
+  const grid = document.querySelector('.masonry-grid');
+  let cards = Array.from(document.querySelectorAll('.masonry-card'));
+
+  // Mix quotes so they aren't grouped by category
+  function shuffleInPlace(arr) {
+    for (let i = arr.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    return arr;
+  }
+
+  if (grid) {
+    shuffleInPlace(cards);
+    // Re-append in shuffled order
+    cards.forEach(card => grid.appendChild(card));
+  }
+
+  // Typography hierarchy: size cards based on quote length and promote a few to "featured"
+  function assignCardStyles() {
+    // reset classes
+    cards.forEach(card => card.classList.remove('size-lg', 'size-sm', 'featured'));
+
+    const eligibleForFeatured = [];
+    cards.forEach(card => {
+      const textEl = card.querySelector('blockquote');
+      const text = (textEl?.textContent || '').trim();
+      const len = text.length;
+
+      if (len <= 110) {
+        card.classList.add('size-lg');
+        eligibleForFeatured.push(card);
+      } else if (len >= 220) {
+        card.classList.add('size-sm');
+      }
+    });
+
+    // Pick a handful of short-ish quotes to be featured (bigger padding + font)
+    const FEATURED_COUNT = 6;
+    shuffleInPlace(eligibleForFeatured);
+    eligibleForFeatured.slice(0, FEATURED_COUNT).forEach(card => card.classList.add('featured'));
+  }
+
+  assignCardStyles();
+
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      filterBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      const filter = btn.dataset.filter;
+
+      cards.forEach((card) => {
+        if (filter === 'all' || card.dataset.category === filter) {
+          card.style.display = 'block';
+          // Fade in all at once (no stagger)
+          card.style.animation = `fadeInUp 0.35s ease both`;
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    });
+  });
+
+  // Initial animation (all at once, no stagger)
+  cards.forEach((card) => {
+    card.style.animation = `fadeInUp 0.35s ease both`;
+  });
+});
+</script>
+

@@ -27,6 +27,11 @@
   }
 }
 
+.chart-container {
+  position: relative;
+  height: 340px;
+}
+
 #progress-bar {
   --scrollAmount: 0%;
   @include themed(

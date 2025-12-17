@@ -9,6 +9,12 @@ $dark-900: #17191a;
     color: $text-white;
   }
 
+  // Bootstrap "muted" text is too low-contrast against our custom dark background.
+  // Keep semantics (`text-muted`) but make it readable in dark mode.
+  .text-muted {
+    color: rgba($text-white, 0.64) !important;
+  }
+
   // Code blocks & Syntax highlighting
 
   @import "native.scss";
@@ -46,6 +52,22 @@ $dark-900: #17191a;
   // Cards
   .card {
     background-color: $dark-600;
+  }
+
+  // Accordion (Bootstrap 5)
+  .accordion {
+    --bs-accordion-bg: #{$dark-600};
+    --bs-accordion-color: #{$text-white};
+    --bs-accordion-border-color: #{$dark-300};
+    --bs-accordion-btn-bg: #{$dark-600};
+    --bs-accordion-btn-color: #{$text-white};
+    --bs-accordion-active-bg: #{$dark-300};
+    --bs-accordion-active-color: #{$text-white};
+    --bs-accordion-btn-focus-box-shadow: none;
+  }
+
+  .accordion-button::after {
+    filter: invert(1);
   }
 
   .card.border {

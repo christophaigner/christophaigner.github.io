@@ -46,6 +46,8 @@ function getTheme() {
 function setTheme(newTheme) {
   document.documentElement.setAttribute(THEME_ATTR, newTheme);
   showSnowflakesIfNecessary(newTheme);
+  // Let other scripts (e.g., charts) react to theme changes.
+  window.dispatchEvent(new CustomEvent("themechange", { detail: { theme: newTheme } }));
 }
 
 function showSnowflakesIfNecessary(newTheme) {
