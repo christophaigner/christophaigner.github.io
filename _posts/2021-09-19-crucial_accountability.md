@@ -17,17 +17,17 @@ When we approach an accountability discussion, it's important to know that we mu
 
 #### Choose What and If
 
-<button class="btn btn-primary btn-sm" type="button" data-toggle="collapse" data-target="#quotes_1" aria-expanded="false" aria-controls="quotes_1">
+<button class="btn btn-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#quotes_1" aria-expanded="false" aria-controls="quotes_1">
 Quotes
 </button>
 <div class="collapse" id="quotes_1">
    <div class="card card-body">
-      <blockquote class="blockquote text-right">
+      <blockquote class="blockquote text-end">
          <p class="mb-0">"One of my problems is that I internalize everything. I can't express anger; I grow a tumor instead."</p>
          <footer class="blockquote-footer">Woody Allen</footer>
       </blockquote>
       <br>
-      <blockquote class="blockquote text-right">
+      <blockquote class="blockquote text-end">
          <p class="mb-0">"Speak when you are angry and you will make the best speech you will ever regret."</p>
          <footer class="blockquote-footer">Ambrose Bierce</footer>
       </blockquote>
@@ -131,12 +131,12 @@ Finally, stop as soon as you reach compliance.
 
 #### Stay Focused and Flexible
 
-<button class="btn btn-primary btn-sm" type="button" data-toggle="collapse" data-target="#quotes_2" aria-expanded="false" aria-controls="quotes_2">
+<button class="btn btn-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#quotes_2" aria-expanded="false" aria-controls="quotes_2">
 Quotes
 </button>
 <div class="collapse" id="quotes_2">
    <div class="card card-body">
-      <blockquote class="blockquote text-right">
+      <blockquote class="blockquote text-end">
          <p class="mb-0">"I am a man of fixed and unbending principles, the first of which is to be flexible at all times."</p>
          <footer class="blockquote-footer">Senator Everett Dirksen</footer>
       </blockquote>
@@ -161,17 +161,17 @@ Use {% include elements/highlight.html text="AMPP" %} to power up your listening
 
 #### Agree on a Plan and Follow Up
 
-<button class="btn btn-primary btn-sm" type="button" data-toggle="collapse" data-target="#quotes_3" aria-expanded="false" aria-controls="quotes_3">
+<button class="btn btn-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#quotes_3" aria-expanded="false" aria-controls="quotes_3">
 Quotes
 </button>
 <div class="collapse" id="quotes_3">
    <div class="card card-body">
-      <blockquote class="blockquote text-right">
+      <blockquote class="blockquote text-end">
          <p class="mb-0">"Never grow a wishbone ... where your backbone ought to be."</p>
          <footer class="blockquote-footer">Clementine Paddleford</footer>
       </blockquote>
       <br>
-      <blockquote class="blockquote text-right">
+      <blockquote class="blockquote text-end">
          <p class="mb-0">"There are no exceptions to the rule that everybody likes to be an exception to the rule."</p>
          <footer class="blockquote-footer">Charles Osgood</footer>
       </blockquote>
