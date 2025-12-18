@@ -9,7 +9,7 @@ weight: 5
 <br>
 #### Hi there! 👋🏼
 
-I'm Christoph, an Engineering Leader based in Vienna, Austria 🇦🇹
+I'm Chris, an Engineering Leader based in Vienna, Austria 🇦🇹
 
 I've worked in several different industries including
 

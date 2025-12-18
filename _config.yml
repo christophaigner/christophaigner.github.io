@@ -1,8 +1,8 @@
 ### Site Settings ###
-title: Christoph Aigner
+title: Chris Aigner
 description: >-
   Hi there! 👋🏼<br>
-  I'm <b>Christoph</b>, an Engineering Leader based in Vienna, Austria 🇦🇹
+  I'm <b>Chris</b>, an Engineering Leader based in Vienna, Austria 🇦🇹
 baseurl: ""
 repository: christophaigner/christophaigner.github.io
 
@@ -27,7 +27,7 @@ nav_exclude:
 
 ### Author Info ###
 author:
-  name: Christoph Aigner
+  name: Chris Aigner
   image: assets/profile.png
   email: christoph.aigner.work@gmail.com
   github: christophaigner

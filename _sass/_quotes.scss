@@ -397,9 +397,18 @@
       line-height: 1.7;
       margin: 0;
       padding: 0;
-      border: none;
+      border: none !important;
+      border-left: none !important;
+      background-color: transparent !important;
       transition: color 0.3s ease;
       @include themed(color, #333, #e0e0e0);
+      
+      // Remove quotation marks from markdown styles
+      &::before,
+      &::after {
+        content: none !important;
+        display: none !important;
+      }
     }
 
     footer {

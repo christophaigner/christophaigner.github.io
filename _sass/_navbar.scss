@@ -1,35 +1,284 @@
-.link-after {
-  content: "";
-  display: block;
-  height: 0.15em;
-  background: $primary;
+// Modern Navbar with Glassmorphism
+.navbar {
+  padding: 0.75rem 0;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  @include themed(
+    background-color,
+    rgba(255, 255, 255, 0.9),
+    rgba(23, 25, 26, 0.9)
+  );
+  border-bottom: 1px solid;
+  @include themed(
+    border-color,
+    rgba(0, 0, 0, 0.06),
+    rgba(255, 255, 255, 0.08)
+  );
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.04);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  margin-bottom: 2rem;
+
+  @media (min-width: 992px) {
+    padding: 1rem 0;
+  }
 }
 
-.nav-link,
 .navbar-brand {
+  margin: 0;
+  padding: 0.25rem 0.75rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  border-radius: 8px;
+  @include themed(
+    background-color,
+    transparent,
+    transparent
+  );
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  
+  .brand-initials {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    border-radius: 10px;
+    @include themed(
+      background-color,
+      rgba($primary, 0.1),
+      rgba($primary, 0.18)
+    );
+    @include themed(color, $primary, lighten($primary, 15%));
+    font-weight: 700;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    z-index: 1;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    
+    &::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      border-radius: 10px;
+      @include themed(
+        background,
+        linear-gradient(135deg, $primary, lighten($primary, 15%)),
+        linear-gradient(135deg, $primary, lighten($primary, 15%))
+      );
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      z-index: -1;
+    }
+  }
+  
+  .brand-name {
+    font-family: 'Parisienne', cursive;
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    @include themed(color, $text-black, $text-white);
+    transition: color 0.3s ease;
+    display: none;
+    line-height: 1.3;
+    min-height: 1.3em; // Prevent layout shift during typing
+    font-style: normal;
+    
+    @media (min-width: 576px) {
+      display: inline;
+    }
+
+    // Typing animation styles - always show when typing
+    &.typing-text {
+      display: inline !important;
+      position: relative;
+      opacity: 0;
+      animation: fadeIn 0.3s ease forwards;
+    }
+
+    &.typing-active {
+      &::after {
+        content: '|';
+        @include themed(color, $primary, lighten($primary, 15%));
+        animation: blink 1s infinite;
+        margin-left: 3px;
+        font-weight: 300;
+        font-family: 'Parisienne', cursive;
+        font-size: 1.4rem;
+        vertical-align: baseline;
+      }
+    }
+
+    // Keep cursor blinking even after animation completes
+    &.typing-text:not(.typing-active) {
+      &::after {
+        content: '|';
+        @include themed(color, $primary, lighten($primary, 15%));
+        animation: blink 1s infinite;
+        margin-left: 3px;
+        font-weight: 300;
+        font-family: 'Parisienne', cursive;
+        font-size: 1.4rem;
+        vertical-align: baseline;
+      }
+    }
+  }
+
+  &:hover {
+    text-decoration: none;
+    @include themed(
+      background-color,
+      rgba($primary, 0.05),
+      rgba($primary, 0.1)
+    );
+    
+    .brand-initials {
+      transform: scale(1.05) rotate(2deg);
+      @include themed(
+        background-color,
+        rgba($primary, 0.15),
+        rgba($primary, 0.25)
+      );
+      box-shadow: 0 4px 12px rgba($primary, 0.3);
+      
+      &::before {
+        opacity: 1;
+      }
+      
+      @include themed(color, white, white);
+    }
+    
+    .brand-name {
+      @include themed(color, $primary, lighten($primary, 15%));
+    }
+  }
+
+  // Remove the underline effect
   &::after {
-    @extend .link-after;
+    display: none;
+  }
+}
+
+@keyframes blink {
+  0%, 50% {
+    opacity: 1;
+  }
+  51%, 100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.nav-link {
+  position: relative;
+  padding: 0.5rem 1rem !important;
+  margin: 0 0.15rem;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+  font-weight: 500;
+  @include themed(color, rgba($text-black, 0.7), rgba($text-white, 0.8));
+
+  &:hover {
+    @include themed(
+      background-color,
+      rgba($primary, 0.1),
+      rgba($primary, 0.15)
+    );
+    @include themed(color, $primary, lighten($primary, 15%));
+    text-decoration: none;
+  }
+
+  // Simple underline on hover
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0.25rem;
+    left: 1rem;
+    right: 1rem;
+    height: 2px;
+    @include themed(background-color, $primary, lighten($primary, 15%));
     width: 0;
-    transition: width 0.35s;
+    transition: width 0.3s ease;
+    border-radius: 1px;
   }
 
   &:hover::after {
-    width: 100%;
+    width: calc(100% - 2rem);
   }
 }
 
 .nav-item.active {
-  font-weight: bold;
+  .nav-link {
+    @include themed(
+      background-color,
+      rgba($primary, 0.1),
+      rgba($primary, 0.15)
+    );
+    @include themed(color, $primary, lighten($primary, 15%));
+    font-weight: 600;
 
-  &::after {
-    @extend .link-after;
-    width: 100% !important;
+    &::after {
+      width: calc(100% - 2rem) !important;
+    }
   }
 }
 
-.navbar-brand {
-  margin-bottom: -14px;
-  &::after {
-    margin-top: -0.25em;
+#theme-toggler {
+  cursor: pointer;
+  font-size: 1.25rem;
+  padding: 0.5rem 1rem !important;
+  margin: 0 0.25rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+
+  &:hover {
+    transform: rotate(15deg) scale(1.1);
+    @include themed(
+      background-color,
+      rgba($primary, 0.1),
+      rgba($primary, 0.2)
+    );
+  }
+}
+
+.navbar-toggler {
+  border: none;
+  padding: 0.5rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+
+  &:hover {
+    @include themed(
+      background-color,
+      rgba($primary, 0.1),
+      rgba($primary, 0.2)
+    );
+    transform: scale(1.05);
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 0.2rem rgba($primary, 0.25);
   }
 }

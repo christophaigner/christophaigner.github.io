@@ -1,15 +1,17 @@
 <!-- Simple-Jekyll-Search https://github.com/christian-fei/Simple-Jekyll-Search -->
 
-<div class="input-group mt-5 px-3">
-  <input id="search-input" type="text" class="form-control search-box" placeholder="Search posts.." aria-label="Search posts">
-  <span class="input-group-text border border-primary bg-primary text-white">
-    <i class="fa-solid fa-search"></i>
-  </span>
-  <button class="btn btn-outline-primary" type="button" onclick="location.href = '{{ '/blog/tags' | relative_url }}';" aria-label="Browse tags">
-    <i class="fa-solid fa-tags"></i>
-  </button>
+<div class="blog-search-container mb-4">
+  <div class="input-group mt-5 px-3">
+    <input id="search-input" type="text" class="form-control search-box" placeholder="Search posts..." aria-label="Search posts">
+    <span class="input-group-text border border-primary bg-primary text-white">
+      <i class="fa-solid fa-search"></i>
+    </span>
+    <button class="btn btn-outline-primary" type="button" onclick="location.href = '{{ '/blog/tags' | relative_url }}';" aria-label="Browse tags" title="Browse all tags">
+      <i class="fa-solid fa-tags"></i>
+    </button>
+  </div>
+  <ul class="px-3" id="results-container"></ul>
 </div>
-<ul class="px-3" id="results-container"></ul>
 
 <script src="https://cdn.rawgit.com/christian-fei/Simple-Jekyll-Search/master/dest/simple-jekyll-search.min.js"></script>
 <script>

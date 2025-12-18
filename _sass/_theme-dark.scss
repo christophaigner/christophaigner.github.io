@@ -5,7 +5,7 @@ $dark-900: #17191a;
 
 [data-theme="dark"] {
   body {
-    background-color: $dark-900;
+    background-color: $dark-900 !important;
     color: $text-white;
   }
 

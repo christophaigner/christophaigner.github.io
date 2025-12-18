@@ -1,7 +1,11 @@
-<div class="row mt-2 g-4">
-
-  {% for post in site.posts %}
-    {% include blog/post-card.html %}
-  {% endfor %}
-  
-</div>
+{% if site.posts.size > 0 %}
+  <div class="row mt-2 g-4">
+    {% for post in site.posts %}
+      {% include blog/post-card.html %}
+    {% endfor %}
+  </div>
+{% else %}
+  <div class="text-center py-5">
+    <p class="text-themed">No posts yet. Check back soon!</p>
+  </div>
+{% endif %}

@@ -1,5 +1,85 @@
+// Modern Footer Styling
+footer {
+  margin-top: 4rem;
+  padding: 3rem 0 2rem !important;
+  background-color: transparent;
+  border-top: 1px solid;
+  @include themed(border-color, rgba(0, 0, 0, 0.08), rgba(255, 255, 255, 0.1));
+  position: relative;
+
+  .text-muted {
+    font-size: 0.95rem;
+    @include themed(color, rgba($text-black, 0.6), rgba($text-white, 0.6));
+    transition: color 0.3s ease;
+
+    strong {
+      font-weight: 600;
+      @include themed(color, $text-black, $text-white);
+    }
+
+    .fa-heart {
+      animation: heartbeat 1.5s ease-in-out infinite;
+      color: #e74c3c;
+    }
+
+    .fa-code {
+      @include themed(color, rgba($text-black, 0.7), rgba($text-white, 0.7));
+    }
+  }
+}
+
+@keyframes heartbeat {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
 .social {
   text-decoration: none !important;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    @include themed(background-color, rgba($primary, 0.08), rgba($primary, 0.12));
+    @include themed(color, rgba($text-black, 0.7), rgba($text-white, 0.8));
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    font-size: 1.15rem;
+    border: 2px solid transparent;
+    position: relative;
+    overflow: hidden;
+
+    &::before {
+      content: none;
+    }
+
+    &:hover {
+      transform: translateY(-4px) scale(1.1);
+      border-color: currentColor;
+      color: inherit !important;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+      
+      &::before {
+        opacity: 0.2;
+      }
+    }
+
+    &:active {
+      transform: translateY(-2px) scale(1.05);
+    }
+  }
 }
 
 .github-footer {

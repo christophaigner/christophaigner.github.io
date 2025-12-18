@@ -29,7 +29,15 @@
     display: block;
     max-width: 100%;
     height: auto;
-    margin: 1rem auto;
+    margin: 1.5rem auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+
+    &:hover {
+      transform: scale(1.02);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    }
   }
 
   .video {
@@ -47,19 +55,23 @@
   a:not(.btn):not([class^="carousel-"]):not([class^="list-"]):not(.no-underline) {
     display: inline-block;
     text-decoration: none;
+    position: relative;
+    transition: all 0.3s ease;
 
     &:hover {
       color: $primary;
+      transform: translateY(-1px);
     }
 
     &::after {
       content: "";
       display: block;
-      height: 0.15em;
-      margin-top: -0.15em;
+      height: 2px;
+      margin-top: -2px;
       width: 0;
-      background: $primary;
-      transition: width 0.35s;
+      background: linear-gradient(90deg, $primary, lighten($primary, 15%));
+      transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+      border-radius: 1px;
     }
 
     &:hover::after {
@@ -71,40 +83,76 @@
   mark {
     padding: 0.1em;
     @include themed(
-    background-color,
-    rgba(#e4d96f, 0.7),
-    rgba(#e4d96f, 0.8)
-  );
+      background-color,
+      rgba(#e4d96f, 0.7),
+      rgba(#e4d96f, 0.8)
+    );
   }
 
   pre {
     background: $light;
     border: 1px solid #ddd;
     color: $dark;
-    font-family: monospace;
+    font-family: 'Fira Code', 'Consolas', 'Monaco', monospace;
     font-size: 14px;
-    line-height: 20px;
+    line-height: 1.6;
     margin-bottom: 1.6em;
     max-width: 100%;
-    padding: 1em 1.5em;
+    padding: 1.25em 1.5em;
     display: block;
     page-break-inside: avoid;
     overflow: auto;
     word-wrap: break-word;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    position: relative;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, $primary, lighten($primary, 15%));
+      border-radius: 12px 12px 0 0;
+    }
   }
 
   code.highlighter-rouge {
     background-color: $light;
     color: $dark;
-    border-radius: 3px;
+    border-radius: 6px;
     margin: 0;
-    padding: 0.2em 0.65em;
+    padding: 0.25em 0.65em;
+    font-family: 'Fira Code', 'Consolas', 'Monaco', monospace;
+    font-size: 0.9em;
+    border: 1px solid rgba(0, 0, 0, 0.05);
   }
 
   blockquote {
-    border-left: 0.25em solid $primary;
+    border-left: 4px solid $primary;
     color: $secondary;
-    padding: 0 1em;
+    padding: 1rem 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 8px 8px 0;
+    @include themed(
+      background-color,
+      rgba($primary, 0.05),
+      rgba($primary, 0.1)
+    );
+    font-style: italic;
+    position: relative;
+
+    &::before {
+      content: '"';
+      font-size: 4rem;
+      position: absolute;
+      left: 0.5rem;
+      top: -0.5rem;
+      @include themed(color, rgba($primary, 0.2), rgba($primary, 0.3));
+      font-family: Georgia, serif;
+    }
   }
 
   ul.task-list {
