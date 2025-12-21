@@ -11,6 +11,29 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <script>
+    (function() {
+      const STORAGE_KEY = "theme";
+      const THEME_ATTR = "data-theme";
+      const QUERY_KEY = "(prefers-color-scheme: dark)";
+      
+      let theme = "light";
+      
+      try {
+        const savedTheme = localStorage.getItem(STORAGE_KEY);
+        if (savedTheme === "dark" || savedTheme === "light") {
+          theme = savedTheme;
+        } else if (window.matchMedia && window.matchMedia(QUERY_KEY).matches) {
+          theme = "dark";
+        }
+      } catch (e) {
+        // localStorage might not be available, use default
+      }
+      
+      document.documentElement.setAttribute(THEME_ATTR, theme);
+    })();
+  </script>
+
   <meta property="og:type" content="website">
   <meta property="og:title" content="{{ title }}">
   <meta property="og:description" content="{{ description }}">
