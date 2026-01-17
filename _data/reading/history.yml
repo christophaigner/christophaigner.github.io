@@ -1,3 +1,62 @@
+- year: 2025
+  books:
+    - name: "Lauftraining: Die Anatomie verstehen"
+      url: "https://www.goodreads.com/book/show/98687738-lauftraining"
+      category: Health
+    - name: "Die Wahrheit über unsere Medikamente"
+      url: "https://www.goodreads.com/author/show/20847831._DerApotheker"
+      category: Health
+    - name: "The Life Impossible"
+      url: "https://www.goodreads.com/book/show/217960349-the-life-impossible"
+      category: Fiction
+    - name: "Auschwitz Escape: The Klara Wizel Story"
+      url: "https://www.goodreads.com/book/show/24234276-auschwitz-escape"
+      category: History
+    - name: "The Happy Runner: Love the Process, Get Faster, Run Longer"
+      url: "https://www.goodreads.com/en/book/show/39992248-the-happy-runner"
+      category: Sports
+    - name: "Warum ich keinen Alkohol mehr trinke"
+      url: "https://www.goodreads.com/book/show/219632523-warum-ich-keinen-alkohol-mehr-trinke"
+      category: Health
+    - name: "Der Glukose-Trick"
+      url: "https://www.goodreads.com/book/show/61857493-der-glukose-trick"
+      category: Health
+    - name: "Notes to John"
+      url: "https://www.goodreads.com/book/isbn/9798217171064"
+      category: Nonfiction
+    - name: "Deep: Freediving, Renegade Science, and What the Ocean Tells Us about Ourselves"
+      url: "https://www.goodreads.com/book/show/22451553-deep"
+      category: Nonfiction
+    - name: "What You're Made For: Powerful Life Lessons from My Career in Sports"
+      url: "https://www.goodreads.com/book/show/219832374"
+      category: Biography
+    - name: "AIDA1 Manual"
+      url: "https://aidainternational.org/Education/AIDAFreedivingCourses"
+      category: Sports
+    - name: "What I Talk About When I Talk About Running"
+      url: "https://www.goodreads.com/book/show/8126085-what-i-talk-about-when-i-talk-about-running"
+      category: Biography
+    - name: "French: Learn French"
+      url: "https://www.goodreads.com/book/show/25311361-french"
+      category: Education
+    - name: "Nach Grau kommt Himmelblau"
+      url: "https://www.goodreads.com/book/show/238722268-nach-grau-kommt-himmelblau"
+      category: Nonfiction
+    - name: "The Art of Spending Money: Simple Choices for a Richer Life"
+      url: "https://www.goodreads.com/en/book/show/231148075-the-art-of-spending-money"
+      category: Personal Finance
+    - name: "Narren des Zufalls"
+      url: "https://www.goodreads.com/book/show/19073044-narren-des-zufalls"
+      category: Psychology
+    - name: "Das große Buch vom Schlaf"
+      url: "https://www.goodreads.com/book/show/36709369-why-we-sleep"
+      category: Health
+    - name: "On the Shortness of Life"
+      url: "https://www.goodreads.com/book/show/57609134-on-the-shortness-of-life"
+      category: Philosophy
+    - name: "Option B: Facing Adversity, Building Resilience, and Finding Joy"
+      url: "https://www.goodreads.com/book/show/34457642-option-b"
+      category: Psychology
 - year: 2024
   books: 
     - name: "Chatter"
