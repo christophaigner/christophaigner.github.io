@@ -9,12 +9,43 @@
             >{{ timelineEntry.companyName }}</a
           >
         </h2>
-        {% if timelineEntry.to != null %}
         
-        <h6 class="date"><i class="fa-solid fa-calendar"></i> {{ timelineEntry.from }} — {{ timelineEntry.to }}</h6>
-        {% else %}
-        <h6 class="date"><i class="fa-solid fa-calendar"></i> since {{ timelineEntry.from }}</h6>
-        {% endif %}
+        {% assign fromParts = timelineEntry.from | split: "/" %}
+        {% assign fromMonth = fromParts[0] %}
+        {% assign fromYear = fromParts[1] %}
+        {% assign months = "Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec" | split: "," %}
+        {% assign monthIndex = fromMonth | minus: 1 %}
+        {% assign fromMonthName = months[monthIndex] %}
+        
+        <div style="display: flex; flex-wrap: wrap; gap: 15px; margin-top: 10px; margin-bottom: 15px; align-items: center;">
+          {% if timelineEntry.to != null %}
+            {% assign toParts = timelineEntry.to | split: "/" %}
+            {% assign toMonth = toParts[0] %}
+            {% assign toYear = toParts[1] %}
+            {% assign toMonthIndex = toMonth | minus: 1 %}
+            {% assign toMonthName = months[toMonthIndex] %}
+            <span style="font-size: 0.9em; color: #6c757d;">
+              <i class="fa-solid fa-calendar"></i> {{ fromMonthName }} 20{{ fromYear }} — {{ toMonthName }} 20{{ toYear }}
+            </span>
+          {% else %}
+            <span style="font-size: 0.9em; color: #6c757d;">
+              <i class="fa-solid fa-calendar"></i> {{ fromMonthName }} 20{{ fromYear }} — Present
+            </span>
+          {% endif %}
+          
+          {% if timelineEntry.companySize != null %}
+          <span style="font-size: 0.9em; color: #6c757d;">
+            <i class="fa-solid fa-users"></i> {{ timelineEntry.companySize }}
+          </span>
+          {% endif %}
+          
+          {% if timelineEntry.industry != null %}
+          <span style="font-size: 0.9em; color: #6c757d;">
+            <i class="fa-solid fa-building"></i> {{ timelineEntry.industry }}
+          </span>
+          {% endif %}
+        </div>
+        
         <p>{{ timelineEntry.details }}</p>
         {% if timelineEntry.appstoreUrl != null %}
         <a

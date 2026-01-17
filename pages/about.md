@@ -9,14 +9,15 @@ weight: 5
 <br>
 #### Hi there! 👋🏼
 
-I'm Chris, an Engineering Leader based in Vienna, Austria 🇦🇹
+I'm Chris, a Senior Engineering Leader based in Vienna, Austria 🇦🇹 and Paris, France 🇫🇷
 
 I've worked in several different industries including
 
 * 📞 telecommunications
 * 🤝 marketplaces
 * 🩸 biotechnology
-* 🎥 and more recently video streaming
+* 🎥 media & entertainment (video streaming)
+* 🛠️ and more recently developer tools & application monitoring
 
 at companies with less than 30 employees up to more than 8,000 employees.
 

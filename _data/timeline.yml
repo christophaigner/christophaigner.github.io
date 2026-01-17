@@ -1,24 +1,90 @@
 - job: Senior Engineering Manager
+  companyUrl: https://www.sentry.io
+  companyName: Sentry
+  companySize: 350-500 people
+  industry: Developer Tools & Application Monitoring
+  from: 01/26
+  details: Sentry is a developer-first application monitoring platform that helps developers see what actually matters, solve issues quicker, and learn continuously about their applications.
+
+- job: Director of Engineering
   companyUrl: https://www.bitmovin.com
   companyName: Bitmovin
+  companySize: 150-200 people
+  industry: Media & Entertainment (Video Streaming)
   appstoreUrl: https://apps.apple.com/gb/app/bitmovin-player/id1245174386?itsct=apps_box_link&itscg=30200
-  from: 09/22
-  details: Bitmovin's vision is to shape the future of video.
-    We support this with our mission which is to enable to play, encode
+  from: 08/25
+  to: 01/26
+  details: Bitmovin's vision is to shape the future of video by enabling customers to play, encode
     and analyze video content simply, efficiently and with the highest quality imaginable.
   responsibilities:
-    - Led a team of 10+ Mobile Software Engineers and Managers building Bitmovin’s Video Player SDKs
-    - Worked with team members on their career development through mentoring, coaching and sponsoring
-    - Held biweekly 1:1 meetings with every team member, providing regular feedback and conducting biannual performance reviews
-    - Improved their existing career development framework
-    - Defined CI/CD strategy with the teams
-    - Redefined & optimized their recruitment process
-    - Conducted 100+ interviews for various roles (both engineers and managers)
-    - Introduced various management templates & processes for onboarding/offboarding, promotion roadmap, career development & progression, OKRs, etc.
+    - Leading multiple teams (14+ engineers & managers) building Bitmovin's Video Player SDKs
+    - Collaborating with product management and stakeholders to align engineering roadmaps with business goals and industry standards
+    - Initiated & drove Bitmovin's AI transformation with the goal of leveraging AI to create an advantage specific to our industry, strengthen our moat and increase productivity across all teams
+    - Assuming responsibility for AI compliance and governance, ensuring adherence to GDPR and the EU AI Act, and guiding teams in building trustworthy and regulation-compliant AI solutions
+    - Owning company-wide initiatives to increase product usage, reduce customer churn, and optimise internal processes such as performance reviews
+    - Improved the recruitment process to raise hiring confidence and reduce time-to-offer to less than 2 weeks
+    - Conducted 200+ interviews (technical, managerial, bar raiser) for IC and leadership roles, partnering with in-house Talent Acquisition and external agencies
+    - Defined various management processes & frameworks for onboarding/offboarding, promotions, career development, OKRs, as well as metrics for the Engineering/Product Organisation to measure performance/delivery and enable data-driven decisions
+    - Defined and implemented a CI/CD strategy that reduced costs by up to 16x, cut feedback loops by 50%, and transformed a full-day manual release process into fully automated one-click deployments
+    - Mentoring, coaching, and sponsoring team members' growth, resulting in multiple promotions
+    - Holding (bi-)weekly 1:1s with all team members, providing ongoing feedback and conducting structured biannual performance reviews
+    - Championing a culture of innovation, continuous improvement, and knowledge sharing across engineering teams
+  techStack:
+    [
+      React,
+      React Native,
+      TypeScript,
+      JavaScript,
+      Flutter,
+      Dart,
+      Kotlin,
+      Java,
+      Swift,
+      Objective-C,
+      Coroutines,
+      Flows,
+      Dagger,
+      Kotest,
+      MockK,
+      Strikt,
+      Kotlin Multiplatform,
+      OCMock,
+      Cuckoo,
+      Quick,
+      Nimble,
+      SwiftLint,
+      Fastlane,
+      CircleCI,
+      Jenkins,
+      GitHub Actions,
+      SonarCloud,
+      Go,
+      ScyllaDB,
+      MySQL,
+      Kubernetes,
+      Docker,
+      Prometheus,
+      Grafana,
+      AWS,
+      GCP,
+      Cloudflare,
+    ]
+
+- job: Senior Engineering Manager
+  companyUrl: https://www.bitmovin.com
+  companyName: Bitmovin
+  companySize: 150-200 people
+  industry: Media & Entertainment (Video Streaming)
+  from: 09/22
+  to: 08/25
+  responsibilities:
+    - <i>see industry/company details & responsibilities above</i>
 
 - job: Engineering Manager
   companyUrl: https://www.bitmovin.com
   companyName: Bitmovin
+  companySize: 150-200 people
+  industry: Media & Entertainment (Video Streaming)
   from: 08/21
   to: 09/22
   responsibilities:
@@ -27,25 +93,27 @@
 - job: Lead Mobile Engineer & Team Lead iOS
   companyUrl: https://www.bloomdiagnostics.com/en_AT
   companyName: Bloom Diagnostics
+  companySize: 20-50 people
+  industry: Biotechnology
   appstoreUrl: https://apps.apple.com/gb/app/bloom-diagnostics/id1514440074?itsct=apps_box_link&itscg=30200
   from: 04/20
   to: 07/21
   details:
-    Bloom Diagnostics’ innovative platform combines state-of-the-art medical knowledge,
+    Bloom Diagnostics' innovative platform combines state-of-the-art medical knowledge,
     computer science, biotechnology and data analytics and
     enables you to gain deep health insights in just a few minutes.
   responsibilities:
-    - Led a team of 3+ Mobile/QA engineers building Bloom Diagnostics’ mobile applications
+    - Led a team of 3+ Mobile/QA engineers building Bloom Diagnostics' mobile applications
     - Worked with team members on their career development through mentoring, coaching and sponsoring
     - Optimised their recruitment process to increase hiring confidence while decreasing time from first conversation to offer to less than 2 weeks and conducted 100+ interviews for various roles (iOS, Android, QA, Backend, UI/UX, Product Owners, Data Scientists, Regulatory Managers, Head of Engineering, etc.)
-    - Defined the scope of the MVP through conversing with relevant stakeholders, rewrote 2/3 of their iOS application within 7 months and eventually launched it in Apple’s App Store in December 2020
+    - Defined the scope of the MVP through conversing with relevant stakeholders, rewrote 2/3 of their iOS application within 7 months and eventually launched it in Apple's App Store in December 2020
     - Established coding and code quality guidelines and setup various static code analysis tools
     - Drastically reduced application size by a factor of 7x and memory consumption by a factor of 10x and resolving crashes and memory leaks
     - Set up their CI/CD infrastructure, Analytics and Crash Reporting from scratch and ensuring a crash-free application (>99.9% crash-free sessions) by introducing a solid suite of automated tests (code coverage > 80%)
     - Built an application allowing to distribute beta builds and release production builds through the click of a single button
     - Created documentation and automated their documentation process ensuring compliance with regulatory requirements
     - Held weekly 1:1 meetings with every team member, providing regular feedback and conducting biannual performance reviews
-    - Conducted internal and external trainings about Bloom Diagnostics’ Software and Applications
+    - Conducted internal and external trainings about Bloom Diagnostics' Software and Applications
   techStack:
     [
       Swift,
@@ -75,6 +143,8 @@
 - job: Team Lead iOS
   companyUrl: https://www.shpock.com/en-gb
   companyName: Shpock
+  companySize: 150-200 people
+  industry: Marketplaces
   from: 01/19
   to: 03/20
   details: Shpock is a mobile marketplace with over 10 million active users
@@ -91,7 +161,7 @@
     - Re-architected large legacy project (6+ years old) to use MVVM-C enabling the possibility of writing automated tests
     - Defined guidelines for Code Style, Commit Messages, Pull Requests, Dependencies, etc.
     - Worked with the team to reduce the percentage of Objective-C code from > 90% to < 30% in two years
-    - Improved the overall performance of Shpock’s iOS application (memory consumption, network traffic, leaks, crashes, app size, etc.)
+    - Improved the overall performance of Shpock's iOS application (memory consumption, network traffic, leaks, crashes, app size, etc.)
     - Conducted testing workshops with the team stressing the importance of creating automated tests
     - Set up CI/CD system from scratch using Jenkins & Fastlane
     - Collaborated with various stakeholders to refine ideas and map them into acceptance criteria
@@ -101,6 +171,8 @@
 - job: iOS Engineer
   companyUrl: https://www.shpock.com/en-gb
   companyName: Shpock
+  companySize: 150-200 people
+  industry: Marketplaces
   from: 02/17
   to: 12/18
   responsibilities:
@@ -114,7 +186,7 @@
       Swift,
       Objective-C,
       UIKit,
-      OpenCombine
+      OpenCombine,
       MVVM-C,
       Firebase,
       Google Analytics,
@@ -133,4 +205,4 @@
       Quick,
       Nimble,
     ]
-  hideBorder: true 
+  hideBorder: true
