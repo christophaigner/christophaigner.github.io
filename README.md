@@ -1,7 +1,7 @@
 # About
 
 Hi there! 👋🏼  
-I'm **Chris**, an Engineering Leader based in Vienna, Austria 🇦🇹
+I'm **Chris**, a Senior Engineering Leader based in Vienna, Austria 🇦🇹 & Paris, France 🇫🇷
 
 This blog was created using [Jekyll](https://jekyllrb.com), a static site generator and [Liquid](https://shopify.github.io/liquid/), a template engine.
 
